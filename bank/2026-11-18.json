@@ -1,0 +1,931 @@
+{
+ "id": "2026-11-18",
+ "date": "2026-11-18",
+ "version": 1,
+ "createdAt": "2026-11-18T04:45:00Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T04:39Z",
+  "mismatches": 0,
+  "fixed": [
+   "L0 3.5 #5: local bus route made generic"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "Why cities plant street trees"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Many cities plant trees along their streets. Trees {gi|ve} shade on hot {da|ys}, so {peo|ple} can {wa|lk} more comfortably. They {al|so} clean the air {a|nd} make streets look {nic|er}. Some {stu|dies} show that people {sp|end} more time in {sho|ps} on streets with trees."
+    },
+    "4.5": {
+     "paragraph": "Many cities now treat street trees as public infrastructure. Trees {red|uce} summer temperatures by {prov|iding} shade and releasing {wat|er} vapor through their {lea|ves}. They also {abs|orb} rainwater, which {low|ers} the risk of {floo|ding} after storms. {Becau|se} of these benefits, {pla|nners} increasingly compare trees to {pip|es} and roads."
+    },
+    "5.5": {
+     "paragraph": "Urban planners increasingly regard street trees as infrastructure rather than decoration. Through {evapotrans|piration}, a mature tree can {subst|antially} cool the {surr|ounding} air, while its canopy {interc|epts} rainfall that would {other|wise} overwhelm storm {dra|ins}. Economists {fur|thermore} report that {comm|ercial} districts with {cons|istent} tree cover attract {lon|ger} shopping visits."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Email",
+    "text": "From: Campus Recreation\nSubject: Intramural Volleyball – Registration Closes Friday\n\nHi students,\nRegistration for winter intramural volleyball closes this Friday at 5:00 p.m. Teams need at least six players, and each player must sign the online waiver before the first game. If you don't have a team, choose \"Free Agent\" when you register and we will place you on a team that needs players.\nGames are played Tuesday and Thursday evenings starting January 13. The entry fee is $10 per player, and it is refunded if your team plays every scheduled game without a forfeit.\n\n– Campus Recreation Office"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the email?",
+       "options": [
+        "To ask students to buy new uniforms",
+        "To announce the deadline to sign up for a sports league",
+        "To change the days of the games",
+        "To give the results of a volleyball game"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What should a student without a team do?",
+       "options": [
+        "Pay a higher fee",
+        "Register as a \"Free Agent\"",
+        "Email the office directly",
+        "Wait until January 13"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When are the games played?",
+       "options": [
+        "Every weekend afternoon",
+        "Only on Fridays",
+        "Tuesday and Thursday evenings",
+        "Monday through Friday"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the email?",
+       "options": [
+        "To recruit referees for the volleyball season",
+        "To remind students of a registration deadline and its rules",
+        "To explain why last season was canceled",
+        "To announce a change in the game schedule"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What must every player do before the first game?",
+       "options": [
+        "Attend a training session",
+        "Pay $10 in cash at the office",
+        "Sign an online waiver",
+        "Join a team of exactly six players"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "How can a player get the entry fee back?",
+       "options": [
+        "If their team wins the championship",
+        "By registering before Friday",
+        "If their team never forfeits a scheduled game",
+        "By registering as a Free Agent"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Which of the following can be inferred about the refund policy?",
+       "options": [
+        "It applies only to Free Agents",
+        "It is paid before the season begins",
+        "It is meant to encourage teams to show up for every game",
+        "It is given to the winning team only"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the email, what happens to students who register as Free Agents?",
+       "options": [
+        "They do not need to sign the waiver",
+        "They pay a reduced fee",
+        "They are placed on teams that need more players",
+        "They play only on Thursdays"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "A team with five players wants to join. What can be concluded?",
+       "options": [
+        "It will be placed with Free Agents automatically",
+        "It can join if it registers before Friday",
+        "It can play but cannot get a refund",
+        "It must find at least one more player"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "How Desert Plants Save Water",
+    "text": "Plants that live in deserts face a constant problem: they need carbon dioxide from the air to make food, but opening the small pores on their leaves to take in that gas also lets precious water escape. Many desert plants have solved this problem with a special form of photosynthesis called CAM.\n\nMost plants open their pores, called stomata, during the day, when sunlight powers photosynthesis. CAM plants, such as cacti and pineapples, reverse this schedule. They open their stomata at night, when temperatures are cooler and the air is more humid, so far less water evaporates. During the night, the plants store carbon dioxide in the form of an acid. When the sun rises, they close their stomata tightly and release the stored carbon dioxide inside their own tissues, using it to carry out photosynthesis.\n\nThis strategy is remarkably efficient. Some CAM plants lose only a fraction of the water that ordinary plants lose while producing the same amount of food. However, the approach has a cost: because a plant can store only a limited amount of carbon dioxide overnight, CAM plants usually grow slowly. In harsh, dry environments, though, surviving matters more than growing quickly."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why deserts are cold at night",
+        "How some desert plants avoid losing water",
+        "How plants make carbon dioxide",
+        "Why pineapples grow in deserts"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When do CAM plants open their stomata?",
+       "options": [
+        "Only when it rains",
+        "At night",
+        "At noon",
+        "In the morning"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"precious\" in the passage is closest in meaning to",
+       "options": [
+        "extra",
+        "cold",
+        "valuable",
+        "dirty"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the passage, why do CAM plants lose less water?",
+       "options": [
+        "They have no leaves",
+        "They store water in acid",
+        "They grow very quickly",
+        "The air is cooler and more humid at night"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What is one disadvantage of CAM?",
+       "options": [
+        "The plants need more water",
+        "The plants cannot live in deserts",
+        "The plants make less acid",
+        "The plants grow slowly"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the passage?",
+       "options": [
+        "To compare cacti and pineapples as food crops",
+        "To describe how deserts formed",
+        "To explain a strategy that helps some plants conserve water",
+        "To argue that CAM plants are the fastest-growing plants"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to paragraph 2, what do CAM plants do with carbon dioxide at night?",
+       "options": [
+        "They release it into the air",
+        "They exchange it for water",
+        "They store it as an acid",
+        "They convert it directly into sugar"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"reverse\" in the passage is closest in meaning to",
+       "options": [
+        "shorten",
+        "invert",
+        "ignore",
+        "repeat"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why do CAM plants close their stomata during the day?",
+       "options": [
+        "Because sunlight damages the pores",
+        "To keep water from escaping in the heat",
+        "To take in more carbon dioxide",
+        "Because they no longer need light"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about ordinary plants in a dry environment?",
+       "options": [
+        "They would likely lose more water than CAM plants",
+        "They would stop photosynthesis completely",
+        "They would store more acid at night",
+        "They would grow more slowly than CAM plants"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention cacti and pineapples?",
+       "options": [
+        "To show that CAM plants are commercially important",
+        "To give examples of plants that use CAM",
+        "To contrast desert plants with tropical plants",
+        "To explain why some plants grow slowly"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to the passage, what limits the growth rate of CAM plants?",
+       "options": [
+        "The acidity of desert soil",
+        "Their inability to absorb sunlight",
+        "The amount of carbon dioxide they can store overnight",
+        "The low temperature of desert nights"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"harsh\" in the passage is closest in meaning to",
+       "options": [
+        "severe",
+        "humid",
+        "distant",
+        "unfamiliar"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which sentence best expresses the essential information in the last sentence of paragraph 3?",
+       "options": [
+        "Surviving in a desert requires plants to store water quickly.",
+        "Harsh environments make plants grow faster than usual.",
+        "Plants in dry places always grow quickly to survive.",
+        "In dry places, the ability to survive is more important than fast growth."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "It can be inferred from the passage that CAM would be least advantageous for a plant that",
+       "options": [
+        "grows in a hot desert",
+        "lives in a region with cool nights",
+        "must survive long periods without rain",
+        "lives where water is plentiful and competition for light is strong"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Do you know where the computer lab is?",
+       "options": [
+        "The lab closes on Sunday.",
+        "I use my phone more.",
+        "Yes, I have a computer.",
+        "It's on the second floor, next to the library."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Can I borrow a pen for a minute?",
+       "options": [
+        "I'm writing a letter.",
+        "Pens are cheap.",
+        "Sure, here you go.",
+        "I bought it yesterday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "What time does your shift start tomorrow?",
+       "options": [
+        "At seven in the morning.",
+        "It was a long shift.",
+        "I work at the dining hall.",
+        "Tomorrow is Wednesday."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "How was your weekend?",
+       "options": [
+        "I'll be there on Saturday.",
+        "Weekends are two days.",
+        "It was relaxing. I went hiking.",
+        "Next weekend, maybe."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Is this the right bus for the stadium?",
+       "options": [
+        "The stadium is very big.",
+        "The game starts at six.",
+        "I took the bus yesterday.",
+        "No, you need Route 12 across the street."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "I can't believe the professor moved the exam up a week.",
+       "options": [
+        "The exam is in room 204.",
+        "She moved to a new office.",
+        "I know — I'll have to change my study plan.",
+        "I believe it was a good class."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Would you mind proofreading my cover letter tonight?",
+       "options": [
+        "The letter came yesterday.",
+        "I'm reading a novel.",
+        "I don't mind the cold.",
+        "Not at all — send it over after dinner."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Why don't we split the cost of the textbook?",
+       "options": [
+        "The book was split in half.",
+        "That's a good idea — we can share it.",
+        "I don't like that textbook.",
+        "It costs eighty dollars."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Weren't you supposed to meet your advisor today?",
+       "options": [
+        "My advisor is very helpful.",
+        "I was, but she had to reschedule.",
+        "We met at the library last year.",
+        "I'll suppose so."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Has anyone seen the charger I left on this table?",
+       "options": [
+        "I think the front desk has a lost-and-found box.",
+        "My phone is fully charged.",
+        "I left early this morning.",
+        "The table is made of wood."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'd hate for you to miss the deadline just because of a technical issue.",
+       "options": [
+        "I missed the bus this morning.",
+        "The deadline was extended to next year.",
+        "I hate technology too.",
+        "Don't worry — I submitted a backup copy by email."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "You'd think they'd have fixed the heating in this building by now.",
+       "options": [
+        "They fixed it last summer, I think.",
+        "The building is quite old.",
+        "Tell me about it — I'm wearing my coat indoors.",
+        "I'd think about it if I were you."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Isn't it a bit early to start studying for finals?",
+       "options": [
+        "It's a bit cold for that.",
+        "I started early this morning.",
+        "Finals are in the testing center.",
+        "Not if you want to avoid cramming at the end."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I wonder whether the career fair is worth going to this year.",
+       "options": [
+        "The fair was held in the gym.",
+        "Last year a lot of local companies were hiring, so probably.",
+        "I'm wondering where my resume is.",
+        "I wonder too, so I bought a ticket."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Do you happen to know if the shuttle still runs on holidays?",
+       "options": [
+        "I happened to see it yesterday.",
+        "I'm not sure — the schedule online should say.",
+        "Holidays are my favorite time.",
+        "The shuttle is blue and white."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Asking about a lab report grade",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hi, Professor Grant. Do you have a minute? It's about my lab report on enzyme activity."
+     },
+     {
+      "speaker": "Man",
+      "text": "Sure, come in. I remember your report. The data section was very well organized."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Thanks. But I lost quite a few points in the discussion section, and I'm not sure why."
+     },
+     {
+      "speaker": "Man",
+      "text": "Right. You described your results clearly, but you didn't explain what might have caused the unexpected drop at forty degrees."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Oh. I thought that drop was just an error in my measurements, so I left it out."
+     },
+     {
+      "speaker": "Man",
+      "text": "That's the thing. Even if you suspect an error, you should say so and suggest possible sources. Actually, a drop like that often means the enzyme is starting to break down."
+     },
+     {
+      "speaker": "Woman",
+      "text": "So I should have connected it to what we read about enzymes losing their shape at high temperatures?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Exactly. Here's what I'll do: you can revise the discussion section and resubmit it by next Monday. I'll regrade that part."
+     },
+     {
+      "speaker": "Woman",
+      "text": "That would be great. Should I change the data section too?"
+     },
+     {
+      "speaker": "Man",
+      "text": "No, leave the data as it is. Just focus on interpreting it."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the woman go to see the professor?",
+       "options": [
+        "To borrow equipment for an experiment",
+        "To ask for a new lab partner",
+        "To change her class schedule",
+        "To ask why she lost points on her lab report"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What did the professor like about the report?",
+       "options": [
+        "The title",
+        "The discussion section",
+        "The pictures",
+        "The data section"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What will the woman probably do next?",
+       "options": [
+        "Repeat the whole experiment",
+        "Rewrite the discussion section",
+        "Drop the class",
+        "Change her data"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main problem with the woman's report?",
+       "options": [
+        "She did not explain an unexpected result",
+        "She submitted it after the deadline",
+        "Her data section was poorly organized",
+        "She used the wrong enzyme"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the professor, what does the drop at forty degrees often indicate?",
+       "options": [
+        "That the temperature was too low",
+        "The enzyme starting to break down",
+        "That the experiment needed more time",
+        "A calculation mistake"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the professor offer to do?",
+       "options": [
+        "Let her redo the measurements",
+        "Regrade the revised discussion section",
+        "Raise the grade on the whole report",
+        "Give her a new topic"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the professor imply about suspected measurement errors?",
+       "options": [
+        "They usually mean the experiment must be repeated",
+        "They are less important than clear data tables",
+        "They should be acknowledged and discussed, not omitted",
+        "They lower the grade automatically"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the woman mention what the class read about enzymes?",
+       "options": [
+        "To ask for an extension on the reading",
+        "To complain that the reading was confusing",
+        "To check that she understands how to interpret her result",
+        "To argue that her measurements were correct"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What is the professor's attitude toward the woman's work?",
+       "options": [
+        "Indifferent to her concerns",
+        "Generally positive, with one specific weakness",
+        "Disappointed with every section",
+        "Surprised that she finished it"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "Why we remember unfinished tasks",
+    "text": "Today I want to talk about something you've probably experienced. Have you ever noticed that you keep thinking about a task you didn't finish, but once it's done, it disappears from your mind? In the 1920s, a psychologist named Bluma Zeigarnik became curious about this. The story goes that she noticed waiters in a restaurant could remember complicated orders perfectly, but only until the orders were paid for. After that, the details seemed to vanish.\n\nSo Zeigarnik designed an experiment. She gave people a series of simple tasks, like solving puzzles, and she interrupted some of the tasks before they were finished. Later, when she asked people what they remembered, they recalled the interrupted tasks about twice as often as the completed ones. This became known as the Zeigarnik effect.\n\nOne explanation is that an unfinished goal creates a kind of mental tension, which keeps the information active in memory. When the goal is completed, the tension is released. Now, I should mention that later studies haven't always found the same strong effect, so it's not a universal law. But it does have practical uses. For example, some students find that stopping a study session in the middle of a problem makes it easier to start again the next day."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "Why people remember unfinished tasks",
+        "How to solve puzzles quickly",
+        "How waiters take orders",
+        "Why restaurants are busy"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What did Zeigarnik notice about waiters?",
+       "options": [
+        "They wrote every order down",
+        "They liked solving puzzles",
+        "They remembered orders until the orders were paid for",
+        "They forgot orders very quickly"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "In the experiment, which tasks did people remember better?",
+       "options": [
+        "Completed tasks",
+        "Very difficult tasks",
+        "Tasks they did with friends",
+        "Interrupted tasks"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What study tip does the professor mention?",
+       "options": [
+        "Study for many hours without breaks",
+        "Stop studying in the middle of a problem",
+        "Study only in restaurants",
+        "Finish every task before sleeping"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the talk?",
+       "options": [
+        "To compare different types of puzzles",
+        "To describe the history of restaurants",
+        "To explain a memory effect and how it was studied",
+        "To argue that interruptions harm learning"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the professor mention waiters?",
+       "options": [
+        "To show that the effect only affects workers",
+        "To give an example of a stressful job",
+        "To explain how the experiment was funded",
+        "To show what first made Zeigarnik curious"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the professor, what explains the effect?",
+       "options": [
+        "Interrupted tasks are more interesting",
+        "Unfinished goals create mental tension that keeps information active",
+        "Completed tasks are usually easier",
+        "People spend more time on interrupted tasks"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the professor say about later studies?",
+       "options": [
+        "They showed the opposite result every time",
+        "They did not always find a strong effect",
+        "They proved the effect is a universal law",
+        "They were done only with waiters"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the professor say \"The story goes that...\" when describing the waiters?",
+       "options": [
+        "To suggest that waiters have poor memories",
+        "To indicate that the story is part of the experiment",
+        "To signal that the account may not be fully verified",
+        "To show that she personally witnessed it"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred about how participants performed on completed tasks?",
+       "options": [
+        "They recalled them about half as often as interrupted ones",
+        "They recalled them more accurately but less often",
+        "They forgot them entirely",
+        "They found them harder than interrupted tasks"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What is the professor's attitude toward the Zeigarnik effect?",
+       "options": [
+        "She thinks it only applies to simple puzzles",
+        "She considers it the most important memory theory",
+        "She finds it useful but cautions it is not universal",
+        "She believes it has been completely disproved"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "How does the study tip relate to the explanation of the effect?",
+       "options": [
+        "Finishing problems releases tension, so students should always finish",
+        "Stopping early allows the brain to forget unimportant details",
+        "Interruptions reduce stress, which improves memory",
+        "Leaving a problem unfinished keeps the goal active, making it easier to resume"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "Where are you going after class?",
+       "answer": "I am going to the library to study",
+       "distractor": "went"
+      },
+      {
+       "context": "Did you like the movie last night?",
+       "answer": "Yes it was much better than I expected",
+       "distractor": "good"
+      },
+      {
+       "context": "Can you help me move on Saturday?",
+       "answer": "I can help you in the morning",
+       "distractor": "helping"
+      },
+      {
+       "context": "Why are you so tired today?",
+       "answer": "I stayed up late to finish my essay",
+       "distractor": "stay"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Have you decided which classes to take next semester?",
+       "answer": "I am still waiting to talk to my advisor",
+       "distractor": "waited"
+      },
+      {
+       "context": "How did the group presentation go?",
+       "answer": "It went well although we ran out of time",
+       "distractor": "despite"
+      },
+      {
+       "context": "Why didn't you come to the study session?",
+       "answer": "My manager asked me to cover an extra shift",
+       "distractor": "covering"
+      },
+      {
+       "context": "What should I bring to the interview?",
+       "answer": "You should bring a printed copy of your resume",
+       "distractor": "brought"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Why did the city delay the new bike lanes?",
+       "answer": "They wanted more time to review the safety concerns",
+       "distractor": "reviewing"
+      },
+      {
+       "context": "Are you still planning to apply for the internship?",
+       "answer": "I would if the deadline had not already passed",
+       "distractor": "will"
+      },
+      {
+       "context": "What surprised you most about the survey results?",
+       "answer": "Hardly anyone said they preferred online classes",
+       "distractor": "nobody"
+      },
+      {
+       "context": "How do you manage work and school at the same time?",
+       "answer": "I plan my week in advance so nothing gets missed",
+       "distractor": "planning"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "You signed up for a weekend hiking trip organized by your university's outdoor club, but the club's website now shows a different meeting time than the one in your confirmation email, and you are not sure which one is correct.",
+    "recipient": "Jordan Lee, the outdoor club trip coordinator",
+    "points": [
+     "Explain the difference you noticed between the two times",
+     "Ask which time is correct and where to meet",
+     "Ask what equipment you need to bring"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "A new student orientation",
+    "sentences": [
+     "Welcome to the student center.",
+     "Your student ID also works as a bus pass.",
+     "Please pick up your schedule at the front desk.",
+     "The writing center offers free help with essays every weekday afternoon.",
+     "If you have questions about housing, visit the office on the second floor.",
+     "Remember to check your university email regularly because important announcements are sent there first."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Learning from mistakes",
+    "questions": [
+     "Tell me about a mistake you made while learning something new. What happened?",
+     "What did you do differently after that mistake?",
+     "Some people believe teachers should let students make mistakes instead of correcting them right away. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}
