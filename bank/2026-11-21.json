@@ -1,0 +1,916 @@
+{
+ "id": "2026-11-21",
+ "date": "2026-11-21",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:29Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 4,
+  "fixed": [
+   "W0 4.5 #1,#2 and 5.5 #2 ambiguous distractors"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "Why recycling aluminum saves energy"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Recycling aluminum cans saves a lot of energy. To {ma|ke} {n|ew} aluminum, companies must {d|ig} up {ro|ck} called bauxite and use {hu|ge} amounts of electricity to separate the metal. Old cans, however, are {alr|eady} pure metal. Workers only need to {me|lt} them and {sh|ape} them again. This process {us|es} about 95 percent less energy. Aluminum can also be recycled many times without becoming {wea|ker}, so one can may return to the store shelf again and again."
+    },
+    "4.5": {
+     "paragraph": "Recycling aluminum requires far less energy than producing the metal from raw materials. New aluminum comes from bauxite ore, which must be {ref|ined} into alumina and then broken apart using {powe|rful} electric currents. This {elect|rical} step consumes {enor|mous} amounts of power. Recycled cans, by {cont|rast}, only need to be {mel|ted} at a {relat|ively} low temperature and reshaped. As a {res|ult}, recycling saves roughly 95 percent of the energy. Because the metal does not lose {qua|lity}, it can be recycled {repea|tedly}."
+    },
+    "5.5": {
+     "paragraph": "Few materials illustrate the energy benefits of recycling as clearly as aluminum. Primary aluminum is {extr|acted} from bauxite ore through an {electr|olytic} process that demands vast {quant|ities} of electricity, which is why smelters are often {loc|ated} near cheap hydroelectric power. Secondary production, in contrast, {mer|ely} requires remelting scrap at a {compar|atively} modest temperature. {Conseq|uently}, recycled aluminum {typi|cally} consumes about 95 percent less energy than its primary {count|erpart}. Moreover, because melting does not degrade the metal's properties, it can be recycled {indefi|nitely}."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Flyer",
+    "text": "FALL PARK CLEANUP – VOLUNTEERS NEEDED!\n\nSaturday, December 5 | 9:00 a.m. – 12:00 p.m.\nMeet at the main picnic shelter in City Park\n\nHelp us get the park ready for winter! Volunteers will pick up litter, rake leaves from the walking paths, and clean out the flower beds.\n\nWe provide: gloves, trash bags, rakes, and hot chocolate.\nPlease bring: a water bottle and clothes that can get dirty.\n\nNo experience is needed, and families are welcome. Children under 14 must come with an adult.\n\nNeed service hours? Sign in at the check-in table when you arrive, and a coordinator will sign your form before you leave.\n\nIf it rains, the event moves to Sunday at the same time.\n\nQuestions? Call the Parks Volunteer Office at 555-0142."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the flyer mainly about?",
+       "options": [
+        "A new picnic shelter opening in the park",
+        "An event where volunteers help clean a park",
+        "A winter sports program for children",
+        "A job opening at the parks office"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What will volunteers be given at the event?",
+       "options": [
+        "Water bottles",
+        "A free T-shirt",
+        "Gloves and hot chocolate",
+        "Lunch and snacks"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What will happen if it rains on Saturday?",
+       "options": [
+        "The event will be canceled",
+        "The event will start later in the day",
+        "Volunteers will work indoors",
+        "The event will move to Sunday"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What are volunteers asked to bring?",
+       "options": [
+        "A water bottle",
+        "Trash bags",
+        "Work gloves",
+        "Their own rakes"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What is true about a 10-year-old who wants to help?",
+       "options": [
+        "They need some gardening experience",
+        "They must come with an adult",
+        "They cannot take part in the event",
+        "They must sign in alone at the check-in table"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What should a volunteer who needs service hours do first?",
+       "options": [
+        "Email a form to a coordinator",
+        "Call the office before Saturday",
+        "Stay until the event ends on Sunday",
+        "Sign in at the check-in table on arrival"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the flyer most likely ask volunteers to wear clothes that can get dirty?",
+       "options": [
+        "Because the event includes a cooking activity",
+        "Because volunteers will receive new clothes afterward",
+        "Because the tasks involve outdoor work with leaves and soil",
+        "Because rain is expected on Saturday"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which person would NOT be able to take part as described?",
+       "options": [
+        "A 13-year-old who plans to come alone",
+        "A 12-year-old who comes with a parent",
+        "A volunteer who forgets to bring gloves",
+        "A college student with no gardening experience"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the main goal of the cleanup?",
+       "options": [
+        "To prepare the park for the colder season",
+        "To plant new trees before spring",
+        "To train new park employees",
+        "To raise money for new park equipment"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "The Inca Road System",
+    "text": "At its height in the early 1500s, the Inca Empire stretched along the western side of South America for more than 4,000 kilometers. Holding such a vast territory together required an equally impressive network of roads. Known as the Qhapaq Ñan, the Inca road system covered roughly 40,000 kilometers, crossing deserts, rain forests, and some of the highest mountains in the world. Two main routes ran from north to south, one along the coast and one through the Andes, and many smaller roads connected them.\n\nRemarkably, the Incas built this network without wheeled vehicles or horses. Travelers moved on foot, and goods were carried by people and herds of llamas. As a result, engineers could design roads with stone staircases on steep slopes, which would have been impractical for carts. To cross deep river valleys, communities wove suspension bridges from grass rope and replaced them regularly.\n\nThe roads served the state above all. Trained runners called chasquis worked in relays, each carrying a message a short distance before passing it to the next runner. In this way, news could travel hundreds of kilometers in a single day. Along the routes, the government also maintained rest stations known as tambos, which stored food, weapons, and supplies for soldiers and officials. Use of the roads was largely restricted to people traveling on state business."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How llamas were raised in South America",
+        "A large road network that helped the Incas run their empire",
+        "Why the Inca Empire ended in the 1500s",
+        "How the Incas grew food in the mountains"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to the passage, how were goods moved on the roads?",
+       "options": [
+        "By boats on rivers",
+        "By horses and carts",
+        "By wheeled wagons",
+        "By people and llamas"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"vast\" in the passage is closest in meaning to",
+       "options": [
+        "very crowded",
+        "very old",
+        "very dry",
+        "very large"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What were the chasquis?",
+       "options": [
+        "Bridge builders",
+        "Runners who carried messages",
+        "Soldiers who guarded the roads",
+        "Rest stations"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to paragraph 3, what were tambos?",
+       "options": [
+        "Roads along the coast",
+        "Rest stations that stored supplies",
+        "Stone staircases on steep slopes",
+        "Rope bridges over rivers"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention that the Incas had no wheeled vehicles or horses?",
+       "options": [
+        "To compare the Incas with European travelers",
+        "To criticize Inca engineers",
+        "To show that the roads were rarely used",
+        "To explain why roads could include stone staircases"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to paragraph 1, where did the two main routes run?",
+       "options": [
+        "Along the coast and through the Andes",
+        "From east to west across the continent",
+        "Through deserts and rain forests only",
+        "Around the capital city"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"impractical\" in the passage is closest in meaning to",
+       "options": [
+        "unworkable",
+        "dangerous",
+        "uncommon",
+        "expensive"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the grass rope bridges?",
+       "options": [
+        "They could carry carts across rivers",
+        "They wore out and needed regular upkeep",
+        "They were used only by soldiers",
+        "They were built of stone underneath"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What is the main purpose of paragraph 3?",
+       "options": [
+        "To compare the coastal and mountain routes",
+        "To explain how the roads were constructed",
+        "To describe how the government used the road system",
+        "To describe the daily life of farmers"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author state that use of the roads was largely restricted to people on state business?",
+       "options": [
+        "To explain why llamas were used instead of carts",
+        "To emphasize that the roads mainly served the government",
+        "To suggest that the roads were poorly built",
+        "To argue that the tambos were rarely used"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Which sentence best expresses the essential information in the following sentence? \"As a result, engineers could design roads with stone staircases on steep slopes, which would have been impractical for carts.\"",
+       "options": [
+        "Carts were used only on flat parts of the roads.",
+        "Engineers preferred staircases because carts were too expensive to build.",
+        "Since no carts used the roads, builders could add stairs on steep sections.",
+        "Steep slopes made it impossible to build any roads for travelers."
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"maintained\" in the passage is closest in meaning to",
+       "options": [
+        "criticized",
+        "discovered",
+        "left behind",
+        "kept in operation"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about why the chasqui relay system was fast?",
+       "options": [
+        "Messages were written in very short form",
+        "Runners traveled only at night",
+        "Runners rode llamas for long distances",
+        "Each runner covered only a short distance, so messages kept moving quickly"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Which of the following is NOT mentioned as a feature of the Inca road system?",
+       "options": [
+        "Toll gates where merchants paid fees",
+        "Stone staircases on steep slopes",
+        "Rest stations with stored supplies",
+        "Grass rope suspension bridges"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Do you know when the library closes tonight?",
+       "options": [
+        "I think it's at midnight.",
+        "I closed the window already.",
+        "The library was quiet yesterday.",
+        "Yes, I like reading books."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Could you lend me a pen?",
+       "options": [
+        "I lent it last year.",
+        "The pen is on the menu.",
+        "Sure, here you go.",
+        "I can write very fast."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "How was your weekend?",
+       "options": [
+        "I'll go next weekend.",
+        "Pretty relaxing. I mostly stayed home.",
+        "It's a long way.",
+        "The week ends on Friday."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Are you going to the study group later?",
+       "options": [
+        "Yes, I'll meet you there at six.",
+        "I studied in a group of four.",
+        "Later is the best time.",
+        "No, it was yesterday morning."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Why are you late for class?",
+       "options": [
+        "The class is very late.",
+        "My alarm didn't go off this morning.",
+        "Because I like math.",
+        "I'll be on time yesterday."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Have you finished the reading for Thursday yet?",
+       "options": [
+        "I'll finish it last Thursday.",
+        "Almost. I've got one chapter left.",
+        "I read a lot of novels.",
+        "Thursday is my favorite day."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Would you mind if I opened the window?",
+       "options": [
+        "Not at all. It's warm in here.",
+        "The window opened at noon.",
+        "I don't mind the window's color.",
+        "I'd open a new account."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "I can't find my student ID anywhere.",
+       "options": [
+        "Did you check your jacket pocket?",
+        "I found it everywhere.",
+        "Students can't find the building.",
+        "My student ID number is long."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "The professor moved the exam to Monday.",
+       "options": [
+        "He moved to a new apartment.",
+        "I took the exam on Monday last year.",
+        "Mondays are usually busy.",
+        "Good. That gives us the weekend to study."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "Yes, I was taking notes.",
+        "The seat is blue.",
+        "I took the bus here.",
+        "No, go ahead."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'm swamped with assignments this week.",
+       "options": [
+        "I went swimming last week.",
+        "The assignment was assigned on Monday.",
+        "Want to push our coffee to next week, then?",
+        "This week is the fifth week."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Don't you think the lecture went a little over our heads today?",
+       "options": [
+        "My head hurt yesterday.",
+        "Yeah, I'll need to reread my notes to follow it.",
+        "The lecture hall has high ceilings.",
+        "I'll go to the lecture tomorrow."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "I wouldn't count on the shuttle being on time.",
+       "options": [
+        "Time is money, they say.",
+        "I counted three shuttles.",
+        "The shuttle was on time last year.",
+        "Then I'll leave a bit earlier to be safe."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Mind keeping an eye on my laptop for a sec?",
+       "options": [
+        "Sure, take your time.",
+        "I kept it for a second.",
+        "I don't mind laptops.",
+        "My eyes are tired."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "You might want to double-check the due date.",
+       "options": [
+        "I might want a new one.",
+        "Oh, did it change?",
+        "I checked out two books.",
+        "The date was a double."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Following up on a maintenance request",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hi. I submitted a maintenance request about five days ago, but nobody's come yet. The heater in my dorm room isn't working."
+     },
+     {
+      "speaker": "Man",
+      "text": "Oh, I'm sorry about that. What's your name and room number?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Mia Chen, room three-fourteen."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay, I found it. Hmm, it looks like you chose \"general comfort\" as the category, so the system marked it as low priority."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Really? I didn't know the category mattered. I just picked the first option that seemed close."
+     },
+     {
+      "speaker": "Man",
+      "text": "A lot of students do that. But a broken heater in November should definitely be urgent. I'm changing it right now."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Thanks. So when do you think someone can come?"
+     },
+     {
+      "speaker": "Man",
+      "text": "With the new priority, a technician can come tomorrow morning, sometime between nine and noon."
+     },
+     {
+      "speaker": "Woman",
+      "text": "I have a class at ten, though. Do I need to be there?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Let me see. You checked the box that gives us permission to enter, so they can go in without you."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Great. But what should I do tonight? It's freezing in there."
+     },
+     {
+      "speaker": "Man",
+      "text": "We lend out portable heaters at the front desk. Just bring your student ID, and return the heater once yours is fixed."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the woman go to the housing office?",
+       "options": [
+        "To ask for a new room",
+        "To pay for a repair",
+        "Her heater still hasn't been fixed",
+        "To report a noisy neighbor"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why was her request treated as low priority?",
+       "options": [
+        "She chose the wrong category",
+        "She forgot to give her room number",
+        "The technician was sick",
+        "The office was closed for five days"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What will the woman probably do tonight?",
+       "options": [
+        "Borrow a portable heater",
+        "Stay with a friend",
+        "Sleep in the student lounge",
+        "Call the technician"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What does the man say about many students?",
+       "options": [
+        "They complain too often",
+        "They also pick a category that doesn't fit",
+        "They fix things themselves",
+        "They forget to submit requests"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why doesn't the woman need to be in her room tomorrow?",
+       "options": [
+        "The repair will happen in the evening",
+        "The technician will call her first",
+        "Her roommate will be there",
+        "She gave permission to enter on the form"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What must the woman bring to get a portable heater?",
+       "options": [
+        "A copy of her request",
+        "Her student ID",
+        "Her room key",
+        "A deposit"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What can be inferred about how the office handles requests?",
+       "options": [
+        "Students must visit in person for any repair",
+        "Only urgent requests are ever completed",
+        "The selected category affects how quickly a request is handled",
+        "Requests are handled in the order received"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the man mention November?",
+       "options": [
+        "To say when the heaters were installed",
+        "To explain why the office is busy",
+        "To explain why a heater problem is serious",
+        "To point out that the repair will be delayed"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What is most likely true about the repair tomorrow?",
+       "options": [
+        "It will take place after noon",
+        "It may happen while the woman is in class",
+        "It will be done by the man himself",
+        "The woman must cancel her class"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "announcement",
+   "shared": {
+    "title": "Fall career fair reminder",
+    "speaker": "A Career Center staff member",
+    "text": "Good morning, everyone. This is a quick reminder from the Career Center. Our fall career fair is happening next Wednesday, from ten to three, in the main ballroom of the student union. More than sixty employers will be there, and about a third of them are specifically looking for summer interns, so it's not just for seniors. If you'd like someone to look over your résumé before the fair, we're offering fifteen-minute drop-in reviews this Thursday and Friday afternoon at our office. Just bring a printed copy. Also, a lot of you have asked about the dress code. Business casual is fine. You don't need a suit. And finally, download the fair app before you come. It lists every employer and lets you mark the booths you want to visit, which really saves time once you're there."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the announcement mainly about?",
+       "options": [
+        "A new student union building",
+        "A summer class schedule",
+        "An upcoming career fair",
+        "A job at the Career Center"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the speaker say students should wear?",
+       "options": [
+        "Anything they like",
+        "A suit",
+        "Business casual clothes",
+        "A school T-shirt"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "When can students get their résumés reviewed?",
+       "options": [
+        "Every morning this week",
+        "Next Wednesday morning",
+        "Only during the fair",
+        "Thursday and Friday afternoon"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the speaker mention summer interns?",
+       "options": [
+        "To announce that internships are full",
+        "To ask seniors to stay home",
+        "To show that students who are not seniors can benefit too",
+        "To explain why the fair is in the summer"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What should students bring to a résumé review?",
+       "options": [
+        "Their student ID",
+        "A list of employers",
+        "A printed copy of their résumé",
+        "A letter from a professor"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the speaker recommend the app?",
+       "options": [
+        "It shows the dress code",
+        "It is required to enter the fair",
+        "It lets students apply for jobs instantly",
+        "It helps students plan which booths to visit"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the speaker imply by saying \"it's not just for seniors\"?",
+       "options": [
+        "Only interns are allowed to attend",
+        "The fair is mainly for graduate students",
+        "Students in earlier years may also find opportunities",
+        "Seniors will get special treatment"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the speaker bring up the dress code?",
+       "options": [
+        "To respond to a question many students have had",
+        "To advertise a clothing sale",
+        "To warn that some students were turned away",
+        "To introduce a new rule"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "A sophomore wants feedback on her résumé before the fair. What should she do?",
+       "options": [
+        "Email it to an employer at the fair",
+        "Upload it to the fair app",
+        "Visit the Career Center on Thursday or Friday afternoon with a printed copy",
+        "Bring it to the ballroom on Wednesday"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "Where did you go after class?",
+       "answer": "I went to the library to return some books",
+       "distractor": "go"
+      },
+      {
+       "context": "What time does the meeting start?",
+       "answer": "it starts at three o'clock in the main office",
+       "distractor": "starting"
+      },
+      {
+       "context": "Do you like your new apartment?",
+       "answer": "yes but the kitchen is a little too small",
+       "distractor": "smaller"
+      },
+      {
+       "context": "Why didn't you come to the party?",
+       "answer": "I had to finish a paper for my history class",
+       "distractor": "finished"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Did you hear back about the scholarship?",
+       "answer": "they told me I would find out by next Friday",
+       "distractor": "found"
+      },
+      {
+       "context": "Why is the cafeteria so crowded today?",
+       "answer": "the main dining hall is closed for repairs this week",
+       "distractor": "closes"
+      },
+      {
+       "context": "I need to drop off this sample for my lab partner.",
+       "answer": "do you know which floor the chemistry lab is on",
+       "distractor": "where"
+      },
+      {
+       "context": "How did the group project go?",
+       "answer": "it went better than we expected despite the short deadline",
+       "distractor": "expecting"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Why did you switch your major?",
+       "answer": "I realized I was more interested in design than in engineering",
+       "distractor": "interesting"
+      },
+      {
+       "context": "Was the internship worth it?",
+       "answer": "had I known how useful it was I would have applied sooner",
+       "distractor": "will"
+      },
+      {
+       "context": "What did the advisor say about your schedule?",
+       "answer": "she asked whether I had considered taking fewer courses next term",
+       "distractor": "consider"
+      },
+      {
+       "context": "Did the experiment work this time?",
+       "answer": "not only did it work but the results were also clearer",
+       "distractor": "worked"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "discussion",
+   "shared": {
+    "professor": "Dr. Alvarez",
+    "course": "Business",
+    "question": "Many companies now let employees choose where they work. However, some managers argue that people early in their careers learn faster in the office, where they can watch and talk with experienced colleagues. Should young employees be required to work in the office, or should they be free to work remotely? Why?",
+    "posts": [
+     {
+      "name": "Kenji",
+      "text": "I think young employees should work in the office, at least for their first year. So much of what you learn at a new job comes from small moments, like hearing how a coworker handles a difficult client call. Those moments rarely happen on video calls, so remote beginners can miss important lessons."
+     },
+     {
+      "name": "Sofia",
+      "text": "I disagree. Many young workers have long, expensive commutes, and working from home gives them more time and energy for the actual job. Companies can still support them through regular video check-ins and online mentoring programs. If a new employee produces good results, I don't see why their location should matter."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "A job interview at a café",
+    "sentences": [
+     "Thank you for coming in today.",
+     "Please tell me about your past work experience.",
+     "We open at six thirty every morning during the week.",
+     "Most new employees start by working at the register for a month.",
+     "You'll also learn how to make our espresso drinks once you're comfortable with the register.",
+     "If you're offered the position, we'll ask you to come in on Saturday for a short training session."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "A skill you learned outside school",
+    "questions": [
+     "Describe a skill you learned outside of school, for example from a family member, a job, or online videos. How did you learn it?",
+     "What was the hardest part of learning that skill, and how did you deal with it?",
+     "Some people believe that skills learned outside school are more useful in real life than what students learn in class. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

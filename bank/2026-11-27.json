@@ -1,0 +1,917 @@
+{
+ "id": "2026-11-27",
+ "date": "2026-11-27",
+ "version": 1,
+ "createdAt": "2026-11-18T05:15:13Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 3,
+  "fixed": [
+   "W0 3.5 #1, 4.5 #1 word order",
+   "L1 3.5 q1 stem"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How vaccines train the immune system"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Vaccines help the body learn to fight germs before a person gets sick. A vaccine {cont|ains} a weak or dead germ, or only a {sm|all} part of one. The body {se|es} this part and makes {spe|cial} proteins called antibodies. It {al|so} makes memory cells. These {ce|lls} remember the germ for a {lo|ng} time. Later, if the real germ {ent|ers} the body, the immune system {kn|ows} it and can fight it {qui|ckly}. Because of this, the person usually does not get very sick."
+    },
+    "4.5": {
+     "paragraph": "Vaccines work by giving the immune system a safe preview of a dangerous germ. Most vaccines {con|tain} a weakened or inactivated pathogen, or just one of its {prot|eins}. When immune cells {enco|unter} this harmless version, they {pro|duce} antibodies that match its {sh|ape}. More {impor|tantly}, the body creates {mem|ory} cells that can {sur|vive} for many years. If the real pathogen {app|ears} later, these cells {reco|gnize} it and launch a much faster and stronger defense."
+    },
+    "5.5": {
+     "paragraph": "Vaccination exploits the adaptive immune system's capacity to remember pathogens it has previously encountered. By {prese|nting} the body with an antigen, such as an {inact|ivated} virus or a single viral protein, a vaccine {trig|gers} the activation of B and T {lymph|ocytes} without causing {dis|ease}. Some of these cells then {differ|entiate} into long-lived memory cells. Upon {subse|quent} exposure to the genuine pathogen, these memory cells {mo|unt} a response so {ra|pid} that the infection is typically {cont|ained} before serious symptoms develop."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Notice",
+    "text": "NOTICE: New Laundry Room Rules (Starting December 1)\n\nDear residents,\nTo reduce waiting times and keep our laundry room clean, the following rules will apply starting December 1:\n\n1. Remove your clothes within 15 minutes after a machine finishes. After 15 minutes, other residents may move your items to the folding table.\n2. Clean the lint filter after every dryer use.\n3. Each resident may use no more than two washers at a time.\n4. The laundry room will now close at 11:00 p.m. instead of midnight, so that residents on the first floor are not disturbed by late-night noise.\n\nLost items will be kept at the front desk for two weeks. If a machine is broken, please report it using the QR code on the laundry room door.\n\n– Residence Life Staff"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the notice?",
+       "options": [
+        "To tell residents that the laundry room is closing permanently",
+        "To announce that new washers have been installed",
+        "To explain new rules for using the laundry room",
+        "To ask residents to volunteer to clean the building"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What time will the laundry room close starting December 1?",
+       "options": [
+        "At 11:00 p.m.",
+        "At 10:00 p.m.",
+        "At 1:00 a.m.",
+        "At midnight"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Where will lost items be kept?",
+       "options": [
+        "On the folding table",
+        "At the front desk",
+        "In the Residence Life office",
+        "In a box by the door"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What may happen if a resident leaves clothes in a machine for more than 15 minutes after it finishes?",
+       "options": [
+        "The clothes will be taken to the front desk",
+        "The resident will have to pay a fine",
+        "The resident will lose laundry room access",
+        "Another resident may move the clothes to the folding table"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why is the laundry room closing earlier?",
+       "options": [
+        "To reduce waiting times during the day",
+        "To avoid disturbing first-floor residents with noise",
+        "To give staff time to clean the machines",
+        "To save electricity at night"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about the laundry room before December 1?",
+       "options": [
+        "It was open 24 hours a day",
+        "It was cleaned only once a week",
+        "It was located on the second floor",
+        "It stayed open until midnight"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A resident has three loads of laundry to wash. According to the new rules, what should the resident do?",
+       "options": [
+        "Wash all three loads after 11:00 p.m.",
+        "Ask the front desk for permission to use a third washer",
+        "Wash two loads first and wait to wash the third",
+        "Use three washers if the room is empty"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which problem was the first rule most likely created to solve?",
+       "options": [
+        "Residents leaving finished laundry in machines that others need",
+        "Residents doing laundry too late at night",
+        "Dryers breaking because of dirty lint filters",
+        "Residents losing clothes in the laundry room"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "A resident discovers that a dryer will not start. What should the resident do?",
+       "options": [
+        "Clean the lint filter and try again the next day",
+        "Tell the next resident who comes in",
+        "Report the problem with the QR code on the door",
+        "Leave a note on the folding table"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "How Dogs Became Domesticated",
+    "text": "Dogs were the first animals that humans domesticated, and this happened long before people began farming. Genetic studies show that modern dogs descend from an ancient population of wolves, and most scientists believe the process began at least 15,000 years ago, when humans still lived as hunters and gatherers. But how did a dangerous predator become a loyal companion?\n\nOne popular explanation is that wolves partly domesticated themselves. Hunter-gatherer camps produced leftover food and bones, which attracted wolves. Wolves that were less fearful of people could approach the camps and eat these scraps, so they gained a steady food supply. Over many generations, these calmer animals had more offspring, and the population gradually became tamer. Humans may then have encouraged the trend by keeping the friendliest animals, which could help with hunting or warn of approaching danger.\n\nSupport for this idea comes from a long-running experiment with foxes. Researchers bred only the calmest foxes in each generation. Over the following decades, the foxes became friendly toward people, and many also developed floppy ears, curly tails, and spotted coats, traits that are common in dogs. This suggests that selecting for tameness alone can produce many of the physical changes seen in domesticated animals."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why dogs are better hunters than wolves",
+        "Why foxes are difficult to tame",
+        "How early farmers trained wild animals",
+        "How wolves may have gradually become dogs"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the passage, when did dog domestication probably begin?",
+       "options": [
+        "After people began farming",
+        "At least 15,000 years ago",
+        "When people first kept foxes",
+        "About 1,500 years ago"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why did wolves come near hunter-gatherer camps?",
+       "options": [
+        "To escape from foxes",
+        "To eat leftover food and bones",
+        "To find shelter from cold weather",
+        "To hunt the people living there"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "In the fox experiment, which foxes did researchers breed?",
+       "options": [
+        "Only the largest foxes",
+        "Only foxes with floppy ears",
+        "Only the calmest foxes",
+        "Foxes chosen at random"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"steady\" in the passage is closest in meaning to",
+       "options": [
+        "regular",
+        "small",
+        "hidden",
+        "new"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "According to paragraph 1, which statement about dogs is true?",
+       "options": [
+        "They were domesticated before humans started farming.",
+        "They were the second animal humans domesticated.",
+        "They descend directly from modern foxes.",
+        "They were domesticated by early farmers."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why did less fearful wolves have more offspring?",
+       "options": [
+        "They were larger and stronger than other wolves.",
+        "They lived longer because they ate less meat.",
+        "They could get food more easily near human camps.",
+        "Humans protected them from other predators."
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the passage, how might humans have contributed to domestication?",
+       "options": [
+        "By breeding wolves with foxes",
+        "By keeping the friendliest animals",
+        "By feeding wolves only farm crops",
+        "By capturing wolf puppies in the wild"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the author describe the fox experiment in paragraph 3?",
+       "options": [
+        "To argue that wolves cannot be tamed",
+        "To provide evidence for the explanation in paragraph 2",
+        "To describe a different way dogs were domesticated",
+        "To show that foxes were domesticated before dogs"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"gradually\" in the passage is closest in meaning to",
+       "options": [
+        "fortunately",
+        "suddenly",
+        "completely",
+        "slowly over time"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author ask \"But how did a dangerous predator become a loyal companion?\" in paragraph 1?",
+       "options": [
+        "To suggest that the question cannot be answered",
+        "To introduce the question the rest of the passage addresses",
+        "To criticize scientists who study domestication",
+        "To show that wolves are no longer dangerous"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from paragraph 2: \"Wolves that were less fearful of people could approach the camps and eat these scraps, so they gained a steady food supply.\"",
+       "options": [
+        "People fed wolves regularly so that the wolves would stop being afraid.",
+        "Wolves were afraid of people, so they ate only scraps they found far from camps.",
+        "Bolder wolves had a reliable food source because they could eat leftovers near human camps.",
+        "Wolves that approached camps were often chased away and had little food."
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred from paragraph 3 about the floppy ears and curly tails of the foxes?",
+       "options": [
+        "They existed in wild foxes before the experiment began.",
+        "They appeared because the foxes were fed by humans.",
+        "They made the foxes easier to train for hunting.",
+        "They were not directly chosen by the researchers."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the self-domestication explanation, what started the process of domestication?",
+       "options": [
+        "Wolves' own behavior toward human camps",
+        "The beginning of farming",
+        "A change in the climate",
+        "A decision by humans to capture wolves"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"descend\" in the passage is closest in meaning to",
+       "options": [
+        "originate",
+        "differ",
+        "escape",
+        "separate"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "The seat is blue.",
+        "I took the bus today.",
+        "No, go ahead and sit down.",
+        "Yes, I'm sitting tomorrow."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "When is the essay due?",
+       "options": [
+        "It was due.",
+        "The essay is about history.",
+        "Next Monday, before class.",
+        "I wrote it in English."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Would you like some coffee?",
+       "options": [
+        "Yes, I would like it yesterday.",
+        "Coffee comes from many countries.",
+        "I liked the coffee shop.",
+        "No thanks, I just had some."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "How was your weekend?",
+       "options": [
+        "Pretty relaxing. I mostly stayed home.",
+        "I have two weekends.",
+        "It's on the weekend.",
+        "I'll go next weekend."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Where can I print my homework?",
+       "options": [
+        "Print it in blue ink.",
+        "There are printers in the library.",
+        "My homework is very long.",
+        "I printed it last week."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Have you finished the reading for tomorrow?",
+       "options": [
+        "I like reading in the morning.",
+        "Almost. I've got one chapter left.",
+        "Tomorrow is Friday.",
+        "I'll finish it yesterday."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "The professor moved our exam to Thursday.",
+       "options": [
+        "She's a very good professor.",
+        "Good, that gives me two more days to study.",
+        "The exam was on Thursday last year.",
+        "I moved to a new apartment."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Do you mind if I open the window?",
+       "options": [
+        "I opened it yesterday.",
+        "Not at all. It's pretty warm in here.",
+        "The window is made of glass.",
+        "Yes, the window is open."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Why weren't you in class this morning?",
+       "options": [
+        "I won't be in class.",
+        "The morning was sunny.",
+        "My alarm didn't go off.",
+        "Class starts at nine."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Could you send me the notes from the meeting?",
+       "options": [
+        "Sure, I'll email them tonight.",
+        "I took a lot of notes.",
+        "The meeting was long.",
+        "I sent the notes to the meeting."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'm totally swamped with work this week.",
+       "options": [
+        "Do you want me to cover one of your shifts?",
+        "I've never been to a swamp.",
+        "The pool is open all week.",
+        "Work starts at nine every day."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "You wouldn't happen to have a phone charger on you, would you?",
+       "options": [
+        "I would happen to call you.",
+        "I do, but it might not fit your phone.",
+        "Chargers are usually sold online.",
+        "My phone was charged last night, would it?"
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "I can't make heads or tails of this assignment.",
+       "options": [
+        "I made it last week.",
+        "The assignment has two parts, heads and tails.",
+        "Let's flip a coin to decide.",
+        "Let's go over the instructions together."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Didn't the deadline get pushed back?",
+       "options": [
+        "Only for the first draft, not the final paper.",
+        "I pushed the door open.",
+        "Yes, I'll get it back tomorrow.",
+        "The deadline was very long."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "I'm thinking of dropping chemistry.",
+       "options": [
+        "I'm thinking about it too, yesterday.",
+        "Really? Isn't it required for your major?",
+        "Be careful not to drop the beaker.",
+        "Chemistry is the study of matter."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Asking about a class waitlist",
+    "lines": [
+     {
+      "speaker": "Man",
+      "text": "Hi. I'm on the waitlist for Introduction to Psychology, and I wanted to ask how it works. Right now I'm number six."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Sure. When someone drops the class, the first student on the waitlist gets an email offering them the seat. They have forty-eight hours to accept it."
+     },
+     {
+      "speaker": "Man",
+      "text": "And what if they don't accept in time?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Then the offer goes to the next person on the list. So it's really important to check your email often."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay. Do I have a good chance of getting in from number six?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Honestly, a lot of students drop intro classes during the first week, so you've got a decent chance. But I can't promise anything."
+     },
+     {
+      "speaker": "Man",
+      "text": "Should I still go to the class while I'm waiting?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Definitely. Most professors expect waitlisted students to attend, and you don't want to fall behind if you do get a seat."
+     },
+     {
+      "speaker": "Man",
+      "text": "That makes sense. Oh, is there another section I could take instead?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Let me check... There's an evening section on Tuesdays and Thursdays with three open seats."
+     },
+     {
+      "speaker": "Man",
+      "text": "Hmm, I work most evenings. I think I'll stay on the waitlist and keep going to the morning class for now."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Sounds like a plan. Just remember, the waitlist closes at the end of the first week."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the man talk to the woman?",
+       "options": [
+        "To ask how a class waitlist works",
+        "To change his work schedule",
+        "To drop a psychology class",
+        "To pay for a class"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "How long does a student have to accept a seat?",
+       "options": [
+        "Twenty-four hours",
+        "Forty-eight hours",
+        "One week",
+        "Six days"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What will the man probably do?",
+       "options": [
+        "Stay on the waitlist and attend the morning class",
+        "Sign up for the evening section",
+        "Ask his boss for evenings off",
+        "Drop psychology completely"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What happens if a student does not accept an offered seat in time?",
+       "options": [
+        "The student is enrolled automatically.",
+        "The seat stays empty until the next week.",
+        "The student moves to the end of the list.",
+        "The seat is offered to the next student on the list."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the woman think the man has a decent chance of getting in?",
+       "options": [
+        "Many students drop intro classes in the first week.",
+        "He is near the top of the waitlist.",
+        "The professor is adding more seats.",
+        "The evening section is full."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the man decide not to take the evening section?",
+       "options": [
+        "It has no open seats.",
+        "He works most evenings.",
+        "It meets only once a week.",
+        "It is taught by a different professor."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the woman say, \"But I can't promise anything\"?",
+       "options": [
+        "To show that she has no access to the waitlist",
+        "To complain about the registration system",
+        "To make clear that he may not get a seat",
+        "To suggest that he should choose another class"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the woman advise the man to attend the class while he waits?",
+       "options": [
+        "So he will not fall behind if he gets a seat",
+        "Because attendance raises his place on the list",
+        "So the professor can enroll him directly",
+        "Because waitlisted students must take the first quiz"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the waitlist?",
+       "options": [
+        "A student who rarely checks email could lose a chance at a seat.",
+        "The evening section uses the same list.",
+        "Students are offered seats in random order.",
+        "Students can stay on it for the whole semester."
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "announcement",
+   "shared": {
+    "title": "Study abroad information session",
+    "speaker": "A staff member from the Study Abroad Office",
+    "text": "Hi, everyone. I've got a quick announcement from the Study Abroad Office. If you're thinking about spending a semester or a summer in another country, we're holding an information session next Wednesday at four o'clock in Room 210 of the student center. You'll hear from students who just came back from programs in Spain, Japan, and Ghana, and our advisors will explain how to choose a program, how your credits transfer, and what scholarships are available. Now, a lot of students think studying abroad is too expensive, but actually, many of our programs cost about the same as a semester here. Applications for next fall are due February fifteenth, so this session is a great place to start. You don't need to sign up in advance, and if you can't make it, we'll post the slides on our website the next day."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the announcement?",
+       "options": [
+        "To announce new programs in Spain",
+        "To invite students to a session about studying abroad",
+        "To introduce a new advisor",
+        "To remind students to pay for a trip"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When is the information session?",
+       "options": [
+        "Next Wednesday at two o'clock",
+        "Next Thursday at four o'clock",
+        "On February fifteenth",
+        "Next Wednesday at four o'clock"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Who will speak at the session besides the advisors?",
+       "options": [
+        "Professors from Japan",
+        "Scholarship donors",
+        "Students who recently returned from abroad",
+        "Students from Ghana who study here"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Which topic will the advisors explain?",
+       "options": [
+        "How to apply for a visa",
+        "How to learn a new language",
+        "How to find housing abroad",
+        "How credits transfer"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the speaker mention the cost of programs?",
+       "options": [
+        "To compare costs in Spain and Japan",
+        "To explain why scholarships are limited",
+        "To warn students that prices are rising",
+        "To correct a common belief that studying abroad is too expensive"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can students who cannot attend do?",
+       "options": [
+        "Look at the slides online the next day",
+        "Sign up for a later session",
+        "Meet an advisor on Thursday",
+        "Watch a video of the session"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the speaker mention the February fifteenth deadline?",
+       "options": [
+        "To encourage students to start planning early",
+        "To show that it is too late to apply for this fall",
+        "To explain when the session will be held",
+        "To announce a change in the application date"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What does the speaker imply about the cost of studying abroad?",
+       "options": [
+        "It may be lower than many students expect.",
+        "It is covered fully by scholarships.",
+        "It is highest for programs in Japan.",
+        "It is always cheaper than studying at home."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about attending the session?",
+       "options": [
+        "Students must bring their transcripts.",
+        "Space is limited, so students should arrive early.",
+        "Students can simply show up without registering.",
+        "Only students applying for fall may attend."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What did you have for lunch?",
+       "answer": "I just had a sandwich for lunch",
+       "distractor": "eat"
+      },
+      {
+       "context": "When does the library close tonight?",
+       "answer": "it closes at ten o'clock on weekdays",
+       "distractor": "closing"
+      },
+      {
+       "context": "Are you coming to the party?",
+       "answer": "I can't because I have to work",
+       "distractor": "must"
+      },
+      {
+       "context": "How do you get to campus?",
+       "answer": "I usually ride my bike to school",
+       "distractor": "riding"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Have you decided on your major yet?",
+       "answer": "I'm still trying to choose my major",
+       "distractor": "chosen"
+      },
+      {
+       "context": "Why did you move to a new apartment?",
+       "answer": "my old place was too far from campus",
+       "distractor": "long"
+      },
+      {
+       "context": "Could you tell me when the next meeting is?",
+       "answer": "the next meeting will be held on Friday afternoon",
+       "distractor": "hold"
+      },
+      {
+       "context": "What did the professor say about the exam?",
+       "answer": "she said it would cover the first five chapters",
+       "distractor": "says"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "I heard you got the internship!",
+       "answer": "I did but I still haven't decided whether to accept it",
+       "distractor": "if"
+      },
+      {
+       "context": "Do you know why the lecture was canceled?",
+       "answer": "apparently the professor had to attend a conference out of town",
+       "distractor": "attending"
+      },
+      {
+       "context": "What did the advisor ask you?",
+       "answer": "she wanted to know which courses I had already completed",
+       "distractor": "does"
+      },
+      {
+       "context": "Why didn't you join the study group?",
+       "answer": "I would have joined if I had known about it earlier",
+       "distractor": "will"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "discussion",
+   "shared": {
+    "professor": "Dr. Ramirez",
+    "course": "Education",
+    "question": "Many elementary schools assign homework every night, while others have stopped giving homework to young children. Supporters say it builds responsibility and reinforces lessons, but critics say young children need time to play, rest, and spend time with their families. Should elementary schools give homework? Why or why not?",
+    "posts": [
+     {
+      "name": "Emily",
+      "text": "I think a small amount of homework is helpful. When I was in elementary school, a short reading or math assignment each night helped me remember what we learned in class. It also taught me to manage my time and finish tasks on my own. Those habits made middle school much easier for me."
+     },
+     {
+      "name": "Daniel",
+      "text": "I disagree. Young children already spend six or seven hours a day in school. After that, they need time to play outside, rest, and be with their families. Also, not every child has a parent who can help at home, so homework can make the gap between students even bigger. Schools should focus on learning during class time."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Shopping at a grocery store",
+    "sentences": [
+     "Welcome to our grocery store today.",
+     "Shopping carts and baskets are near the entrance.",
+     "You can find fresh fruit and vegetables in aisle one.",
+     "Our bakery makes fresh bread every morning before the store opens.",
+     "If you bring your own bags, you will receive a small discount at checkout.",
+     "Customers buying fewer than ten items can use the express lane right next to the customer service desk."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Helping your community",
+    "questions": [
+     "Tell me about a time you helped people in your community, such as neighbors, classmates, or a local group. What did you do?",
+     "How did you feel after helping, and what did you learn from the experience?",
+     "Some people think schools should require students to do volunteer work in their community. Do you agree or disagree? Why?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

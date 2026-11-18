@@ -1,0 +1,917 @@
+{
+ "id": "2026-11-19",
+ "date": "2026-11-19",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:36Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 2,
+  "fixed": [
+   "W0 3.5 #2 word order made unique",
+   "R0 5.5 dependence/dependency blank -> reliance"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How coral reefs form"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Coral reefs are built by very small animals called coral polyps. Each polyp {ma|kes} a hard {skel|eton} from calcium {carb|onate}, a material it takes {fr|om} sea water. Most reefs grow in warm, clear, shallow water, because tiny algae live inside the polyps and use sunlight to make food for them. When polyps {d|ie}, their skeletons {rem|ain}, and new polyps {gr|ow} on top. Over {thou|sands} of years, these {lay|ers} form a huge {re|ef}."
+    },
+    "4.5": {
+     "paragraph": "Coral reefs are among the largest structures ever built by living organisms. They form {thr|ough} the work of tiny animals {cal|led} polyps, which {ext|ract} calcium and carbonate from seawater to {bu|ild} limestone skeletons. Inside the polyps live {micro|scopic} algae that {sup|ply} them with food through photosynthesis, so most reefs grow only in {sha|llow}, sunlit water. As generations of polyps die, their skeletons {accum|ulate}, and the reef slowly {exp|ands} over {cent|uries}."
+    },
+    "5.5": {
+     "paragraph": "Coral reefs are biogenic structures, assembled over millennia by colonies of tiny animals known as polyps. Each polyp {secr|etes} a {calca|reous} skeleton, a process {fue|led} largely by its {symb|iotic} algae, which {gene|rate} sugars through photosynthesis. This {reli|ance} on light {conf|ines} most reef-building corals to {sha|llow} tropical waters. As successive generations {cem|ent} their skeletons onto those of their {predec|essors}, the reef gradually accretes into a vast and intricate framework that shelters countless marine species."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Notice",
+    "text": "NOTICE: Water Shut-Off for Maintenance\n\nTo all residents of Building C:\nOn Wednesday, December 2, the water in the entire building will be shut off from 9:00 a.m. to 3:00 p.m. while plumbers replace a broken valve in the basement.\nDuring this time, sinks, showers, and toilets will not work. We recommend filling a few bottles with drinking water the night before. Residents may use the showers in the fitness center next door, which will stay open until 10:00 p.m.\nWhen the water comes back on, it may look brown for a few minutes. Let the cold tap run until the water is clear before you drink it.\nIf you notice a leak after the work is finished, please call the maintenance office at extension 4120.\n\nThank you for your patience.\n– Building Management"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why will the water be shut off?",
+       "options": [
+        "So workers can paint the basement",
+        "Because residents used too much water",
+        "To clean the fitness center",
+        "So plumbers can replace a broken valve"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "How long will the water be off?",
+       "options": [
+        "Six hours",
+        "The whole day",
+        "Three hours",
+        "Ten hours"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Where can residents take a shower during the shut-off?",
+       "options": [
+        "In another apartment in Building C",
+        "In the basement",
+        "In the fitness center next door",
+        "At the maintenance office"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What does Building Management suggest residents do the night before?",
+       "options": [
+        "Turn off their cold taps",
+        "Leave their doors unlocked",
+        "Call the maintenance office",
+        "Fill some bottles with drinking water"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What should residents do if the water looks brown?",
+       "options": [
+        "Report it to the maintenance office",
+        "Run the hot water for a few minutes",
+        "Run the cold tap until the water is clear",
+        "Use only bottled water for the rest of the day"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred about the fitness center?",
+       "options": [
+        "It is located in the basement of Building C",
+        "It will close at 3:00 p.m. on December 2",
+        "Its water will not be affected by the shut-off",
+        "It is open only to Building C residents"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A resident comes home at 2:00 p.m. on December 2 and wants a glass of water. What would be the best option?",
+       "options": [
+        "Call extension 4120 to turn the water on",
+        "Drink from a bottle filled the night before",
+        "Let the cold tap run until the water is clear",
+        "Wait until 10:00 p.m."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about the brown water mentioned in the notice?",
+       "options": [
+        "It appears only in the hot water",
+        "It shows that the repair was not successful",
+        "It means residents should call the maintenance office",
+        "It is a short-term effect of the repair work"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "On December 3, a resident finds water dripping under the kitchen sink. According to the notice, what should the resident do?",
+       "options": [
+        "Call the maintenance office at extension 4120",
+        "Let the cold tap run for a few minutes",
+        "Wait for the next scheduled maintenance day",
+        "Use the fitness center until it is fixed"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "How the Printing Press Spread Literacy",
+    "text": "Before the middle of the fifteenth century, books in Europe were copied by hand, usually by trained scribes. Producing a single book could take months, so books were rare and expensive, and reading was a skill largely limited to the clergy and the wealthy. Around 1450, Johannes Gutenberg, a German goldsmith, developed a printing press that used movable metal type. Individual letters could be arranged into pages, inked, pressed onto paper, and then reused for new pages.\n\nThe new technology spread with remarkable speed. By 1500, print shops were operating in more than two hundred European cities, and together they had produced millions of books. Because a printer could make hundreds of identical copies in the time a scribe needed for one, the price of books fell sharply. Printers also published more and more works in everyday languages such as German, French, and English rather than only in Latin, which most people could not read.\n\nCheaper books did not make people literate overnight; in many regions, most adults still could not read two centuries later. However, the press created a steady supply of affordable reading material, from religious texts to almanacs and pamphlets. This supply gave ordinary families a practical reason to learn to read and made schooling more valuable. In this sense, the printing press did not teach anyone to read, but it changed what reading could offer."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How Gutenberg became a successful goldsmith",
+        "How scribes learned to copy books",
+        "Why Latin was the most popular language in Europe",
+        "How the printing press made reading material cheaper and more common"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to paragraph 1, how were books made before about 1450?",
+       "options": [
+        "They were made by machines in large factories",
+        "They were imported from Asia",
+        "They were printed with wooden blocks",
+        "They were copied by hand"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"rare\" in the passage is closest in meaning to",
+       "options": [
+        "old",
+        "uncommon",
+        "heavy",
+        "cheap"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to paragraph 2, why did the price of books fall?",
+       "options": [
+        "Paper was no longer needed",
+        "Governments paid for all new books",
+        "Printers could make many copies quickly",
+        "Scribes began working for lower pay"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the passage, what did printers begin to publish more often?",
+       "options": [
+        "Books only in Latin",
+        "Books written by Gutenberg",
+        "Works in everyday languages such as French and English",
+        "Books for the clergy only"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the purpose of paragraph 1?",
+       "options": [
+        "To argue that scribes made better books than printers",
+        "To describe the situation before the press and explain how the press worked",
+        "To explain why literacy rates fell in the fifteenth century",
+        "To compare Gutenberg with other inventors"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"remarkable\" in the passage is closest in meaning to",
+       "options": [
+        "extraordinary",
+        "dangerous",
+        "limited",
+        "expected"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 2, by 1500 print shops were operating in",
+       "options": [
+        "fewer than twenty cities",
+        "every village in Europe",
+        "more than two hundred European cities",
+        "only German cities"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the author mention that most people could not read Latin?",
+       "options": [
+        "To explain why books in everyday languages could reach more readers",
+        "To suggest that printers did not know Latin",
+        "To show that Latin books were too expensive to print",
+        "To prove that the clergy opposed the printing press"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred from paragraph 3 about literacy after the invention of the press?",
+       "options": [
+        "It increased gradually over a long period",
+        "It fell because schools closed",
+        "It became universal within a few years",
+        "It was unaffected by the price of books"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author state that \"in many regions, most adults still could not read two centuries later\"?",
+       "options": [
+        "To show that the press affected literacy gradually rather than immediately",
+        "To criticize schools of that period",
+        "To argue that the printing press was a failure",
+        "To explain why printers stopped publishing pamphlets"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from paragraph 2? \"Because a printer could make hundreds of identical copies in the time a scribe needed for one, the price of books fell sharply.\"",
+       "options": [
+        "Books became cheaper because printers made fewer mistakes than scribes",
+        "Printers and scribes worked together to lower the price of books",
+        "Since printing was much faster than copying by hand, books became much cheaper",
+        "Scribes made books faster than printers, so prices rose"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"sharply\" in the passage is closest in meaning to",
+       "options": [
+        "slowly",
+        "briefly",
+        "dramatically",
+        "clearly"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the author mean by saying that the press \"changed what reading could offer\"?",
+       "options": [
+        "Reading became a skill reserved for the wealthy",
+        "Printed books were easier to read than handwritten ones",
+        "The press gave people more useful and affordable things to read, which motivated them to learn",
+        "The press replaced the need for schools"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which of the following would the author most likely agree with?",
+       "options": [
+        "The spread of printing in Latin was the main cause of rising literacy",
+        "An increase in available reading material can encourage people to become literate",
+        "Literacy depends only on the number of schools, not on books",
+        "Gutenberg's press immediately ended the work of scribes"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Do you know when the library closes tonight?",
+       "options": [
+        "It was closed yesterday.",
+        "I closed the window.",
+        "Yes, I like the library a lot.",
+        "I think it closes at ten."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Can I borrow your pen for a minute?",
+       "options": [
+        "No, I'm not borrowing it.",
+        "It takes about a minute.",
+        "Sure, here you go.",
+        "I bought a pen last week."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "How was your first day at the new job?",
+       "options": [
+        "The day after tomorrow.",
+        "It was busy, but everyone was really friendly.",
+        "My job has a new name.",
+        "I'll start a new job."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Are you going to the study group this afternoon?",
+       "options": [
+        "The afternoon was sunny.",
+        "I studied the group.",
+        "Yes, I'll meet you there at three.",
+        "I went to a group yesterday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Excuse me, is this seat taken?",
+       "options": [
+        "I took a seat on the bus.",
+        "Yes, I'm taking a class.",
+        "The seats are blue.",
+        "No, go ahead and sit down."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "I missed the lecture on Monday. Did the professor cover anything important?",
+       "options": [
+        "She covered the table with a cloth.",
+        "The lecture hall is on Monday.",
+        "I'll miss it too next week.",
+        "Yeah, she reviewed what's going to be on the midterm."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Should I print my essay or submit it online?",
+       "options": [
+        "Yes, it's an essay.",
+        "The syllabus says to upload it to the course website.",
+        "I printed my photos yesterday.",
+        "It was submitted by the professor."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "The dining hall's out of vegetarian options again.",
+       "options": [
+        "I'm out of the dining hall.",
+        "There were options in the hall.",
+        "Let's try the café downstairs instead.",
+        "Vegetables are healthy."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Would you mind if I opened the window?",
+       "options": [
+        "The window is made of glass.",
+        "No, I didn't open it.",
+        "Go ahead. It's pretty warm in here.",
+        "I minded it yesterday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Have you heard back about the internship?",
+       "options": [
+        "Not yet, but they said they'd decide by Friday.",
+        "I'll hear it tomorrow at the concert.",
+        "I heard the music from back there.",
+        "The internship was in the back."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'm swamped this week. Any chance we could push our meeting back?",
+       "options": [
+        "Sure, how does next Tuesday work for you?",
+        "Yes, I'll push the table back.",
+        "I swam there last week.",
+        "The meeting was pushed by the door."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "You wouldn't happen to have the notes from Thursday, would you?",
+       "options": [
+        "No, it didn't happen on Thursday.",
+        "I do. I'll email them to you tonight.",
+        "I'd happen to like notes.",
+        "Thursday is my favorite day."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "I'm not sure this paper is going anywhere.",
+       "options": [
+        "The paper was very sure.",
+        "Why don't you run your thesis by the writing center?",
+        "I'm sure it went somewhere.",
+        "It isn't going to the library."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Don't tell me the shuttle's running late again.",
+       "options": [
+        "I'll tell you when I go running.",
+        "I won't tell you about the shuttle.",
+        "Late is better than never, I told you.",
+        "Afraid so. It's stuck in traffic."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I could've sworn the deadline was next week.",
+       "options": [
+        "Next week I could go.",
+        "Me too, but the professor moved it up on Monday.",
+        "The deadline swore it was late.",
+        "Swearing isn't allowed in class."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Requesting a book through interlibrary loan",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hi, I need a book for my history paper, but the catalog says our library doesn't have it."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay. If we don't own a book, you can request it through interlibrary loan. We borrow it from another university's library for you."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Oh, I've never done that. Is it expensive?"
+     },
+     {
+      "speaker": "Man",
+      "text": "It's free for students. You just fill out a short form online with your student login. A book usually takes one to two weeks to get here, though."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Two weeks? My paper's due in ten days."
+     },
+     {
+      "speaker": "Man",
+      "text": "Hmm. Do you need the whole book, or just a chapter or two?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Really just one chapter, the one about early trade routes."
+     },
+     {
+      "speaker": "Man",
+      "text": "Then I'd request a scanned copy of that chapter instead. Scans usually come by email in three or four days."
+     },
+     {
+      "speaker": "Woman",
+      "text": "That's perfect. Is there a limit on scans?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Because of copyright rules, it's one chapter per book. And if you ever borrow a physical book this way, you get it for three weeks. You can only renew it if the lending library agrees."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Got it. I'll submit the chapter request right now. Thanks so much!"
+     },
+     {
+      "speaker": "Man",
+      "text": "You're welcome. You'll get an email as soon as it's ready."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the woman go to the library?",
+       "options": [
+        "To ask for a job at the library",
+        "To get a book the library does not have",
+        "To print her history paper",
+        "To return a late book"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "How much does interlibrary loan cost for students?",
+       "options": [
+        "It depends on the book",
+        "Nothing",
+        "A small fee per book",
+        "Ten dollars"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the woman decide to do?",
+       "options": [
+        "Request a scan of one chapter",
+        "Buy the book online",
+        "Change the topic of her paper",
+        "Wait two weeks for the book"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why is the woman worried about borrowing the whole book?",
+       "options": [
+        "It might be too expensive",
+        "The book is written in another language",
+        "She doesn't have a student login",
+        "It might not arrive before her paper is due"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the librarian, how do scanned chapters usually arrive?",
+       "options": [
+        "By email in three or four days",
+        "By mail in one to two weeks",
+        "At the front desk the next day",
+        "Through the library catalog after a month"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What does the librarian say about borrowing a physical book through interlibrary loan?",
+       "options": [
+        "It can be kept for three weeks",
+        "It must be read inside the library",
+        "It can be renewed as many times as needed",
+        "It costs extra to renew"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the librarian ask whether the woman needs the whole book?",
+       "options": [
+        "To find out if she can buy it herself",
+        "To suggest a faster option that fits her deadline",
+        "To explain that whole books cannot be borrowed",
+        "To check whether she has read it before"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about the scan option?",
+       "options": [
+        "She would need to pay for the scan",
+        "She could request two chapters from the same book",
+        "It would not let her copy the entire book",
+        "It is only available to graduate students"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What will the woman most likely do next?",
+       "options": [
+        "Wait for the library to buy the book",
+        "Search for the book in a bookstore",
+        "Submit an online request for the chapter",
+        "Ask her professor for an extension"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "announcement",
+   "shared": {
+    "title": "Campus gym renovation and temporary closure",
+    "speaker": "Campus recreation director",
+    "text": "Good afternoon, everyone. I have an important update about the campus gym. Starting Monday, December 7, the main gym will close for renovations, and it'll reopen on January 18, just before the spring semester begins. We're replacing the old floors, adding new weight equipment, and expanding the locker rooms. While the main gym's closed, the small fitness room in the student union will stay open from 6 a.m. to 10 p.m. It has cardio machines and some free weights, but space is limited, so please keep your workout to one hour when other people are waiting. Also, all group fitness classes will be canceled during the closure. If you paid for a class package, you'll get a refund automatically, so you don't need to do anything. Thanks for your patience. We think you'll love the new space."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why will the main gym close?",
+       "options": [
+        "There are not enough staff members",
+        "It will be renovated",
+        "It will be moved to a new building",
+        "It will be used for exams"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When will the main gym reopen?",
+       "options": [
+        "In one week",
+        "On January 18",
+        "After the spring semester",
+        "On December 7"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What will happen to group fitness classes?",
+       "options": [
+        "They will move online",
+        "They will be canceled",
+        "They will meet in the student union",
+        "They will start earlier in the morning"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Which of the following is NOT part of the renovation?",
+       "options": [
+        "Adding new weight equipment",
+        "Building a swimming pool",
+        "Expanding the locker rooms",
+        "Replacing the old floors"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the speaker ask students to do in the fitness room?",
+       "options": [
+        "Limit workouts to one hour when others are waiting",
+        "Bring their own weights",
+        "Sign up for a time online",
+        "Use only the cardio machines"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What does the speaker say about refunds for class packages?",
+       "options": [
+        "Students must fill out a form",
+        "They will be given only in January",
+        "Students will get credit instead of money",
+        "They will be given automatically"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the speaker mention that space in the fitness room is limited?",
+       "options": [
+        "To announce that the room will be expanded",
+        "To ask students to share the room fairly",
+        "To suggest that students exercise off campus",
+        "To explain why it will close at 10 p.m."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "A student who paid for a class package wants her money back. What should she do?",
+       "options": [
+        "Visit the student union",
+        "Email the recreation office",
+        "Wait until the gym reopens",
+        "Nothing, because the refund will be automatic"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about the timing of the renovation?",
+       "options": [
+        "It will last for the whole spring semester",
+        "It will happen only on weekends",
+        "It was delayed because of new equipment",
+        "It was planned so the gym is ready when the new semester starts"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "Where are you going after class?",
+       "answer": "I am going to the library to study",
+       "distractor": "went"
+      },
+      {
+       "context": "Did you finish the reading for today?",
+       "answer": "yes I finished it right before dinner",
+       "distractor": "finishing"
+      },
+      {
+       "context": "What time does the dining hall open?",
+       "answer": "it opens at seven in the morning on weekdays",
+       "distractor": "opening"
+      },
+      {
+       "context": "Can you help me move this weekend?",
+       "answer": "sure I can help you on Saturday morning",
+       "distractor": "helped"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Why are you leaving so early today?",
+       "answer": "I have a doctor's appointment at two o'clock",
+       "distractor": "appoint"
+      },
+      {
+       "context": "Do you know if the bookstore sells used textbooks?",
+       "answer": "I think they sell used books at a lower price",
+       "distractor": "sold"
+      },
+      {
+       "context": "What did the professor say about the project?",
+       "answer": "she said we could work in pairs if we wanted",
+       "distractor": "says"
+      },
+      {
+       "context": "How do I get a parking permit?",
+       "answer": "you have to apply online before the semester starts",
+       "distractor": "applying"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Did you hear why the seminar was canceled?",
+       "answer": "apparently the speaker's flight was delayed because of the storm",
+       "distractor": "although"
+      },
+      {
+       "context": "Could you tell me where the advising office is?",
+       "answer": "I'm not sure where it moved after the renovation",
+       "distractor": "does"
+      },
+      {
+       "context": "What would you have done differently on the exam?",
+       "answer": "I would have started with the questions I knew best",
+       "distractor": "had"
+      },
+      {
+       "context": "Has the committee made a decision about the scholarship?",
+       "answer": "they haven't announced who will receive it yet",
+       "distractor": "whom"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "discussion",
+   "shared": {
+    "professor": "Dr. Hartley",
+    "course": "Education",
+    "question": "Some universities let students decide for themselves whether to attend lectures, as long as they pass the exams. Others require attendance and lower the grades of students who miss too many classes. Should universities require class attendance? Why or why not?",
+    "posts": [
+     {
+      "name": "Maya",
+      "text": "I think attendance should be required. When I know my attendance counts, I go to every class, and I learn much more from the discussions than from reading the slides alone. Professors also explain what will be on the exam during class. Without a rule, many students would skip and then fall behind."
+     },
+     {
+      "name": "Daniel",
+      "text": "I disagree with required attendance. University students are adults, and many of us work part-time jobs or care for family members. If someone can learn the material from recorded lectures and the textbook, they should be judged on what they know, not on whether they sat in a classroom."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Moving into a dorm",
+    "sentences": [
+     "Welcome to your new residence hall.",
+     "Please pick up your room key here.",
+     "Carts for moving boxes are by the elevator.",
+     "Quiet hours begin at ten o'clock every night during the week.",
+     "If anything in your room is broken, report it to your resident assistant within three days.",
+     "Bring your own sheets and towels, because the hall provides only a mattress, a desk, and a chair."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Working on a team",
+    "questions": [
+     "Tell me about a time you worked on a team at school, at work, or in your community. What was your role?",
+     "What was the most difficult part of working with that team, and how did you handle it?",
+     "Some people think working alone produces better results than working on a team. Do you agree or disagree? Why?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

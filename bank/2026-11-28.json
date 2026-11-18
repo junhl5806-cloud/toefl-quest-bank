@@ -1,0 +1,937 @@
+{
+ "id": "2026-11-28",
+ "date": "2026-11-28",
+ "version": 1,
+ "createdAt": "2026-11-18T05:15:09Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 5,
+  "fixed": [
+   "W0 5.5 #1 if/whether, #2 swap",
+   "L2 5.5 q2 option pronoun",
+   "L1 3.5 q1 stem"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "Why stars appear to twinkle"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "On a clear night, the stars seem to twinkle in the sky. But the stars themselves do not {rea|lly} {cha|nge}. Their {li|ght} must {tra|vel} through the air {aro|und} Earth. This air is {alw|ays} {mov|ing}, and warm and cool {poc|kets} of air bend the light in {diff|erent} {direc|tions}. So the light that reaches our eyes shakes a little, and the star seems to flicker. Planets do not twinkle as much because they look bigger than stars."
+    },
+    "4.5": {
+     "paragraph": "Stars appear to twinkle, but the flickering has nothing to do with the stars themselves. As {star|light} {ent|ers} Earth's {atmos|phere}, it {pas|ses} through layers of air that {dif|fer} in {tempe|rature} and density. Each layer {be|nds} the light {slig|htly}, and {bec|ause} the air is {const|antly} moving, the amount of bending keeps changing. As a result, a star's brightness and position seem to shift many times per second. Planets twinkle less because they appear as tiny disks rather than single points of light."
+    },
+    "5.5": {
+     "paragraph": "The twinkling of stars, known to astronomers as scintillation, originates not in the stars but in Earth's turbulent atmosphere. Starlight {trav|erses} {nume|rous} {poc|kets} of air whose {temper|atures} and densities {fluc|tuate} {contin|uously}, and each pocket {refr|acts} the light by a {margi|nally} {diff|erent} angle. Because a distant star is {effec|tively} a point source, these small distortions produce rapid changes in its apparent brightness, whereas planets, which present tiny disks, shine more steadily. To counteract this distortion, observatories increasingly rely on adaptive optics."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Policy notice",
+    "text": "Campus Parking Services\nWinter Semester Permit Policy\n\nAll vehicles parked on campus between 7:00 a.m. and 5:00 p.m., Monday through Friday, must display a valid permit. Student permits cost $120 for the semester and can be purchased online starting December 1.\n\n- Permits must hang from the rearview mirror with the permit number facing out.\n- Student permits are valid only in lots marked with a blue \"S\" sign.\n- Parking in student lots is free after 5:00 p.m. on weekdays and all day on weekends.\n- Students who live in on-campus housing must buy a Resident permit ($150) instead of a Student permit.\n\nVehicles without a valid permit will receive a $40 ticket. Lost permits can be replaced for $10 at the Parking Services office."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the notice mainly about?",
+       "options": [
+        "A sale on used cars",
+        "Changes to the winter class schedule",
+        "A new bus service for students",
+        "Rules for parking on campus"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "How much does a Student permit cost?",
+       "options": [
+        "$10",
+        "$40",
+        "$150",
+        "$120"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "When is parking in student lots free?",
+       "options": [
+        "After 5:00 p.m. on weekdays and on weekends",
+        "Only on December 1",
+        "During final exams",
+        "Every weekday morning"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Where can a Student permit be used?",
+       "options": [
+        "In lots with a blue \"S\" sign",
+        "Only in on-campus housing lots",
+        "Only in the Parking Services lot",
+        "In any lot on campus"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What happens if a student loses a permit?",
+       "options": [
+        "The student must buy a new $120 permit",
+        "The student must park off campus",
+        "The student can get a replacement for $10",
+        "The student receives a $40 ticket"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "A commuter student parks in a student lot on Saturday morning without a permit. What will most likely happen?",
+       "options": [
+        "The student must pay $10",
+        "The car will be moved to another lot",
+        "The student will receive a $40 ticket",
+        "Nothing, because parking there is free on weekends"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the notice most likely require permits to hang with the number facing out?",
+       "options": [
+        "So that permits are not stolen",
+        "So that drivers remember when the permit expires",
+        "So that permits can be replaced more easily",
+        "So that the permit number can be easily checked"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "A student who lives in a campus dormitory buys a Student permit. What can be concluded?",
+       "options": [
+        "The student bought the wrong type of permit",
+        "The student will get a refund in December",
+        "The student can park anywhere on campus",
+        "The student saved $30 legally"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which student would need a permit to avoid a ticket?",
+       "options": [
+        "A student parking in a student lot at 8:00 p.m. on Friday",
+        "A student parking on Sunday afternoon",
+        "A student parking in a student lot at 7:00 p.m. on Tuesday",
+        "A student parking in a student lot at 10:00 a.m. on Wednesday"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "The Green Revolution in Agriculture",
+    "text": "In the middle of the twentieth century, many experts feared that the world's rapidly growing population would soon outstrip its food supply. Yet over the following decades, grain production in many developing countries rose dramatically. This transformation, known as the Green Revolution, was driven largely by new crop varieties and modern farming methods.\n\nAt the center of these changes was the American plant scientist Norman Borlaug, who began developing high-yielding varieties of wheat in Mexico in the 1940s. His wheat plants had short, sturdy stems. Traditional tall varieties often fell over when heavy heads of grain formed, especially when farmers applied fertilizer, but the shorter plants could support much larger harvests. Similar high-yielding rice varieties were later developed in the Philippines. In the late 1960s, India and Pakistan adopted the new wheat and saw their harvests increase rapidly. Borlaug received the Nobel Peace Prize in 1970 for his work.\n\nHowever, the Green Revolution also had costs. The new crops needed large amounts of fertilizer, pesticides, and irrigation water, which polluted rivers and depleted groundwater in some regions. In addition, wealthier farmers, who could afford these inputs, often benefited more than poorer ones. For these reasons, many researchers today are looking for ways to raise yields while using fewer resources."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why the world's population grew so quickly",
+        "How to protect rivers from pollution",
+        "A period when new crops and methods greatly increased grain production",
+        "How farmers in Mexico grew rice"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Where did Norman Borlaug develop his new wheat varieties?",
+       "options": [
+        "In India",
+        "In the Philippines",
+        "In Pakistan",
+        "In Mexico"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why were short stems useful?",
+       "options": [
+        "They grew faster in cold weather",
+        "They were easier for animals to eat",
+        "They needed no water",
+        "They could hold up heavy heads of grain without falling over"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"sturdy\" in the passage is closest in meaning to",
+       "options": [
+        "young",
+        "strong",
+        "thin",
+        "colorful"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to the passage, what was one problem caused by the Green Revolution?",
+       "options": [
+        "Some rivers became polluted",
+        "Wheat became too expensive to buy",
+        "Farmers stopped growing rice",
+        "Population growth slowed down"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author begin the passage by describing experts' fears?",
+       "options": [
+        "To explain the problem that the Green Revolution responded to",
+        "To argue that the experts were careless",
+        "To show that population growth has stopped",
+        "To compare farming in rich and poor countries"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 2, what happened to traditional tall wheat when farmers used fertilizer?",
+       "options": [
+        "It produced no grain at all",
+        "It needed less water",
+        "It grew too short to harvest",
+        "It often fell over under heavy grain"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"adopted\" in the passage is closest in meaning to",
+       "options": [
+        "refused",
+        "tested in a lab",
+        "began to use",
+        "sold"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why did wealthier farmers often benefit more than poorer farmers?",
+       "options": [
+        "They could afford fertilizer, pesticides, and water",
+        "They lived closer to rivers",
+        "They received help from Borlaug directly",
+        "They owned the rights to the new seeds"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the new crop varieties?",
+       "options": [
+        "They produced high yields mainly when given enough fertilizer and water",
+        "They were less productive than traditional varieties",
+        "They grew well without any irrigation",
+        "They were first developed in India"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention that traditional tall varieties often fell over?",
+       "options": [
+        "To explain why Borlaug's short-stemmed plants were an improvement",
+        "To argue that farmers used too much fertilizer",
+        "To show that traditional farming was more sustainable",
+        "To introduce the problem of polluted rivers"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"outstrip\" in the passage is closest in meaning to",
+       "options": [
+        "exceed",
+        "support",
+        "depend on",
+        "measure"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which sentence best expresses the essential information in the highlighted sentence? \"Traditional tall varieties often fell over when heavy heads of grain formed, especially when farmers applied fertilizer, but the shorter plants could support much larger harvests.\"",
+       "options": [
+        "Unlike tall wheat, which collapsed under heavy grain, short wheat could bear far bigger harvests.",
+        "Farmers stopped using fertilizer because it made tall wheat fall over.",
+        "Tall wheat fell over only when farmers grew it next to short wheat.",
+        "Short plants produced less grain but did not fall over."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which of the following best describes the author's view of the Green Revolution?",
+       "options": [
+        "It mattered only to wheat farmers in Mexico",
+        "It was successful and had no real drawbacks",
+        "It was a complete failure that harmed most farmers",
+        "It greatly increased food production but also created environmental and social problems"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred from the final sentence of the passage?",
+       "options": [
+        "Researchers see the heavy use of fertilizer, pesticides, and water as a problem to reduce",
+        "Researchers want to return to traditional tall wheat",
+        "Researchers believe population growth is no longer a concern",
+        "Researchers think Borlaug's work should be forgotten"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Are you going to the study group tonight?",
+       "options": [
+        "Yes, I'll be there at seven.",
+        "I studied last night.",
+        "The group is big.",
+        "Tonight is cold."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Where can I buy a notebook?",
+       "options": [
+        "I wrote in my notebook.",
+        "At the bookstore on the first floor.",
+        "I bought it yesterday.",
+        "It's a blue notebook."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "How long does the bus ride take?",
+       "options": [
+        "About twenty minutes.",
+        "I rode it last week.",
+        "I like the bus.",
+        "The bus is red."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Did you finish the homework?",
+       "options": [
+        "I'll do my homework.",
+        "Homework is hard.",
+        "Almost. I have one question left.",
+        "The teacher gave homework."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Would you like some coffee?",
+       "options": [
+        "Coffee is from Brazil.",
+        "No, thanks. I just had some.",
+        "The coffee shop is closed.",
+        "I drank tea yesterday."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Do you know if the professor posted our grades yet?",
+       "options": [
+        "Grades are important.",
+        "I posted a letter yesterday.",
+        "The professor is very tall.",
+        "Not yet. She said they'd be up by Friday."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I'm thinking about dropping my chemistry class.",
+       "options": [
+        "I dropped my phone yesterday.",
+        "The class meets on Monday.",
+        "Chemistry is a science.",
+        "Really? Have you talked to your advisor first?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Why weren't you at work this morning?",
+       "options": [
+        "My car wouldn't start, so I called my manager.",
+        "I'll work tomorrow morning.",
+        "Work starts at eight.",
+        "I like working mornings."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Could you save me a seat in the lecture hall?",
+       "options": [
+        "The hall is very large.",
+        "The lecture was saved.",
+        "I sat down yesterday.",
+        "Sure, I'll put my bag on the one next to me."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Which section of the course did you sign up for?",
+       "options": [
+        "The sign is on the door.",
+        "The course is about history.",
+        "The morning one, with Dr. Howard.",
+        "I signed my name."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I can't believe the library's closing early during finals week.",
+       "options": [
+        "Finals week was last year.",
+        "I know. I'll have to find somewhere else to study.",
+        "The library has a lot of books.",
+        "I closed the door early."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "You wouldn't happen to have a charger I could borrow, would you?",
+       "options": [
+        "I didn't happen to see it.",
+        "I'm charging you for it.",
+        "My phone is new.",
+        "Let me check. I think there's one in my backpack."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I'm afraid we've run out of the vegetarian option.",
+       "options": [
+        "I'll run out to get it.",
+        "We ran out of the building.",
+        "That's okay. I'll just have the soup, then.",
+        "I'm not afraid of vegetables."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Did you end up applying for that internship?",
+       "options": [
+        "I'm applying sunscreen.",
+        "I did, but I haven't heard back yet.",
+        "It ends up on Monday.",
+        "The internship will end soon."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "I wouldn't count on the shuttle being on time today.",
+       "options": [
+        "The shuttle was on time yesterday at noon.",
+        "Thanks for the warning. I'll leave a little early.",
+        "Time is money.",
+        "I counted them all."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Reorganizing a sociology essay",
+    "lines": [
+     {
+      "speaker": "Man",
+      "text": "Hi, I have an appointment at two. My sociology professor said my essay is hard to follow, and I'm not sure how to fix it."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Okay, let's take a look. What's the essay about?"
+     },
+     {
+      "speaker": "Man",
+      "text": "It's about why so many young adults are moving back in with their parents. I found five good sources, and I wrote one paragraph about each one."
+     },
+     {
+      "speaker": "Woman",
+      "text": "I see. That's actually a really common problem. When you organize by source, the reader has to figure out your argument on their own. It works better to organize by idea."
+     },
+     {
+      "speaker": "Man",
+      "text": "What do you mean exactly?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Well, what are the main reasons you found in your research?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Um, mostly high rent, student loans, and, I guess, changes in how families feel about living together."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Great. So that's three body paragraphs. Each one starts with a topic sentence about one reason, and then you use whichever sources support that reason."
+     },
+     {
+      "speaker": "Man",
+      "text": "Oh, so one source could show up in two different paragraphs?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Exactly. Here's a trick that helps. Go through your draft and write one sentence that sums up each paragraph you have now. That'll show you where the ideas overlap."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay, that makes sense. I'll try that tonight and book another appointment for Thursday."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the man ask for help?",
+       "options": [
+        "To find more sources",
+        "To change his class",
+        "To ask about a job as a tutor",
+        "To get help with an essay that is hard to follow"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "How is the man's essay organized now?",
+       "options": [
+        "By the three main reasons",
+        "By date",
+        "With no paragraphs",
+        "With one paragraph for each source"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What will the man do tonight?",
+       "options": [
+        "Talk to his professor",
+        "Write a sentence that sums up each paragraph",
+        "Start a new essay topic",
+        "Find five new sources"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What problem does the tutor see in the man's essay?",
+       "options": [
+        "It has too few sources",
+        "It is too short",
+        "It is about the wrong topic",
+        "It is organized by source instead of by idea"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the tutor suggest each body paragraph should begin with?",
+       "options": [
+        "A question for the reader",
+        "A quotation from a source",
+        "A topic sentence about one reason",
+        "A summary of the whole essay"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the tutor suggest summing up each paragraph in one sentence?",
+       "options": [
+        "To see where ideas overlap",
+        "To check his grammar",
+        "To shorten the essay",
+        "To prepare for a test"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the tutor imply about organizing an essay by source?",
+       "options": [
+        "It is required in sociology classes",
+        "It makes an essay more persuasive",
+        "It is the best choice for short essays",
+        "It leaves the work of finding the argument to the reader"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the tutor ask the man about the main reasons he found?",
+       "options": [
+        "To help him build a structure based on his ideas",
+        "To find out which source is most reliable",
+        "To check whether he did enough research",
+        "To decide whether his topic is too broad"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What does the man's question about a source appearing in two paragraphs show?",
+       "options": [
+        "He thinks his professor will object",
+        "He is beginning to understand how the new structure works",
+        "He wants to use fewer sources",
+        "He disagrees with the tutor"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "The placebo effect",
+    "text": "Okay, today we're looking at one of the strangest findings in medicine: the placebo effect. A placebo is a treatment with no active ingredient, like a sugar pill or an injection of salt water. You'd expect it to do nothing. But in study after study, a lot of patients who get a placebo report that they feel better.\n\nSo why does that happen? A big part of it is expectation. When patients believe a treatment will help, the brain can actually change how the body responds. Pain is the clearest example. When people expect a pill to relieve pain, the brain can release its own natural painkillers, called endorphins. And here's the interesting part: when researchers give patients a drug that blocks endorphins, much of that placebo pain relief goes away. So it isn't just imagination. Something physical is going on.\n\nThe setting matters, too. A confident doctor, a professional-looking clinic, even the color and size of a pill can make the effect stronger. But I want to be careful here. Placebos mostly affect symptoms that people feel and report, like pain, nausea, or tiredness. A sugar pill won't shrink a tumor or cure an infection.\n\nThere's also a flip side, called the nocebo effect. If patients expect side effects, like a headache, some of them will actually get one, even from a pill with nothing in it.\n\nAnd that's why new drugs are tested against placebos. If patients on the real drug don't do clearly better than patients on the sugar pill, then the drug isn't really working."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "How to make sugar pills",
+        "Why pills have different colors",
+        "How doctors cure infections",
+        "The placebo effect"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What is a placebo?",
+       "options": [
+        "A kind of infection",
+        "A treatment with no active ingredient",
+        "A test for headaches",
+        "A very strong painkiller"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to the professor, what can a placebo NOT do?",
+       "options": [
+        "Make people feel less tired",
+        "Make people feel less sick to their stomach",
+        "Make people feel less pain",
+        "Cure an infection"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What is the nocebo effect?",
+       "options": [
+        "Forgetting to take a pill",
+        "Taking too many pills",
+        "Feeling side effects because you expect them",
+        "Feeling better after taking a real drug"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "According to the professor, what is a major cause of the placebo effect?",
+       "options": [
+        "Patients' expectations",
+        "Patients forgetting their symptoms",
+        "The sugar in the pills",
+        "The salt in the water"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What happens when patients receive a drug that blocks endorphins?",
+       "options": [
+        "They develop headaches",
+        "Much of the placebo pain relief goes away",
+        "The placebo works even better",
+        "Their infections are cured"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the professor mention the color and size of a pill?",
+       "options": [
+        "To explain how drugs are made",
+        "To describe the nocebo effect",
+        "To show that colorful pills are more dangerous",
+        "To show that details of the treatment can make the effect stronger"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why are new drugs tested against placebos?",
+       "options": [
+        "To make the tests cheaper",
+        "To find out which pill tastes better",
+        "To protect patients from side effects",
+        "To check whether the drug works better than an inactive pill"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the professor describe the experiment with the endorphin-blocking drug?",
+       "options": [
+        "To argue that placebos should replace painkillers",
+        "To warn students about a dangerous drug",
+        "To show that the placebo effect has a physical basis",
+        "To explain how the nocebo effect works"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the professor mean by saying, \"But I want to be careful here\"?",
+       "options": [
+        "The professor is unsure whether the research is accurate",
+        "The professor wants students to take careful notes",
+        "The professor is about to describe a risky experiment",
+        "The professor wants to limit how strongly students interpret the effect"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "A patient is told that a pill might cause dizziness. The pill contains nothing active, but the patient feels dizzy. What does this illustrate?",
+       "options": [
+        "The placebo effect on pain",
+        "The release of endorphins",
+        "An infection",
+        "The nocebo effect"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about a new drug that works no better than a placebo in a trial?",
+       "options": [
+        "It should be given in larger pills",
+        "It probably has no real benefit beyond expectation",
+        "It is effective only for infections",
+        "It works only when the doctor is confident"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What did you do last weekend?",
+       "answer": "I visited my cousin and we cooked dinner together",
+       "distractor": "cook"
+      },
+      {
+       "context": "Is the library open tonight?",
+       "answer": "yes it stays open until ten tonight",
+       "distractor": "opens"
+      },
+      {
+       "context": "Why didn't you come to class?",
+       "answer": "I had a doctor's appointment in the morning",
+       "distractor": "has"
+      },
+      {
+       "context": "Do you want to get lunch?",
+       "answer": "sure let's meet at the cafeteria at noon",
+       "distractor": "meeting"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Have you finished the reading for tomorrow?",
+       "answer": "not yet but I plan to finish it tonight",
+       "distractor": "planned"
+      },
+      {
+       "context": "How do you usually get to campus?",
+       "answer": "I usually take the bus because parking is expensive",
+       "distractor": "cheap"
+      },
+      {
+       "context": "Did the professor say when the paper is due?",
+       "answer": "she said we have to turn it in by Friday",
+       "distractor": "turned"
+      },
+      {
+       "context": "What did you think of the guest speaker?",
+       "answer": "her talk was more interesting than I had expected",
+       "distractor": "most"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Why did you decide to switch your major?",
+       "answer": "I realized I was more interested in design",
+       "distractor": "realize"
+      },
+      {
+       "context": "I need to drop a class. Where should I go?",
+       "answer": "you should ask the registrar's office whether it is too late",
+       "distractor": "what"
+      },
+      {
+       "context": "Did your group finish the presentation?",
+       "answer": "we would have finished if the projector had worked",
+       "distractor": "will"
+      },
+      {
+       "context": "What did your advisor ask you?",
+       "answer": "she wanted to know which courses I was planning to take",
+       "distractor": "am"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "After your morning biology class, you realized that you left your water bottle and a folder with your lab notes in the classroom. When you went back, the room was locked, and you need the notes for an assignment due later this week.",
+    "recipient": "Professor Ellis, your biology professor",
+    "points": [
+     "Describe the items you left and where you were sitting",
+     "Ask whether the professor or anyone else found them",
+     "Ask how and when you can pick them up"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Opening a bank account",
+    "sentences": [
+     "I'd like to open an account.",
+     "Do you have a photo ID with you?",
+     "A checking account is useful for paying bills and rent.",
+     "There is no monthly fee if your balance stays above one hundred dollars.",
+     "Your new debit card will arrive in the mail within seven to ten business days.",
+     "If you download our mobile app, you can check your balance and deposit checks from your phone anytime."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "An important decision",
+    "questions": [
+     "Tell me about an important decision you made in the past few years. What did you decide?",
+     "How did you make that decision? Did anyone help you, and are you happy with the result?",
+     "Some people think young adults should make big decisions, such as choosing a career, on their own, without advice from their parents. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,917 @@
+{
+ "id": "2026-11-23",
+ "date": "2026-11-23",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:39Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 2,
+  "fixed": [
+   "W0 5.5 #4 word order",
+   "W0 5.5 #1 has/had distractor"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "Why leaves change color in autumn"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "In autumn, the leaves of many trees turn yellow, orange, and red. In summer, {lea|ves} look {gr|een} because {th|ey} are full of chlorophyll, a substance that {he|lps} plants make {fo|od} from sunlight. When the {da|ys} get shorter, trees {slo|wly} stop making chlorophyll. As the green {co|lor} fades, yellow and orange colors that {we|re} {hid|den} in the leaf all along become easy to see. Some trees also make new red colors from sugar that stays inside their leaves."
+    },
+    "4.5": {
+     "paragraph": "Every autumn, the leaves of many trees change from green to bright yellow, orange, and red. {Dur|ing} the growing {sea|son}, leaves {con|tain} large amounts of chlorophyll, the green {pig|ment} that captures sunlight {f|or} photosynthesis. As days {bec|ome} shorter and nights grow {coo|ler}, trees {grad|ually} stop producing chlorophyll and break {do|wn} what {rem|ains}. This allows yellow and orange pigments, which were present all summer, to become visible. In some species, sugars trapped in the leaves are used to produce red pigments."
+    },
+    "5.5": {
+     "paragraph": "The brilliant colors of autumn foliage result largely from chemical changes that begin as a tree prepares for winter. {Throu|ghout} the summer, chlorophyll {domi|nates} the leaf, {mas|king} other pigments such as {carot|enoids}, which reflect yellow and orange light. As daylight {dimin|ishes}, deciduous trees {ce|ase} synthesizing chlorophyll and {reab|sorb} its valuable {nutr|ients}. {Conseq|uently}, these yellow pigments are {reve|aled}. Certain species, including many maples, additionally produce anthocyanins, red pigments thought to shield leaves from excess light while nutrients are recovered."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Email",
+    "text": "From: Apartment Management Office\nSubject: New Online Rent Payment System Starting January 1\n\nDear Residents,\nBeginning January 1, all rent payments must be made through our new online resident portal. After December 31, we will no longer accept paper checks in the office drop box.\nSet up your account now using the link below. You can pay by bank transfer at no cost or by credit card for a 2.5% processing fee. You can also turn on automatic payments so that your rent is paid on the 1st of each month.\nRent is still due by the 5th. Payments received after the 5th will be charged a $50 late fee.\nNeed help? Office staff will hold help sessions in the community room on December 10 and 17 from 6 to 8 p.m.\n\nThank you,\nResident Services"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the email?",
+       "options": [
+        "To explain a new way to pay rent",
+        "To report a problem with the drop box",
+        "To announce a rent increase",
+        "To invite residents to a party"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What will the office stop accepting after December 31?",
+       "options": [
+        "Bank transfers",
+        "Automatic payments",
+        "Credit cards",
+        "Paper checks"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "When are the help sessions?",
+       "options": [
+        "On January 1 and 5",
+        "On the 5th of each month",
+        "Every morning in December",
+        "On December 10 and 17 in the evening"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the email?",
+       "options": [
+        "To ask residents to visit the office in person",
+        "To apologize for a mistake in last month's rent",
+        "To tell residents that rent is now due on the 1st",
+        "To inform residents about a change in the rent payment method"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "How can residents pay rent without an extra charge?",
+       "options": [
+        "By paying with a credit card",
+        "By using the office drop box",
+        "By paying at a help session",
+        "By paying with a bank transfer"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "A resident pays January rent through the portal on January 7. What will most likely happen?",
+       "options": [
+        "The resident will be charged a $50 late fee",
+        "The payment will be refused",
+        "The resident will receive a refund",
+        "Nothing, because the portal is new"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What can be inferred about residents who currently pay rent by check?",
+       "options": [
+        "They will be charged a late fee in December",
+        "They must attend a help session",
+        "They will need to start using the portal",
+        "They must pay an extra 2.5% fee"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "A resident's rent is $1,000. How much will the resident pay in total by credit card?",
+       "options": [
+        "$1,250",
+        "$1,025",
+        "$1,050",
+        "$1,000"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the email mention automatic payments?",
+       "options": [
+        "To announce that checks will be accepted again",
+        "To explain how residents can avoid the processing fee",
+        "To show that the due date has changed",
+        "To suggest a way residents can make sure rent is paid on time"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "The Early Days of Photography",
+    "text": "Although the camera obscura, a dark box or room that projects an image through a small hole, had been known for centuries, no one could make its images permanent until the 1820s. Around 1826, the French inventor Joseph Nicéphore Niépce coated a metal plate with a light-sensitive substance and placed it in a camera aimed out of his window. The result, now considered the oldest surviving camera photograph, required an exposure of many hours, so the buildings in it appear to be lit by the sun from both sides.\n\nIn 1839, Niépce's former partner, Louis Daguerre, introduced a far more practical process. His daguerreotypes, made on polished silver-coated copper plates, captured remarkably fine detail and needed exposures of only minutes. However, each daguerreotype was a unique object; it could not be copied.\n\nAround the same time, the English scientist William Henry Fox Talbot developed a different approach. His process produced a paper negative from which any number of positive prints could be made. Talbot's images were less sharp than daguerreotypes, because the fibers of the paper blurred fine details. Nevertheless, the principle of making many prints from a single negative proved enormously influential, and it shaped photography for more than a century and a half."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How early inventors first made photographs",
+        "Why Daguerre and Niépce stopped working together",
+        "How the camera obscura was invented",
+        "Why photographs are printed on paper"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the passage, how long was the exposure for Niépce's photograph?",
+       "options": [
+        "Many hours",
+        "Several weeks",
+        "A few seconds",
+        "A few minutes"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"permanent\" in the passage is closest in meaning to",
+       "options": [
+        "large",
+        "cheap",
+        "lasting",
+        "bright"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What was one problem with daguerreotypes?",
+       "options": [
+        "They were made on paper",
+        "They needed many hours of light",
+        "They could not be copied",
+        "They were very blurry"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What did Talbot's process produce first?",
+       "options": [
+        "A metal box",
+        "A silver plate",
+        "A paper negative",
+        "A painting"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the passage?",
+       "options": [
+        "To show that modern photography no longer uses negatives",
+        "To argue that Niépce was a better inventor than Daguerre",
+        "To describe early photographic processes and their strengths and weaknesses",
+        "To explain how a camera obscura works"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why do the buildings in Niépce's photograph appear lit from both sides?",
+       "options": [
+        "The metal plate reflected the light",
+        "The window had two openings",
+        "The sun moved across the sky during the long exposure",
+        "Niépce used two cameras at once"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"remarkably\" in the passage is closest in meaning to",
+       "options": [
+        "carefully",
+        "unusually",
+        "slightly",
+        "rarely"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to paragraph 3, why were Talbot's images less sharp than daguerreotypes?",
+       "options": [
+        "His negatives were made of copper",
+        "His exposures were too short",
+        "He used a camera obscura",
+        "The paper fibers blurred fine details"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about a person in 1840 who wanted many copies of the same image?",
+       "options": [
+        "The person would need a much longer exposure",
+        "The person would have to use Niépce's metal plate",
+        "The person would probably choose a daguerreotype",
+        "The person would probably prefer Talbot's process"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention the camera obscura in paragraph 1?",
+       "options": [
+        "To argue that early photographs were made without cameras",
+        "To describe how daguerreotypes were copied",
+        "To show that Niépce invented the first camera",
+        "To explain that projecting images was possible long before images could be preserved"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from paragraph 3? \"Talbot's images were less sharp than daguerreotypes, because the fibers of the paper blurred fine details.\"",
+       "options": [
+        "Daguerreotypes became blurry because they were printed on paper.",
+        "Paper fibers were added to daguerreotypes to make them sharper.",
+        "Talbot made sharper images than Daguerre by using paper fibers.",
+        "The paper Talbot used caused his images to show less detail than daguerreotypes."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"principle\" in the passage is closest in meaning to",
+       "options": [
+        "fundamental concept",
+        "first attempt",
+        "strict rule",
+        "main leader"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the author mention that the buildings appear lit from both sides?",
+       "options": [
+        "To illustrate how long Niépce's exposure was",
+        "To explain why the photograph did not survive",
+        "To praise the artistic quality of Niépce's work",
+        "To show that Niépce used artificial light"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the author's view of Talbot's process?",
+       "options": [
+        "It was abandoned soon after it was invented",
+        "It was inferior in every way to the daguerreotype",
+        "It had a greater long-term impact despite producing less detailed images",
+        "It was a copy of Niépce's earlier method"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Are you ready for the quiz tomorrow?",
+       "options": [
+        "I'm ready to eat.",
+        "The quiz was easy.",
+        "I think so. I studied last night.",
+        "Tomorrow is Friday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Where did you park your bike?",
+       "options": [
+        "I'll park it later.",
+        "My bike is red.",
+        "I like riding bikes.",
+        "Right in front of the gym."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Would you like some coffee?",
+       "options": [
+        "No, thanks. I already had some.",
+        "Coffee is hot.",
+        "I'd like a new bike.",
+        "I made coffee yesterday."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Who's teaching the history class this term?",
+       "options": [
+        "A new professor, I think.",
+        "I'm teaching my brother math.",
+        "The class is at ten.",
+        "History is interesting."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "How much was your new phone?",
+       "options": [
+        "It's a new phone.",
+        "I bought it with my friend.",
+        "About three hundred dollars.",
+        "I call my mom every day."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Do you know if the lab is open on weekends?",
+       "options": [
+        "Weekends are too short.",
+        "I know the lab assistant.",
+        "I'm not sure, but there's a sign on the door.",
+        "The lab was open yesterday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I'm thinking of dropping my statistics class.",
+       "options": [
+        "I'm thinking about lunch.",
+        "Statistics is a math subject.",
+        "I dropped my phone yesterday.",
+        "Really? Have you talked to the professor first?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Could you save me a seat at the lecture?",
+       "options": [
+        "Sure, I'll put my bag on the chair next to me.",
+        "I saved some money last month.",
+        "Seats are comfortable.",
+        "The lecture was about economics."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Why is the cafeteria so crowded today?",
+       "options": [
+        "The cafeteria has big windows.",
+        "It will be crowded.",
+        "I ate at the cafeteria.",
+        "There's a free lunch event for new students."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Didn't you say you'd send me the notes?",
+       "options": [
+        "Oh, sorry! I'll send them right now.",
+        "I sent a letter home.",
+        "I said hello to her.",
+        "The notes are on page ten."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I could use a hand with these boxes, if you're not busy.",
+       "options": [
+        "My hands are cold.",
+        "I used them last week.",
+        "Sure, where do you want them?",
+        "I'm busy with boxes too."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "You might want to double-check the due date for that essay.",
+       "options": [
+        "I'd like a double room.",
+        "I wanted to check out a book.",
+        "Good idea. I thought it was Friday, but I'm not certain.",
+        "The essay is about two cities."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I'm not sure this printer's up to the job.",
+       "options": [
+        "Yeah, it jammed three times this morning.",
+        "The job interview went well.",
+        "I'll print it up tomorrow.",
+        "It's up on the third floor."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "If I were you, I'd hold off on buying the textbook.",
+       "options": [
+        "I'd hold the door for you.",
+        "The textbook is heavy.",
+        "I'm holding my textbook.",
+        "Why? Isn't the professor using it much?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Something tells me the meeting's going to run late again.",
+       "options": [
+        "Then I'd better text my roommate that I'll miss dinner.",
+        "I ran late yesterday.",
+        "Something told me to run.",
+        "The meeting is in room four."
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Talking with an advisor about changing majors",
+    "lines": [
+     {
+      "speaker": "Man",
+      "text": "Hi, Ms. Rivera. I have a two o'clock appointment. I'm thinking about changing my major."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Sure, have a seat. You're in mechanical engineering right now, right? What are you thinking of switching to?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Environmental science. I took the intro course this semester as an elective, and honestly, it's the only class I look forward to."
+     },
+     {
+      "speaker": "Woman",
+      "text": "That's a good sign. Have you looked at the requirements for the environmental science program?"
+     },
+     {
+      "speaker": "Man",
+      "text": "A little. I know I'd need biology and chemistry. I've already taken general chemistry, though."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Good, that counts for both programs. And your calculus and physics courses would count as electives, so you wouldn't lose much credit."
+     },
+     {
+      "speaker": "Man",
+      "text": "Really? I was worried I'd have to add an extra year."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Probably just one extra semester, maybe less if you take a summer course. The tricky part is biology. The first course is only offered in the fall, and it fills up fast."
+     },
+     {
+      "speaker": "Man",
+      "text": "So I should sign up the day registration opens?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Exactly. And before you officially switch, I'd suggest talking with a professor in the department. They can tell you what kinds of jobs graduates usually get."
+     },
+     {
+      "speaker": "Man",
+      "text": "That makes sense. I'll email the department this week and set up a meeting."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Great. Once you've decided, bring me the change-of-major form and I'll sign it."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the man go to see the advisor?",
+       "options": [
+        "To drop a chemistry class",
+        "To ask about a summer job",
+        "To talk about changing his major",
+        "To complain about a grade"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What major does the man want to switch to?",
+       "options": [
+        "Mechanical engineering",
+        "Environmental science",
+        "Biology",
+        "Physics"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What will the man probably do this week?",
+       "options": [
+        "Email the department to set up a meeting",
+        "Take a summer course",
+        "Drop his calculus class",
+        "Sign the change-of-major form"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the man want to change his major?",
+       "options": [
+        "His advisor told him to change",
+        "He wants to graduate earlier",
+        "His engineering grades are low",
+        "He really enjoys his introductory environmental science course"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the advisor say about the man's earlier courses?",
+       "options": [
+        "He must take them again",
+        "None of them will count",
+        "Only his physics course will count",
+        "Most of them will still give him credit"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the advisor mention that the biology course fills up fast?",
+       "options": [
+        "To show that biology is a popular major",
+        "To suggest he take biology at another school",
+        "To encourage him to register as early as possible",
+        "To explain why he needs an extra year"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the man imply when he says the intro course is \"the only class I look forward to\"?",
+       "options": [
+        "The intro course is easier than his other courses",
+        "He plans to drop all his other classes",
+        "He has too many classes this semester",
+        "He is not enjoying his engineering classes"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the advisor suggest talking with a professor in the department?",
+       "options": [
+        "To get permission to skip the biology course",
+        "Because professors must sign the change-of-major form",
+        "To find out when registration opens",
+        "So the man can learn about career options before he commits"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about how switching majors will affect the man's graduation?",
+       "options": [
+        "He will need two extra years",
+        "It will not affect his graduation at all",
+        "It may delay his graduation only slightly",
+        "He will graduate earlier than planned"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "announcement",
+   "shared": {
+    "title": "Guest lecture series",
+    "speaker": "Student activities coordinator",
+    "text": "Good morning, everyone. I have a quick announcement about this semester's guest lecture series. Starting next week, we'll host a speaker every Wednesday evening at seven in the main auditorium. This year's theme is science in everyday life, and the first talk is about the chemistry of cooking. The lectures are free and open to everyone, but seating is limited, so please reserve a seat through the student portal. If you can't make it, don't worry. Each lecture will be recorded and posted online within a week. Also, students who attend at least three lectures and turn in a short written reflection will receive a certificate of participation, which you can list on your resume. Oh, and one more thing: after each talk, there'll be a reception where you can meet the speaker and ask questions. Hope to see you there!"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the announcement mainly about?",
+       "options": [
+        "A science exam",
+        "A series of guest lectures",
+        "A new cooking class",
+        "A change in the library hours"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When are the lectures held?",
+       "options": [
+        "Every Monday morning",
+        "Every Wednesday evening",
+        "Every weekend afternoon",
+        "Every Friday at noon"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "How should students reserve a seat?",
+       "options": [
+        "At the auditorium door",
+        "By calling the speaker",
+        "By sending a reflection",
+        "Through the student portal"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why should students reserve a seat?",
+       "options": [
+        "Only science majors can attend",
+        "The lectures cost money",
+        "The speakers want a list of names",
+        "There are not many seats"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can students do if they miss a lecture?",
+       "options": [
+        "Read the reflection of another student",
+        "Attend it again next month",
+        "Ask the speaker for notes",
+        "Watch a recording online"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What must students do to receive a certificate?",
+       "options": [
+        "Attend the reception after each talk",
+        "Give a short talk",
+        "Attend every lecture",
+        "Attend at least three lectures and write a reflection"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A student attends all the lectures but never turns in a reflection. What can be concluded?",
+       "options": [
+        "The student will receive two certificates",
+        "The student must reserve seats again",
+        "The student cannot attend the reception",
+        "The student will not receive a certificate"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the speaker mention a resume?",
+       "options": [
+        "To ask students to submit their resumes",
+        "To point out a practical benefit of the certificate",
+        "To explain who the speakers are",
+        "To announce a job fair after the lectures"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Which student would most likely benefit from the online recordings?",
+       "options": [
+        "A student who has a class every Wednesday evening",
+        "A student who has already reserved a seat",
+        "A student who wants to meet the speakers",
+        "A student who wants to learn about cooking at home"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What did you eat for lunch today?",
+       "answer": "I had a sandwich and some soup at the cafeteria",
+       "distractor": "eaten"
+      },
+      {
+       "context": "When is the next club meeting?",
+       "answer": "The next meeting is on Thursday at three",
+       "distractor": "in"
+      },
+      {
+       "context": "Do you want to study together tonight?",
+       "answer": "Sure I can meet you after dinner",
+       "distractor": "meeting"
+      },
+      {
+       "context": "Where did you buy that jacket?",
+       "answer": "I bought it at a store near my apartment",
+       "distractor": "buy"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Why are you leaving so early?",
+       "answer": "I have to pick up my sister from the airport",
+       "distractor": "picked"
+      },
+      {
+       "context": "Did you finish the reading for tomorrow?",
+       "answer": "Not yet but I plan to finish it tonight",
+       "distractor": "planning"
+      },
+      {
+       "context": "What did the professor say about the project?",
+       "answer": "She said we could choose our own topics",
+       "distractor": "told"
+      },
+      {
+       "context": "How long have you worked at the cafe?",
+       "answer": "I have been working there since last summer",
+       "distractor": "for"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Why wasn't your roommate at the review session?",
+       "answer": "She had already reviewed the material on her own",
+       "distractor": "have"
+      },
+      {
+       "context": "Do you know when the library closes during finals?",
+       "answer": "I think it stays open until midnight during exam week",
+       "distractor": "opens"
+      },
+      {
+       "context": "What would you do differently next semester?",
+       "answer": "I would start my research papers much earlier than I did",
+       "distractor": "will"
+      },
+      {
+       "context": "Is the new schedule better for you?",
+       "answer": "Not really since most of my classes overlap with work",
+       "distractor": "overlapping"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "discussion",
+   "shared": {
+    "professor": "Dr. Morgan",
+    "course": "Urban Studies",
+    "question": "Many cities are trying to reduce traffic and air pollution in their downtown areas. Some planners have proposed banning private cars from city centers entirely, allowing only public transit, bicycles, delivery vehicles, and emergency services. Should city centers ban private cars? Why or why not?",
+    "posts": [
+     {
+      "name": "Priya",
+      "text": "I support a ban. Without cars, streets could be turned into wider sidewalks, bike lanes, and outdoor seating, which would make downtown areas safer and more pleasant for pedestrians. Cleaner air is another major benefit. People would adjust quickly, especially if cities used the money saved on road maintenance to improve buses and trains."
+     },
+     {
+      "name": "Daniel",
+      "text": "A complete ban seems unfair to me. Older people, parents with young children, and people with disabilities often depend on cars to get around. Also, many small businesses downtown rely on customers who drive in from the suburbs. I think a better solution would be higher parking fees or limits on cars during the busiest hours."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "A server talking to customers at a restaurant",
+    "sentences": [
+     "Your table will be ready soon.",
+     "Can I get you something to drink first?",
+     "Today's special is grilled salmon with roasted vegetables and rice.",
+     "If you have any food allergies, please let me know before you order.",
+     "All of our pasta dishes come with a small salad and fresh bread on the side.",
+     "If you'd like dessert later, our chocolate cake is very popular, but it usually sells out by eight."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "A teacher who influenced you",
+    "questions": [
+     "Tell me about a teacher who had an important influence on you. What was this teacher like?",
+     "How did this teacher change the way you study or think?",
+     "Some people believe a teacher's personality matters more than the teacher's knowledge of the subject. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

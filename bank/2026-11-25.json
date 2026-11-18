@@ -1,0 +1,913 @@
+{
+ "id": "2026-11-25",
+ "date": "2026-11-25",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:16Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 6,
+  "fixed": [
+   "W0 4.5 #2-#4 word order/ambiguity",
+   "W0 5.5 #1 if/whether distractor"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How animals sleep differently from humans"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Animals do not all sleep the same way humans do. Most people {sl|eep} for about eight hours in one long {bl|ock} at night. Many {ani|mals} sleep in short pieces {ins|tead}. A giraffe may sleep for only a {f|ew} minutes at a time. Some bats sleep for {alm|ost} twenty hours a day. Dolphins can {re|st} one half of the brain {wh|ile} the other half stays awake. This {he|lps} them breathe and {wa|tch} for danger."
+    },
+    "4.5": {
+     "paragraph": "Sleep patterns in the animal kingdom differ greatly from the human pattern of one long nightly rest. Many {spe|cies} divide their sleep into short {per|iods} spread across the day and night. Large {pl|ant}-eating animals such as giraffes sleep {on|ly} a few hours in total, {prob|ably} because lying down makes them {vulne|rable} to predators. Dolphins {so|lve} a different problem: they rest {o|ne} half of the brain at a {ti|me}, so they can {ke|ep} surfacing to breathe."
+    },
+    "5.5": {
+     "paragraph": "Comparative studies reveal that the consolidated, nightly sleep of humans is far from universal among animals. Many {mam|mals} exhibit polyphasic sleep, {distri|buting} brief episodes across the {ent|ire} day. Dolphins and some {seab|irds} display unihemispheric sleep, in {wh|ich} one cerebral hemisphere {re|sts} while the other remains {al|ert}, allowing continued {brea|thing} or vigilance against predators. Researchers {attr|ibute} such variation largely to {ecolo|gical} pressures, including the risk of predation and the considerable energy demands of foraging."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Flyer",
+    "text": "VOLUNTEER READING TUTORS NEEDED!\n\nOur public library is looking for volunteers to help children in grades 1-4 improve their reading.\n\nWhat you'll do:\n- Read one-on-one with a child for 45 minutes each week\n- Play simple word games and help with library books\n\nWhen: Tuesdays or Thursdays, 3:30-5:00 p.m., January through April\n\nRequirements:\n- Must be 16 or older\n- Commit to at least one afternoon per week for the full program\n- Attend a free two-hour training session on Saturday, January 9\n\nNo teaching experience is needed! College students can count these hours toward community service requirements.\n\nTo apply, fill out the form at the front desk by December 15. Questions? Ask for Maria in the Children's Room."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the flyer?",
+       "options": [
+        "To find volunteers to help children read",
+        "To advertise new children's books",
+        "To hire paid teachers for the library",
+        "To announce a reading contest for students"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "How old must volunteers be?",
+       "options": [
+        "At least 16",
+        "Any age",
+        "At least 18",
+        "Between 16 and 20"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "When is the training session?",
+       "options": [
+        "Thursday afternoons",
+        "Saturday, January 9",
+        "Every Tuesday",
+        "December 15"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What will volunteers mainly do?",
+       "options": [
+        "Read individually with a child each week",
+        "Check out books at the front desk",
+        "Teach a class of reading students",
+        "Organize books on library shelves"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What must applicants do by December 15?",
+       "options": [
+        "Call the Children's Room",
+        "Turn in a form at the front desk",
+        "Attend a training session",
+        "Choose a child to work with"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about people with no teaching experience?",
+       "options": [
+        "They are not allowed to apply",
+        "They will be prepared through the training",
+        "They must take an extra course",
+        "They can only help with games"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A student can volunteer only during January and February. What can be concluded?",
+       "options": [
+        "She can volunteer on both Tuesdays and Thursdays",
+        "She should skip the training session",
+        "She qualifies if she is a college student",
+        "She does not meet the program's time commitment"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the flyer mention community service requirements?",
+       "options": [
+        "To warn students that hours are not counted",
+        "To explain why the program is unpaid",
+        "To appeal to college students as possible volunteers",
+        "To show that only college students may apply"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which person is best suited for this program?",
+       "options": [
+        "A teacher who can volunteer one Saturday a month",
+        "A person who can come every Thursday from January to April",
+        "A student who wants to apply on December 20",
+        "A 15-year-old who loves reading to children"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "Why Roman Concrete Lasted",
+    "text": "Many concrete structures built today begin to crack and crumble within a century. Yet some structures built by the ancient Romans, such as the great dome of the Pantheon in Rome and harbor walls along the Mediterranean coast, have survived for nearly two thousand years. For a long time, scientists could not fully explain why Roman concrete was so durable.\n\nPart of the answer lies in its ingredients. Roman builders mixed lime with volcanic ash, which reacted chemically to form a strong binding material. In harbor walls, seawater slowly seeped into the concrete and reacted with the ash, producing new mineral crystals. These crystals filled tiny gaps and actually made the material stronger over time, whereas seawater gradually weakens most modern concrete.\n\nResearchers have also found small white lumps of lime scattered throughout ancient Roman concrete. These lumps were once dismissed as signs of careless mixing, but recent studies suggest they served a purpose. When a crack forms and water enters it, the water dissolves some of the lime, which then hardens again and seals the crack. In effect, the concrete could repair itself. Today, engineers are studying these ancient techniques in the hope of designing modern concrete that lasts longer and requires fewer repairs."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why modern buildings are taller than Roman ones",
+        "Why some Roman concrete has lasted so long",
+        "How the Pantheon was designed",
+        "How volcanoes form new minerals"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What did Roman builders mix with lime?",
+       "options": [
+        "Volcanic ash",
+        "Small stones",
+        "Sand from rivers",
+        "Seawater only"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"durable\" in the passage is closest in meaning to",
+       "options": [
+        "long-lasting",
+        "heavy",
+        "expensive",
+        "beautiful"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the passage, what happened when seawater entered Roman harbor walls?",
+       "options": [
+        "New crystals formed and made the walls stronger",
+        "The walls turned white",
+        "The lime washed out of the concrete",
+        "The walls began to crumble"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can the white lumps of lime do?",
+       "options": [
+        "Help seal cracks",
+        "Change the color of the concrete",
+        "Make concrete lighter",
+        "Keep seawater out completely"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention the dome of the Pantheon?",
+       "options": [
+        "To give an example of a very long-lasting Roman structure",
+        "To show that Romans built mainly with stone",
+        "To compare Roman and modern domes",
+        "To explain how volcanic ash was collected"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 2, how is Roman concrete different from most modern concrete?",
+       "options": [
+        "It cracks more easily",
+        "It contains no lime",
+        "It was mixed with seawater on purpose",
+        "It can become stronger when exposed to seawater"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"scattered\" in the passage is closest in meaning to",
+       "options": [
+        "broken",
+        "spread",
+        "melted",
+        "hidden"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What did people once believe about the white lumps of lime?",
+       "options": [
+        "They were the result of poor mixing",
+        "They made the concrete stronger",
+        "They were added for decoration",
+        "They came from the ocean"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about engineers today?",
+       "options": [
+        "They have stopped using lime in concrete",
+        "They plan to rebuild Roman harbors",
+        "They think Roman methods could improve modern concrete",
+        "They believe modern concrete is already perfect"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author begin by mentioning modern concrete that cracks within a century?",
+       "options": [
+        "To suggest that Roman structures also needed repairs",
+        "To create a contrast that highlights the durability of Roman concrete",
+        "To argue that modern builders are careless",
+        "To explain how modern concrete is produced"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"dismissed\" in the passage is closest in meaning to",
+       "options": [
+        "removed carefully",
+        "examined closely",
+        "regarded as unimportant",
+        "proven to be harmful"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from paragraph 2? \"These crystals filled tiny gaps and actually made the material stronger over time, whereas seawater gradually weakens most modern concrete.\"",
+       "options": [
+        "Seawater weakens concrete unless crystals are added before construction.",
+        "Seawater strengthened Roman concrete through new crystals, but it weakens most modern concrete.",
+        "Over time, crystals form in both Roman and modern concrete.",
+        "Modern concrete has tiny gaps that Roman concrete did not have."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the phrase \"In effect\" in paragraph 3 indicate about the statement that follows?",
+       "options": [
+        "It describes a separate discovery",
+        "It summarizes the result of the process just described",
+        "It introduces an opinion that researchers reject",
+        "It contradicts the previous sentence"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Based on the passage, which situation would most likely activate the self-repair process in Roman concrete?",
+       "options": [
+        "Rainwater enters a newly formed crack",
+        "The concrete is heated by strong sunlight",
+        "A wall stays completely dry for many years",
+        "Builders add extra volcanic ash to the surface"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Do you know when the library closes tonight?",
+       "options": [
+        "I think it's open until ten.",
+        "I knew it last night.",
+        "I closed the book already.",
+        "The library has many books."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Can I borrow your pen for a second?",
+       "options": [
+        "Sure, here you go.",
+        "I can borrow it tomorrow.",
+        "The pen is blue.",
+        "I bought it last second."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "How was your first week of classes?",
+       "options": [
+        "It was a week ago.",
+        "Pretty busy, but I like my teachers.",
+        "I have five classes.",
+        "The class is on Monday."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "Please take a seat at the table.",
+        "No, go ahead and sit down.",
+        "I took a test yesterday.",
+        "The seats are very soft."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Where should I turn in my homework?",
+       "options": [
+        "It's due next week.",
+        "My homework is done.",
+        "Just leave it on my desk.",
+        "I turned left at the corner."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "I've been meaning to ask, did you ever hear back about that internship?",
+       "options": [
+        "Yes, I start in January!",
+        "I heard it was loud.",
+        "The internship is in a big office.",
+        "I've been meaning to go there."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Would you rather meet before or after lunch?",
+       "options": [
+        "We met after lunch last time.",
+        "Lunch is served at noon.",
+        "After works better for me.",
+        "I'd rather have pasta."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "The printer in the lab is out of paper again.",
+       "options": [
+        "I'll let the front desk know.",
+        "The lab is on the second floor.",
+        "Paper is made from trees.",
+        "I'll print it out later."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Have you had a chance to look at my draft yet?",
+       "options": [
+        "The draft was very cold.",
+        "I'm looking for my keys.",
+        "Not yet, but I'll read it tonight.",
+        "I had a chance last year."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Why don't you join us for the study group on Sunday?",
+       "options": [
+        "The group has six people.",
+        "I don't join clubs at school.",
+        "I'd love to. What time?",
+        "Because I studied on Sunday."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "You wouldn't happen to have a charger I could borrow, would you?",
+       "options": [
+        "Sorry, I left mine in my dorm.",
+        "I happened to see him yesterday.",
+        "My phone is fully charged.",
+        "You're welcome to borrow anything."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "I'm totally swamped this week. Any chance we can push our meeting back?",
+       "options": [
+        "The meeting was very useful.",
+        "Sure, how about next Tuesday instead?",
+        "I pushed the door open.",
+        "It's been swampy outside all week."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "That lecture went right over my head.",
+       "options": [
+        "The ceiling in that room is really high.",
+        "I'll put it over there.",
+        "He lectured for an hour.",
+        "Same here. Want to go over the notes together?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I can't make heads or tails of this assignment sheet.",
+       "options": [
+        "Heads usually wins.",
+        "I'll make a copy for you.",
+        "Want me to walk you through it?",
+        "Let's flip a coin to decide."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "If I were you, I'd get the paper started sooner rather than later.",
+       "options": [
+        "The paper is in the printer.",
+        "I'd rather go later.",
+        "I already started it last weekend.",
+        "You were here sooner than me."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "A question about a scholarship form",
+    "lines": [
+     {
+      "speaker": "Man",
+      "text": "Hi, is this the financial aid office? I have a question about a scholarship application."
+     },
+     {
+      "speaker": "Woman",
+      "text": "It is. Which scholarship are you applying for?"
+     },
+     {
+      "speaker": "Man",
+      "text": "The academic achievement scholarship. The form says I need a recommendation letter, but I'm not sure who should write it."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Ideally, it should be a professor who knows your work well. A teacher from a class where you did a big project is usually a good choice."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay. What about my supervisor at my campus job? She knows me really well."
+     },
+     {
+      "speaker": "Woman",
+      "text": "For this particular scholarship, the committee wants someone who can talk about your academic abilities. So a professor is better. Your supervisor could write one for the service scholarship, though."
+     },
+     {
+      "speaker": "Man",
+      "text": "Oh, I didn't know there was a service scholarship."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Yeah, a lot of students miss it. You can apply for both with the same online account."
+     },
+     {
+      "speaker": "Man",
+      "text": "Great. One more thing. The deadline is next Friday, but my professor said she might need two weeks to write the letter."
+     },
+     {
+      "speaker": "Woman",
+      "text": "That's fine. The application itself has to be in by Friday, but recommendation letters can come in up to one week later."
+     },
+     {
+      "speaker": "Man",
+      "text": "That's a relief. I'll submit the form this week and ask her today, then."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the man go to the financial aid office?",
+       "options": [
+        "To change his class schedule",
+        "To apply for a campus job",
+        "To ask about a scholarship form",
+        "To pick up a paycheck"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Who does the woman say should write his letter?",
+       "options": [
+        "A professor who knows his work",
+        "His job supervisor",
+        "A friend",
+        "Someone in the financial aid office"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What will the man probably do next?",
+       "options": [
+        "Quit his campus job",
+        "Ask his professor for a letter",
+        "Apply only for the service scholarship",
+        "Wait until next semester"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the conversation mainly about?",
+       "options": [
+        "How to complete a scholarship application",
+        "How to find a campus job",
+        "Why a scholarship was canceled",
+        "Problems with an online account"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the woman mention the service scholarship?",
+       "options": [
+        "The man is not eligible for the academic one",
+        "The man's supervisor could write a letter for it",
+        "The deadline for it has already passed",
+        "It gives more money than other scholarships"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the woman say about recommendation letters?",
+       "options": [
+        "They are optional",
+        "They can arrive up to a week after the deadline",
+        "They must be sent by mail",
+        "They must arrive before the application"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the woman say \"a lot of students miss it\"?",
+       "options": [
+        "To explain that the service scholarship is often overlooked",
+        "To suggest the service scholarship is less competitive than expected",
+        "To criticize the man for not reading the website",
+        "To warn him that the deadline is very early"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the man's professor?",
+       "options": [
+        "She will probably finish the letter within the allowed time",
+        "She has already sent a letter to the committee",
+        "She works in the financial aid office",
+        "She will not be able to write the letter in time"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the man say \"That's a relief\"?",
+       "options": [
+        "He has decided not to apply",
+        "His supervisor agreed to write the letter",
+        "He no longer needs a recommendation letter",
+        "His concern about the letter's timing is resolved"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "announcement",
+   "shared": {
+    "title": "Holiday dining hall hours",
+    "speaker": "Dining Services manager",
+    "text": "Hi everyone, this is a quick announcement from Dining Services about the Thanksgiving break. Starting Wednesday, the main dining hall will switch to holiday hours. On Wednesday, we'll serve breakfast and lunch as usual, but we'll close at two in the afternoon, so there won't be any dinner that night. The dining hall will be completely closed Thursday and Friday. On Saturday and Sunday, we'll be open from eleven to six, serving brunch and an early dinner only. Regular hours start again on Monday morning. If you're staying on campus over the break, the convenience store in the student center will be open every day except Thursday, and it does accept meal plan dollars. Also, students who'll be here on Thursday can sign up for a free community Thanksgiving dinner at the front desk. Space is limited, so please sign up by Tuesday."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the announcement mainly about?",
+       "options": [
+        "A cooking class during the break",
+        "Changes to dining hours during a holiday",
+        "A job opening in Dining Services",
+        "A new menu in the dining hall"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "On which days is the dining hall completely closed?",
+       "options": [
+        "Friday and Saturday",
+        "Thursday and Friday",
+        "Wednesday and Thursday",
+        "Saturday and Sunday"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "When do regular hours start again?",
+       "options": [
+        "Wednesday afternoon",
+        "Monday morning",
+        "Sunday evening",
+        "Saturday at eleven"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What will NOT be served on Wednesday?",
+       "options": [
+        "Lunch",
+        "Brunch",
+        "Breakfast",
+        "Dinner"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the speaker say about the convenience store?",
+       "options": [
+        "It is open on Thursday only",
+        "It closes for the whole break",
+        "It serves free meals",
+        "It accepts meal plan dollars"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What should students do if they want the free Thanksgiving dinner?",
+       "options": [
+        "Sign up at the front desk by Tuesday",
+        "Email Dining Services",
+        "Pay with meal plan dollars",
+        "Arrive early on Thursday"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A student wants a hot meal on campus at 7 p.m. on Saturday. What can be concluded?",
+       "options": [
+        "She can only buy food on Thursday",
+        "The dining hall will already be closed",
+        "She can eat at the dining hall",
+        "She must sign up by Tuesday"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the speaker say \"Space is limited\"?",
+       "options": [
+        "To ask students to leave campus",
+        "To encourage students to sign up soon",
+        "To apologize for the small dining room",
+        "To explain why the dining hall is closing"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about the community dinner?",
+       "options": [
+        "It is only for students who live off campus",
+        "It is held on Wednesday evening",
+        "It costs the same as a regular meal",
+        "It replaces the dining hall meal on a day it is closed"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "Where are you going after class?",
+       "answer": "I am going to the library to study",
+       "distractor": "went"
+      },
+      {
+       "context": "What did you do last weekend?",
+       "answer": "I visited my aunt and cooked dinner with her",
+       "distractor": "visit"
+      },
+      {
+       "context": "Do you need help with your bags?",
+       "answer": "Yes could you please carry this small one for me",
+       "distractor": "carried"
+      },
+      {
+       "context": "Why were you late this morning?",
+       "answer": "I missed the bus because my alarm did not ring",
+       "distractor": "miss"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Did you finish the reading for tomorrow?",
+       "answer": "I read most of it but I still have one chapter left",
+       "distractor": "reading"
+      },
+      {
+       "context": "What did the advisor tell you?",
+       "answer": "She said I should take the statistics course first",
+       "distractor": "told"
+      },
+      {
+       "context": "Can you tell me where the career center is?",
+       "answer": "It is right next to the bookstore",
+       "distractor": "beside"
+      },
+      {
+       "context": "Why did you change your major?",
+       "answer": "I realized that I really love writing",
+       "distractor": "loving"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Did the professor say anything about the final exam?",
+       "answer": "She wanted to know whether we had reviewed the last unit",
+       "distractor": "that"
+      },
+      {
+       "context": "Why is the lab closed today?",
+       "answer": "It is being cleaned after a chemical spill yesterday afternoon",
+       "distractor": "cleaning"
+      },
+      {
+       "context": "What do you wish you had done differently?",
+       "answer": "I wish I had started my research paper much earlier",
+       "distractor": "have"
+      },
+      {
+       "context": "How did the interview go?",
+       "answer": "It went better than I expected given how nervous I was",
+       "distractor": "although"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "discussion",
+   "shared": {
+    "professor": "Dr. Alvarez",
+    "course": "Sociology",
+    "question": "Many parents and lawmakers are worried about how much time teenagers spend on social media. Some people believe there should be clear limits, such as age rules or daily time limits set by schools, parents, or the government. Others think teenagers should learn to manage their own use. Which approach do you think is better, and why?",
+    "posts": [
+     {
+      "name": "Kenji",
+      "text": "I think limits are necessary. Social media apps are designed to keep people scrolling, and teenagers are still developing self-control. When I was fifteen, I often stayed up past midnight on my phone and felt tired at school. A simple rule, like no phones after ten, would have helped me sleep and focus much better."
+     },
+     {
+      "name": "Sofia",
+      "text": "I disagree with strict limits. Teenagers will eventually be adults with unlimited access, so they need to practice making good choices now. Instead of banning apps, schools should teach students how algorithms work and how to notice when they are using social media too much. Learning these skills is more useful than following a rule."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Signing up for a gym membership",
+    "sentences": [
+     "I'd like to join the gym.",
+     "Do you offer a discount for students?",
+     "The monthly membership includes all of our fitness classes.",
+     "You'll need to show a photo ID and fill out this form.",
+     "Lockers are free to use, but you have to bring your own lock.",
+     "If you cancel your membership, please let us know at least thirty days before your next monthly payment."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Friendship",
+    "questions": [
+     "Tell me about a close friend of yours. How did you two first meet?",
+     "Describe a time when a friend helped you through a difficult situation. What did they do?",
+     "Some people say it is better to have a few close friends than many casual friends. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

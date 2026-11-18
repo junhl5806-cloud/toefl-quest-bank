@@ -1,0 +1,941 @@
+{
+ "id": "2026-11-24",
+ "date": "2026-11-24",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:49Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 4,
+  "fixed": [
+   "W0 4.5 #1,#3 word order",
+   "W0 5.5 #2 context",
+   "L1 5.5 q1 option form"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How the moon causes tides"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "The ocean rises and falls about twice each day, and these changes are called tides. The main {ca|use} of tides is the {mo|on}. The moon's {gra|vity} pulls on the {Ea|rth} and on its {wa|ter}. The water on the side {fac|ing} the moon is pulled {tow|ard} it, so it {fo|rms} a bulge. Another bulge forms on the {oppo|site} side of the Earth. As the Earth {tu|rns}, each place on the coast passes through both bulges, so it has about two high tides and two low tides each day."
+    },
+    "4.5": {
+     "paragraph": "Tides are the regular rise and fall of sea level along coastlines. They are {prod|uced} mainly by the moon's {gravit|ational} pull, which is {slig|htly} stronger on the side of Earth {nea|rest} the moon. This {diffe|rence} stretches the oceans into two {bul|ges}, one facing the moon and one on the {oppo|site} side. As Earth {rot|ates}, a coastal location moves through both bulges, {experi|encing} two high tides in a little more than a day. The sun has a {sim|ilar} but weaker effect."
+    },
+    "5.5": {
+     "paragraph": "Tides result primarily from the moon's gravitational influence on Earth's oceans. Because gravity {wea|kens} with distance, the moon pulls {mo|re} strongly on water on the near side of the planet than on Earth's {cen|ter}, and more {stro|ngly} on the center than on the far side. This {differ|ential} force {elon|gates} the oceans into two bulges. When the sun and moon {al|ign} during new and full moons, their effects {com|bine} to produce {unus|ually} large spring tides, whereas their {perpen|dicular} arrangement at quarter moons yields modest neap tides."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Schedule",
+    "text": "Campus Fitness Center – Weekly Schedule (Fall Semester)\n\nBuilding Hours\nMonday–Thursday: 6:00 a.m. – 11:00 p.m.\nFriday: 6:00 a.m. – 8:00 p.m.\nSaturday: 9:00 a.m. – 6:00 p.m.\nSunday: Closed\n\nGroup Classes (free with student ID)\nMonday & Wednesday, 7:00 a.m.: Morning Yoga – Studio A\nTuesday & Thursday, 5:30 p.m.: Indoor Cycling – Studio B (sign up online; only 20 bikes)\nFriday, 4:00 p.m.: Beginner Strength Training – Weight Room (no experience needed)\nSaturday, 10:00 a.m.: Dance Fitness – Studio A\n\nNotes\n• The pool closes one hour before the building does.\n• The weight room is reserved for the swim team on Tuesdays from 3:00 to 5:00 p.m.\n• Towels are available at the front desk for $1."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "On which day is the fitness center closed?",
+       "options": [
+        "Friday",
+        "Sunday",
+        "Monday",
+        "Saturday"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What do students need to take a group class for free?",
+       "options": [
+        "A $1 ticket",
+        "A student ID",
+        "A swim team membership",
+        "A towel"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Where is the Dance Fitness class held?",
+       "options": [
+        "The pool",
+        "Studio B",
+        "The weight room",
+        "Studio A"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Which class requires students to sign up in advance?",
+       "options": [
+        "Indoor Cycling",
+        "Beginner Strength Training",
+        "Morning Yoga",
+        "Dance Fitness"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What time does the pool close on Fridays?",
+       "options": [
+        "11:00 p.m.",
+        "7:00 p.m.",
+        "6:00 p.m.",
+        "8:00 p.m."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why do students most likely need to sign up for Indoor Cycling?",
+       "options": [
+        "Only a limited number of bikes are available",
+        "The class starts very early in the morning",
+        "The class is only for the swim team",
+        "The class costs extra money"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "A student wants to swim after the Saturday Dance Fitness class. What is the latest time the pool is open that day?",
+       "options": [
+        "6:00 p.m.",
+        "5:00 p.m.",
+        "10:00 p.m.",
+        "11:00 p.m."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "A student who is not on the swim team wants to lift weights on a Tuesday afternoon. What should he do?",
+       "options": [
+        "Arrive at the weight room after 5:00 p.m.",
+        "Go to Studio B at 3:00 p.m.",
+        "Sign up online for a bike",
+        "Go to the weight room at 4:00 p.m."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which student would the Friday class most likely be designed for?",
+       "options": [
+        "An experienced swimmer training for a race",
+        "Someone who wants to do yoga early in the morning",
+        "Someone who has never lifted weights before",
+        "A student who can exercise only on Sundays"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "The Monarch Butterfly Migration",
+    "text": "Every autumn, millions of monarch butterflies in eastern North America begin one of the most remarkable journeys in the insect world. They fly south thousands of kilometers to spend the winter in a small number of mountain forests in central Mexico. There, they gather in dense clusters on fir trees, where the cool but rarely freezing temperatures allow them to conserve energy until spring.\n\nWhat makes this migration especially puzzling is that no single butterfly completes the entire round trip. The monarchs that fly south in the fall belong to a special generation that can live for about eight months, far longer than the few weeks typical of summer monarchs. In spring, these long-lived butterflies travel north and lay eggs on milkweed, the only plant their caterpillars can eat. Their offspring continue the journey, and it takes several generations to reach the northern breeding grounds again. Yet the next autumn, butterflies that have never made the trip find their way back to the same forests.\n\nScientists have discovered that monarchs navigate partly by using the position of the sun, adjusting for its movement across the sky with an internal clock in their antennae. However, the migration now faces threats. The loss of milkweed on farmland and the clearing of the Mexican forests have reduced the number of overwintering monarchs, leading conservation groups to plant milkweed along the migration route."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "The forests of central Mexico",
+        "The long journey monarch butterflies make each year",
+        "Why monarchs live only a few weeks",
+        "How monarch caterpillars eat milkweed"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Where do eastern monarchs spend the winter?",
+       "options": [
+        "On farms along the route",
+        "In warm coastal cities",
+        "In mountain forests in central Mexico",
+        "In northern Canada"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"remarkable\" in the passage is closest in meaning to",
+       "options": [
+        "amazing",
+        "dangerous",
+        "short",
+        "ordinary"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the passage, what do monarch caterpillars eat?",
+       "options": [
+        "Flowers of many kinds",
+        "Tree bark",
+        "Fir needles",
+        "Milkweed"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the passage, what helps monarchs find their way?",
+       "options": [
+        "The position of the sun",
+        "The smell of milkweed",
+        "Older butterflies that lead them",
+        "Strong mountain winds"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention that the fall generation can live for about eight months?",
+       "options": [
+        "To describe how quickly caterpillars grow",
+        "To explain how these butterflies can survive the long trip and the winter",
+        "To argue that summer monarchs are weak fliers",
+        "To show that monarchs are larger than other butterflies"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"conserve\" in the passage is closest in meaning to",
+       "options": [
+        "save",
+        "lose",
+        "share",
+        "produce"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 2, how do monarchs return to the northern breeding grounds?",
+       "options": [
+        "Exactly two generations complete the trip",
+        "Several generations complete the journey",
+        "One generation flies the whole way",
+        "The same butterflies that flew south return directly"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about the monarchs that fly to Mexico each autumn?",
+       "options": [
+        "They learned the route from their parents",
+        "They have never been to the Mexican forests before",
+        "They are the same butterflies that left in spring",
+        "They follow milkweed plants south"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why have conservation groups planted milkweed along the migration route?",
+       "options": [
+        "It helps farmers grow more crops",
+        "Its smell guides monarchs to Mexico",
+        "It keeps the Mexican forests cool",
+        "Monarchs depend on it to reproduce, and it has been disappearing"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author state that \"no single butterfly completes the entire round trip\"?",
+       "options": [
+        "To introduce the mystery of how first-time migrants find a place they have never seen",
+        "To explain why monarchs eat only milkweed",
+        "To criticize earlier research on monarchs",
+        "To show that monarchs are weaker than other migrating insects"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"puzzling\" in the passage is closest in meaning to",
+       "options": [
+        "easy to observe",
+        "widely accepted",
+        "recently discovered",
+        "difficult to explain"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Which of the sentences below best expresses the essential information in the highlighted sentence? \"The monarchs that fly south in the fall belong to a special generation that can live for about eight months, far longer than the few weeks typical of summer monarchs.\"",
+       "options": [
+        "Summer monarchs fly south because they live only a few weeks.",
+        "All monarchs live about eight months, but summer monarchs fly farther.",
+        "Fall monarchs live only a few weeks longer than other butterfly species.",
+        "Fall monarchs live much longer than summer monarchs, surviving for about eight months."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about the internal clock in monarchs' antennae?",
+       "options": [
+        "It allows monarchs to navigate without seeing the sun",
+        "It controls how long fall monarchs live",
+        "It lets monarchs use the sun's changing position to keep a steady direction",
+        "It tells monarchs when milkweed is ready to eat"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred from paragraph 3 about the future of the migration?",
+       "options": [
+        "It will end soon no matter what people do",
+        "It no longer requires milkweed",
+        "It depends partly on protecting habitat both along the route and in Mexico",
+        "It has grown larger because of farming"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "Yes, I'm taking a class.",
+        "No, go ahead and sit down.",
+        "The seat is blue.",
+        "I took the bus today."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "When is the essay due?",
+       "options": [
+        "Do you like essays?",
+        "The essay is about history.",
+        "It's due next Monday.",
+        "I wrote it yesterday."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Would you like to get lunch after class?",
+       "options": [
+        "Lunch was good.",
+        "Sure, that sounds great.",
+        "I had class this morning.",
+        "She likes lunch."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "How do I get to the bookstore?",
+       "options": [
+        "Go straight and turn left at the gym.",
+        "Books are expensive.",
+        "I bought two books.",
+        "The store is closing."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Did you finish the reading for today?",
+       "options": [
+        "I finish at five.",
+        "Reading is my hobby.",
+        "Today is Tuesday.",
+        "Not yet. I'll do it at lunch."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Do you mind if I open the window?",
+       "options": [
+        "Yes, I opened it yesterday.",
+        "Not at all. It's warm in here.",
+        "The window is very big.",
+        "I don't mind the class."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Have you heard back about the internship?",
+       "options": [
+        "Yes, I'll hear it tomorrow.",
+        "Not yet. They said I'd know by Friday.",
+        "I heard it was raining.",
+        "I'm going to apply for an internship."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Why don't we study together for the midterm?",
+       "options": [
+        "The midterm was hard.",
+        "Because I didn't study.",
+        "Good idea. How about Thursday night?",
+        "We studied in the library."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Could you tell me where I can print my paper?",
+       "options": [
+        "My paper is ten pages long.",
+        "Yes, I can tell.",
+        "There are printers in the library lobby.",
+        "I printed it last night."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I'm thinking of dropping my chemistry class.",
+       "options": [
+        "The class dropped yesterday.",
+        "Really? Have you talked to your advisor?",
+        "I dropped my phone.",
+        "Chemistry is a science."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I could really use a hand with these boxes.",
+       "options": [
+        "I used the boxes last week.",
+        "Sure. Where do you want them?",
+        "You can use my hand cream.",
+        "My hands are cold."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "You wouldn't happen to have notes from Tuesday, would you?",
+       "options": [
+        "Actually, I do. I'll send them tonight.",
+        "I happen to like Tuesdays.",
+        "Notes are important.",
+        "Yes, I wouldn't."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "I'm not sure the professor's going to buy that excuse.",
+       "options": [
+        "She bought it at the store.",
+        "You're right. I should just be honest.",
+        "I'm sure I bought it.",
+        "The professor sells books."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Let's play it by ear this weekend.",
+       "options": [
+        "We played last weekend.",
+        "My ears hurt.",
+        "I can't play any instruments.",
+        "Fine, we'll decide when Saturday comes."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "The new manager seems to run a tight ship.",
+       "options": [
+        "The ship left early.",
+        "She runs every morning.",
+        "I've never been on a ship.",
+        "Yes, everyone's much more organized now."
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Making up a missed lab",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hi, are you the TA for the Biology 101 lab? I'm in the Wednesday section."
+     },
+     {
+      "speaker": "Man",
+      "text": "Yeah, that's me. What can I do for you?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "I missed last week's lab because I had a fever. I went to the health center, so I have a note from the nurse."
+     },
+     {
+      "speaker": "Man",
+      "text": "Oh, sorry to hear that. Are you feeling better now?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Much better, thanks. I'm just worried about my grade. Is there any way I can make it up?"
+     },
+     {
+      "speaker": "Man",
+      "text": "There is. Since you have a medical note, you can come to the Thursday section this week. They're a week behind your section, so they're doing the experiment you missed, the one on enzyme activity."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Thursday afternoon? Hmm, I have a math class until two."
+     },
+     {
+      "speaker": "Man",
+      "text": "That works. The Thursday lab starts at three. Just email me the note before then so I can tell the other TA you're coming."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Great. Do I still need to do the pre-lab questions?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Yes, and turn them in at the start of the session, like usual. Oh, and your lab report will be due a week after that, not this Friday like everyone else's."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Oh, that's a relief. Thanks so much."
+     },
+     {
+      "speaker": "Man",
+      "text": "No problem. And next time, try to let me know before the lab if you can."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the woman go to see the man?",
+       "options": [
+        "To ask about making up a lab she missed",
+        "To ask for a new lab partner",
+        "To return a lab report",
+        "To get help with her math class"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why did the woman miss the lab?",
+       "options": [
+        "She had to work",
+        "She had a math exam",
+        "She was sick with a fever",
+        "She forgot the time"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What time does the Thursday lab start?",
+       "options": [
+        "At two o'clock",
+        "At one o'clock",
+        "At three o'clock",
+        "At four o'clock"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What does the man ask the woman to do before Thursday?",
+       "options": [
+        "Visit the health center again",
+        "Finish her lab report",
+        "Email him her medical note",
+        "Talk to her math professor"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the man say about the woman's lab report?",
+       "options": [
+        "She doesn't have to write one",
+        "She must turn it in at the start of the lab",
+        "It is due a week after the makeup lab",
+        "It is due this Friday"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why can the woman make up the lab in the Thursday section?",
+       "options": [
+        "It is smaller than her section",
+        "The Wednesday section is full",
+        "Her math class was canceled",
+        "That section is a week behind and is doing the experiment she missed"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the man mention the woman's medical note?",
+       "options": [
+        "To ask her to show it to her math professor",
+        "To suggest she should see a doctor again",
+        "To explain why she is allowed to make up the lab",
+        "To explain why the lab was canceled"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the man imply when he says, \"next time, try to let me know before the lab if you can\"?",
+       "options": [
+        "He prefers to be told about absences in advance",
+        "He is angry that she missed the lab",
+        "She should have emailed the nurse",
+        "She will not be allowed to make up another lab"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "How does the woman feel when she hears about the report deadline?",
+       "options": [
+        "Relieved",
+        "Confused",
+        "Annoyed",
+        "Disappointed"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "How the Impressionists broke with tradition",
+    "text": "Okay, so today we're going to look at how the Impressionists broke away from the art establishment in nineteenth-century France. To understand that, you need to know what they were rebelling against. At the time, the French Academy of Fine Arts more or less controlled what counted as good art. Every year there was an official exhibition called the Salon, and if your painting wasn't accepted there, it was really hard to build a career.\n\nThe Academy had pretty clear rules. The most respected paintings showed scenes from history, mythology, or the Bible. They were usually painted in a studio, with smooth surfaces where you couldn't see the brushstrokes, and with very careful, detailed finishing.\n\nNow, the Impressionists, painters like Claude Monet and Pierre-Auguste Renoir, did pretty much the opposite. First, they chose everyday subjects: people relaxing in parks, train stations, boats on a river. Second, they often painted outdoors, which was made a lot easier by a fairly new invention, paint sold in portable metal tubes. And third, they used quick, visible brushstrokes to capture the changing effects of light. To many critics, their pictures looked unfinished, like sketches.\n\nNot surprisingly, a lot of these works were rejected by the Salon. So in 1874, the group did something bold. They organized their own independent exhibition. A critic who reviewed it made fun of Monet's painting Impression, Sunrise, and he used the word \"Impressionists\" as an insult. The artists, well, they ended up adopting the name.\n\nSo the real break wasn't just about style. It was also about showing that artists could find an audience without the Academy's approval."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "How paint tubes were invented",
+        "The life of Claude Monet",
+        "How Impressionist painters broke with the art rules of their time",
+        "Why the Salon was so popular"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the professor, which subjects did the Academy respect most?",
+       "options": [
+        "Ordinary families at home",
+        "History, mythology, and the Bible",
+        "Train stations and parks",
+        "Boats on a river"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What new invention made painting outdoors easier?",
+       "options": [
+        "Trains",
+        "Paint in portable metal tubes",
+        "Cameras",
+        "Electric lights"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Where did the name \"Impressionists\" come from?",
+       "options": [
+        "A critic used it to make fun of Monet's painting",
+        "Monet chose it for the Salon",
+        "It was the name of a park in Paris",
+        "The Academy gave it to them"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What was the Salon?",
+       "options": [
+        "An official yearly art exhibition",
+        "A school for young painters",
+        "A shop that sold painting supplies",
+        "A group of independent artists"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the professor, why did many critics dislike Impressionist paintings?",
+       "options": [
+        "They showed religious scenes",
+        "They looked unfinished, like sketches",
+        "They were painted in studios",
+        "They were too large"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What did the Impressionists do in 1874?",
+       "options": [
+        "They stopped painting outdoors",
+        "They won a prize at the Salon",
+        "They organized their own independent exhibition",
+        "They joined the Academy"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the professor mention paint sold in metal tubes?",
+       "options": [
+        "To compare the prices of art materials",
+        "To describe how studio painters worked",
+        "To explain what made painting outdoors more practical",
+        "To show that the Academy invented new tools"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What is the professor's main point at the end of the talk?",
+       "options": [
+        "Critics were right that the paintings looked unfinished",
+        "Impressionist style mattered less than their choice of subjects",
+        "The Impressionists' break was about independence from the Academy, not only style",
+        "The Academy eventually accepted all Impressionist works"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred about how the artists responded to the word \"Impressionists\"?",
+       "options": [
+        "They invented it themselves before 1874",
+        "They found it offensive and refused to use it",
+        "They accepted it even though it was first meant as an insult",
+        "They asked the critic to change it"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Why does the professor describe the Academy's rules before discussing the Impressionists?",
+       "options": [
+        "To argue that the Academy's rules were better",
+        "To list famous academic painters",
+        "To explain how to enter the Salon today",
+        "To set up a contrast that makes the Impressionists' choices clear"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Which painting would the Academy most likely have praised?",
+       "options": [
+        "A park scene with visible brushstrokes",
+        "A study of morning light on a river",
+        "A quick outdoor sketch of a train station",
+        "A smooth, detailed studio painting of a scene from mythology"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What are you doing this weekend?",
+       "answer": "I am going to visit my aunt in the city",
+       "distractor": "went"
+      },
+      {
+       "context": "Why were you late for class?",
+       "answer": "My bus was late because of the snow",
+       "distractor": "snowing"
+      },
+      {
+       "context": "Can you lend me your notes?",
+       "answer": "Sure I will bring them to class tomorrow",
+       "distractor": "brought"
+      },
+      {
+       "context": "How often do you go to the gym?",
+       "answer": "I usually go there three times a week",
+       "distractor": "every"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Did you hear the library extended its hours?",
+       "answer": "Yes it is open until midnight every night",
+       "distractor": "opened"
+      },
+      {
+       "context": "What did the professor say about the project?",
+       "answer": "She said we could work in groups of three",
+       "distractor": "says"
+      },
+      {
+       "context": "Do you know when the next shuttle leaves?",
+       "answer": "I think it leaves every fifteen minutes",
+       "distractor": "leaving"
+      },
+      {
+       "context": "Why did you change your major?",
+       "answer": "I realized I was more interested in economics",
+       "distractor": "interesting"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Have you decided whether to take the summer course?",
+       "answer": "I haven't decided yet because it depends on my work schedule",
+       "distractor": "depending"
+      },
+      {
+       "context": "The advising office isn't in this building anymore.",
+       "answer": "Do you know which building it moved to last month",
+       "distractor": "where"
+      },
+      {
+       "context": "Why didn't you go to the concert?",
+       "answer": "I would have gone if I hadn't had to work",
+       "distractor": "went"
+      },
+      {
+       "context": "What did your advisor recommend?",
+       "answer": "She suggested that I take statistics before the research methods course",
+       "distractor": "taking"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "You are the secretary of your university's photography club. The club's end-of-semester photo show was planned for the student center this Saturday, but the room is no longer available because of a water leak. The club has found a new place for the event, and you need to tell the members.",
+    "recipient": "All members of the photography club",
+    "points": [
+     "Explain that the location has changed and why",
+     "Give the new location and any change to the start time",
+     "Ask members to confirm whether they can still help set up"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Checking in at an airport",
+    "sentences": [
+     "May I see your passport, please?",
+     "Are you checking any bags with us today?",
+     "Please place your suitcase on the scale next to the counter.",
+     "Your bag is a little over the weight limit, so there's an extra fee.",
+     "Your flight leaves from gate twelve, and boarding usually begins about forty minutes before departure.",
+     "Please keep your boarding pass ready, and try to go through security at least an hour before boarding."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Travel experiences",
+    "questions": [
+     "Tell me about a trip you still remember well. Where did you go, and what made it memorable?",
+     "What was one problem you had while traveling, and how did you deal with it?",
+     "Some people think traveling alone teaches you more than traveling with friends or family. Do you agree? Why or why not?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

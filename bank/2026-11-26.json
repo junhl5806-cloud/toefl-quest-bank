@@ -1,0 +1,937 @@
+{
+ "id": "2026-11-26",
+ "date": "2026-11-26",
+ "version": 1,
+ "createdAt": "2026-11-18T05:17:04Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 5,
+  "fixed": [
+   "W0 3.5 #2,#4 word order",
+   "W0 5.5 #1 has/had distractor",
+   "R0 5.5 characteristically blank -> characteristic"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How glaciers shape valleys"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Glaciers are huge, slow rivers of ice. As a glacier {mo|ves} down a {val|ley}, it {pi|cks} up {ro|cks} and {dr|ags} them {al|ong} the {gro|und}. These {ro|cks} act {li|ke} sandpaper and scrape the valley floor and {si|des}. Over thousands of years, a narrow valley shaped like the letter V becomes wide and deep, with a shape like the letter U. Many beautiful mountain valleys today were shaped this way by glaciers long ago."
+    },
+    "4.5": {
+     "paragraph": "Glaciers are powerful agents of erosion that can reshape entire mountain valleys. As a glacier {slo|wly} advances, {ro|cks} frozen into its {ba|se} grind {aga|inst} the {bed|rock} beneath it. This {pro|cess}, known as {abra|sion}, polishes and {scra|tches} the valley floor. At the same time, plucking pulls {lo|ose} blocks of rock away from the walls. Together, these processes {tran|sform} narrow V-shaped river valleys into broad U-shaped troughs. Many of these troughs were carved during the last ice age, when glaciers covered far more land than they do today."
+    },
+    "5.5": {
+     "paragraph": "Few geological forces reshape mountain landscapes as dramatically as moving glacial ice. When a valley glacier {adva|nces}, debris {embe|dded} in its base {func|tions} as an abrasive, {gou|ging} striations into the {under|lying} bedrock. {Simulta|neously}, meltwater {refr|eezes} in fractures, {enab|ling} the ice to pluck {ang|ular} blocks from the valley walls. The cumulative result is a {charact|eristic} U-shaped trough with steep sides, a flat floor, and tributary valleys left hanging high above it. Such distinctive features allow geologists to identify regions that were once buried beneath ice."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Text messages",
+    "text": "Maya (6:42 PM): Hey Sam, can we figure out a chore plan? The kitchen has been a mess all week.\nSam (6:45 PM): Yeah, sorry about that. Midterms. What are you thinking?\nMaya (6:47 PM): We switch every week. One person does the dishes and takes out the trash. The other cleans the bathroom and vacuums.\nSam (6:50 PM): Works for me. Can I do the bathroom this week? I have a late lab on Tuesday and Thursday, so doing dishes every night would be hard.\nMaya (6:52 PM): Sure. Just remember the trash goes out Sunday night, because pickup is Monday morning.\nSam (6:53 PM): Got it. Let's also split shared stuff like dish soap and paper towels 50/50.\nMaya (6:55 PM): Deal. I'll put the schedule on the fridge tonight."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the messages?",
+       "options": [
+        "To make a plan for sharing household chores",
+        "To plan a party for the weekend",
+        "To complain about a noisy neighbor",
+        "To choose a new apartment"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "When does the trash need to go out?",
+       "options": [
+        "Every night",
+        "Tuesday night",
+        "Sunday night",
+        "Monday morning"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What will Maya do with the schedule?",
+       "options": [
+        "Ask their landlord to check it",
+        "Put it on the fridge",
+        "Change it every day",
+        "Send it to Sam by email"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does Sam want to clean the bathroom this week?",
+       "options": [
+        "He dislikes washing dishes",
+        "The bathroom is very dirty",
+        "Maya asked him to do it",
+        "He has a late lab on two nights"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does Sam suggest about things like dish soap and paper towels?",
+       "options": [
+        "They should split the cost equally",
+        "Each person should buy their own",
+        "Maya should buy all of them",
+        "They should stop buying paper towels"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the kitchen?",
+       "options": [
+        "Dishes have not been done regularly lately",
+        "Sam cleaned it last week",
+        "It is too small for two people",
+        "It was recently repaired"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does Sam mention midterms?",
+       "options": [
+        "To explain why he wants to vacuum",
+        "To suggest that they delay the plan",
+        "To ask Maya for help studying",
+        "To explain why he hasn't helped much recently"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the plan, which chores will Sam most likely do next week?",
+       "options": [
+        "All of the chores",
+        "Cleaning the bathroom and vacuuming",
+        "Washing the dishes and taking out the trash",
+        "Only buying shared supplies"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Who will most likely take out the trash this Sunday?",
+       "options": [
+        "Both roommates together",
+        "Whoever gets home first",
+        "Maya, because Sam is cleaning the bathroom this week",
+        "Sam, because he has fewer classes"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "Coffeehouses and the Spread of News in Early Modern London",
+    "text": "In 1652, the first coffeehouse opened in London, and within a few decades the city had hundreds of them. These establishments sold more than a new drink recently introduced from the Ottoman Empire. For the price of a penny, a customer could buy a cup of coffee and stay for hours, reading the newspapers and pamphlets that owners provided and joining conversations with strangers. Because of this cheap access to information and debate, coffeehouses were sometimes called \"penny universities.\"\n\nCoffeehouses became important centers for the spread of news. Few people could afford to buy every printed publication, so they gathered where papers were shared and often read aloud. Some coffeehouses attracted customers with particular interests. Merchants met in houses where shipping news was posted, while writers and scientists gathered in others. Rumors, political arguments, and reports from abroad passed quickly from one table to the next.\n\nNot everyone welcomed this development. In 1675, King Charles II issued a proclamation ordering coffeehouses to close, partly because he feared they spread false reports and criticism of the government. The public reaction was so strong, however, that the order was withdrawn before it took effect. The episode suggests how central coffeehouses had become to public life."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How coffeehouses helped spread news in London",
+        "How coffee is grown in the Ottoman Empire",
+        "Why newspapers were expensive to print",
+        "How universities were founded in London"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 1, what could a customer get for a penny?",
+       "options": [
+        "A cup of coffee and time to read and talk",
+        "A class at a university",
+        "A seat on a ship",
+        "A newspaper to take home"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why did people gather where papers were shared?",
+       "options": [
+        "They could not afford to buy every publication",
+        "The king ordered them to",
+        "Newspapers were not allowed at home",
+        "Coffeehouse owners paid them to read"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"establishments\" in the passage is closest in meaning to",
+       "options": [
+        "customers",
+        "businesses",
+        "traditions",
+        "laws"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What happened to the king's order to close coffeehouses?",
+       "options": [
+        "It was never written down",
+        "It was withdrawn because of the strong public reaction",
+        "It closed most coffeehouses for many years",
+        "It applied only to merchants"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention the name \"penny universities\"?",
+       "options": [
+        "To describe how students paid for their classes",
+        "To explain that coffeehouses were part of real universities",
+        "To show that coffeehouses offered cheap access to information and debate",
+        "To show that coffee was very expensive"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to paragraph 2, how did some coffeehouses differ from one another?",
+       "options": [
+        "Some charged more than a penny",
+        "They attracted customers with different interests",
+        "Some did not allow newspapers",
+        "Some sold only tea"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"particular\" in the passage is closest in meaning to",
+       "options": [
+        "specific",
+        "general",
+        "unusual",
+        "shared"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why did Charles II want to close the coffeehouses?",
+       "options": [
+        "Coffeehouse owners did not pay taxes",
+        "He thought coffee was unhealthy",
+        "He feared they spread false reports and criticism of the government",
+        "Merchants complained about them"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred from paragraph 2 about news in coffeehouses?",
+       "options": [
+        "Only merchants were interested in the news",
+        "Most news was written by coffeehouse owners",
+        "Reports from abroad were not allowed",
+        "Customers who could not read well could still learn the news"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention merchants and shipping news in paragraph 2?",
+       "options": [
+        "To explain why coffee became popular in London",
+        "To argue that merchants opposed the coffeehouses",
+        "To contrast London with other trading cities",
+        "To give an example of coffeehouses serving customers with particular interests"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from the passage: \"Because of this cheap access to information and debate, coffeehouses were sometimes called 'penny universities.'\"",
+       "options": [
+        "Coffeehouses were expensive, but people paid because they wanted information.",
+        "Debate in coffeehouses was cheap because universities paid for it.",
+        "Universities in London charged only a penny for classes held in coffeehouses.",
+        "Coffeehouses were nicknamed \"penny universities\" because they offered information and discussion at low cost."
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"withdrawn\" in the passage is closest in meaning to",
+       "options": [
+        "delayed",
+        "strengthened",
+        "published",
+        "canceled"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about Charles II's government from paragraph 3?",
+       "options": [
+        "It encouraged criticism in coffeehouses",
+        "It was concerned about how quickly rumors and opinions spread",
+        "It had no interest in public opinion",
+        "It owned most of London's coffeehouses"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the author suggest about the 1675 proclamation?",
+       "options": [
+        "Its failure shows how important coffeehouses had become to public life",
+        "It was the main reason coffeehouses became popular",
+        "It succeeded in reducing the number of coffeehouses",
+        "It proves that coffeehouses spread mostly false news"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "I took the bus today.",
+        "The seats are blue.",
+        "No, go ahead and sit down.",
+        "Yes, I'm seating."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "What time does the library close tonight?",
+       "options": [
+        "At ten o'clock, I think.",
+        "I closed the door.",
+        "The library has many books.",
+        "Tonight was fun."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Would you like to study together for the quiz?",
+       "options": [
+        "Sure, how about after lunch?",
+        "I like quiz shows on TV.",
+        "I studied together yesterday.",
+        "The quiz was easy last week."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Did you finish the reading for today?",
+       "options": [
+        "Reading glasses are expensive.",
+        "I will finish it yesterday.",
+        "Today is Tuesday.",
+        "Almost. I have two pages left."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Where can I print my essay?",
+       "options": [
+        "I printed it twice.",
+        "There's a printer in the computer lab.",
+        "My essay is about history.",
+        "Yes, it's very long."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Do you know if the professor posted our grades yet?",
+       "options": [
+        "I'll mail the letter later.",
+        "The professor teaches biology.",
+        "She posted them this morning, actually.",
+        "Grades are important to me."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I missed the bus, so I might be a little late for our meeting.",
+       "options": [
+        "I met him at the meeting.",
+        "The bus was red.",
+        "No problem, I'll wait for you.",
+        "You were late yesterday, right?"
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Could you tell me how to sign up for the writing workshop?",
+       "options": [
+        "You can register on the student website.",
+        "Writing is hard for everyone.",
+        "The workshop was great last year.",
+        "I signed my name on it."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Why don't we grab something to eat before the lecture?",
+       "options": [
+        "I ate there tomorrow.",
+        "Good idea. I'm starving.",
+        "The lecture is about food.",
+        "Because I grabbed it."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Has anyone found a black umbrella in this room?",
+       "options": [
+        "Let me check the lost-and-found box.",
+        "I found the room easily.",
+        "Black is my favorite color.",
+        "It's raining hard today."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'm not sure I can make it to the study group. I'm totally swamped this week.",
+       "options": [
+        "The swamp is near the lake.",
+        "I made it myself.",
+        "Don't worry, we'll send you our notes.",
+        "Our group has five people."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "You wouldn't happen to have a charger I could borrow, would you?",
+       "options": [
+        "My phone was new last year.",
+        "Borrowing money is risky.",
+        "Sure, mine's in my backpack.",
+        "I happened to see it."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I can't believe the deadline got pushed back again.",
+       "options": [
+        "I'll be back again tomorrow.",
+        "Yeah, but at least we have more time now.",
+        "The deadline was last year.",
+        "Push the door harder."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "That presentation went way better than I expected.",
+       "options": [
+        "I'll present it next week.",
+        "I expected it to rain.",
+        "See? All that practice paid off.",
+        "Which way did it go?"
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Mind if I open the window? It's a bit stuffy in here.",
+       "options": [
+        "My mind is tired today.",
+        "The window is made of glass.",
+        "Not at all. Go right ahead.",
+        "It was stuffed with paper."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Applying for a research assistant position",
+    "lines": [
+     {
+      "speaker": "Man",
+      "text": "Hi, Professor. Do you have a minute? I saw the flyer about the research assistant position in your lab, and I'm really interested."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Sure, come on in. It's for our project on how students use sleep apps. We need someone for about ten hours a week next semester."
+     },
+     {
+      "speaker": "Man",
+      "text": "Ten hours should be fine. What kind of work would I be doing?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Mostly data entry at first, and then later you'd help run short interviews with participants. Have you taken the research methods course yet?"
+     },
+     {
+      "speaker": "Man",
+      "text": "I'm taking it right now, actually. I'll finish it in December."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Good, that's what we usually require. Oh, and you'd need to complete an online ethics training before you talk to any participants. It takes about three hours."
+     },
+     {
+      "speaker": "Man",
+      "text": "Okay, no problem. Is the position paid, or is it for course credit?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "You can choose. It's either twelve dollars an hour or three credits of independent study. Most students pick the credit, since it counts toward the major."
+     },
+     {
+      "speaker": "Man",
+      "text": "Hmm, I think I'd rather be paid. I already have plenty of credits this year. How do I apply?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Just email me a short résumé and a paragraph about why you're interested by next Friday. I'll interview a few people the week after."
+     },
+     {
+      "speaker": "Man",
+      "text": "Great, I'll send it this week. Thanks so much."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the student go to see the professor?",
+       "options": [
+        "To drop a course",
+        "To get help with sleep problems",
+        "To ask about a research assistant job",
+        "To complain about a grade"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "How many hours a week is the job?",
+       "options": [
+        "Twenty",
+        "Ten",
+        "Twelve",
+        "Three"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the student need to send the professor?",
+       "options": [
+        "A letter from another professor",
+        "A short résumé and a paragraph about his interest",
+        "His grades from last year",
+        "His class schedule"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What will the student mainly do at first if he gets the job?",
+       "options": [
+        "Enter data",
+        "Teach a methods course",
+        "Design a sleep app",
+        "Interview participants"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What must the student do before talking to participants?",
+       "options": [
+        "Meet the other assistants",
+        "Download a sleep app",
+        "Earn three credits",
+        "Complete an online ethics training"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the student choose to be paid instead of receiving credit?",
+       "options": [
+        "He already has plenty of credits this year",
+        "The professor recommends payment",
+        "Credit is only for graduate students",
+        "He needs more credits for his major"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What can be inferred about the student's eligibility for the position?",
+       "options": [
+        "He will meet the course requirement by the end of the semester",
+        "He has already completed the ethics training",
+        "He does not meet the course requirement",
+        "He has worked in the lab before"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the professor mention that most students choose credit?",
+       "options": [
+        "To show that the position is popular with graduate students",
+        "To discourage him from applying",
+        "To explain why the pay is low",
+        "To point out an advantage of the credit option"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What will the professor most likely do in the week after next Friday?",
+       "options": [
+        "Review the participants' interviews",
+        "Begin teaching the methods course",
+        "Meet with some of the applicants",
+        "Finish the research project"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "The evidence for continental drift",
+    "text": "Okay, so today we're looking at one of the big ideas in geology: continental drift. Back in 1912, a German scientist named Alfred Wegener proposed that the continents hadn't always been where they are now. He argued that they'd once been joined in a single supercontinent, which we now call Pangaea, and that they'd slowly drifted apart. Now, Wegener didn't just guess. He collected several kinds of evidence. The first is one you've probably noticed yourself. Look at a map, and the east coast of South America fits pretty neatly against the west coast of Africa, almost like puzzle pieces. Second, fossils. Remains of a small reptile called Mesosaurus have been found in both South America and southern Africa. This animal lived in fresh water, so there's really no way it could've swum across an ocean. Third, rocks. Certain mountain belts and rock layers seem to stop at one coastline and then pick up again on the other side of the Atlantic. And fourth, climate clues. Wegener pointed out scratches left by ancient glaciers in places like India and parts of Africa, which are warm today. That makes sense if those lands were once much closer to the South Pole. So, was everyone convinced? Not at all. Most geologists rejected the idea, mainly because Wegener couldn't explain what force could possibly move entire continents. It wasn't until the 1950s and '60s, when scientists studying the ocean floor discovered seafloor spreading, that a mechanism finally appeared. And that work led to the theory of plate tectonics, which we'll get into next time."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "Evidence that the continents were once joined",
+        "How to read a world map",
+        "Why Africa is warm today",
+        "How fossils are formed"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why couldn't Mesosaurus have swum across an ocean?",
+       "options": [
+        "It lived only in mountains",
+        "It lived in fresh water",
+        "It could not swim at all",
+        "It was too large"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What did Wegener notice about South America and Africa on a map?",
+       "options": [
+        "They are very far apart",
+        "Their coasts fit together like puzzle pieces",
+        "They have the same rivers",
+        "They are the same size"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why did most geologists reject Wegener's idea?",
+       "options": [
+        "He had no fossil evidence",
+        "He studied only the ocean floor",
+        "His maps were wrong",
+        "He could not explain what moved the continents"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "According to the professor, what do glacial scratches in India and Africa suggest?",
+       "options": [
+        "Those lands were once closer to the South Pole",
+        "Ancient animals made the scratches",
+        "Glaciers still cover parts of those lands",
+        "The climate there has always been warm"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "How does the professor organize the main part of the talk?",
+       "options": [
+        "By comparing two competing theories",
+        "By telling the story of Wegener's childhood",
+        "By listing problems with plate tectonics",
+        "By describing several types of evidence one after another"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What discovery finally provided a mechanism for continental movement?",
+       "options": [
+        "Mesosaurus fossils",
+        "Glacial scratches",
+        "Matching coastlines",
+        "Seafloor spreading"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the professor say about certain rock layers?",
+       "options": [
+        "They cannot be found near coastlines",
+        "They show the continents move quickly every year",
+        "They seem to continue on the opposite side of the Atlantic",
+        "They are older in Africa than in South America"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the professor mention that Mesosaurus lived in fresh water?",
+       "options": [
+        "To compare it with modern reptiles",
+        "To explain why its fossils are rare",
+        "To rule out the possibility that it crossed an ocean",
+        "To show that it was a primitive reptile"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What is the professor's attitude toward Wegener's evidence?",
+       "options": [
+        "It was mostly guesswork",
+        "It fully proved the theory of plate tectonics",
+        "It was carefully gathered, though it lacked an explanation of the cause",
+        "The fossil evidence turned out to be false"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What can be inferred about why Wegener's idea was not accepted at first?",
+       "options": [
+        "Evidence alone was not enough without a mechanism to explain it",
+        "His evidence was published only in Germany",
+        "The coastlines on maps at the time were inaccurate",
+        "Geologists did not believe fossils could be found in Africa"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What will the professor most likely discuss in the next class?",
+       "options": [
+        "The modern climate of India",
+        "How fossils form",
+        "The theory of plate tectonics",
+        "Wegener's early life"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What did you do last weekend?",
+       "answer": "I cooked dinner with my friends on Saturday night",
+       "distractor": "cook"
+      },
+      {
+       "context": "Are you coming to the review session?",
+       "answer": "Yes I will be there a little late",
+       "distractor": "was"
+      },
+      {
+       "context": "Where did you buy that jacket?",
+       "answer": "I bought it at a store near my apartment",
+       "distractor": "buy"
+      },
+      {
+       "context": "How was your first week of classes?",
+       "answer": "It was busy because I had three exams",
+       "distractor": "having"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "What did the professor ask you after class?",
+       "answer": "She wanted to know what I thought of the article",
+       "distractor": "did"
+      },
+      {
+       "context": "Why weren't you at the meeting this morning?",
+       "answer": "I had to finish a lab report that was due today",
+       "distractor": "have"
+      },
+      {
+       "context": "Have you decided which science class to take?",
+       "answer": "I haven't decided whether to take biology or chemistry",
+       "distractor": "if"
+      },
+      {
+       "context": "Is the bookstore open on Sundays?",
+       "answer": "I'm not sure but I can check online for you",
+       "distractor": "checking"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Did the advisor say anything about the deadline?",
+       "answer": "She told me the deadline had been extended by a week",
+       "distractor": "have"
+      },
+      {
+       "context": "Why did you choose this university?",
+       "answer": "Its research programs are what convinced me to apply here",
+       "distractor": "convincing"
+      },
+      {
+       "context": "What should I do if I can't take the exam on time?",
+       "answer": "You should contact the professor before the exam if possible",
+       "distractor": "would"
+      },
+      {
+       "context": "Do you know when the library renovation will be finished?",
+       "answer": "Nobody seems to know exactly when the work will be done",
+       "distractor": "does"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "You are applying to a summer leadership program for international students, and the application requires a recommendation letter from a teacher who knows you well. You want to ask a teacher you had two years ago, but you have not been in contact with her since you graduated.",
+    "recipient": "Ms. Carter, your former high school English teacher",
+    "points": [
+     "Remind her who you are and which class you took with her",
+     "Explain the program you are applying to and why you want her recommendation",
+     "Ask whether she can write the letter, and tell her the deadline and how to submit it"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Getting a public library card",
+    "sentences": [
+     "I would like a library card.",
+     "Do you have a photo ID with you?",
+     "We also need something that shows your current address.",
+     "A recent utility bill or a lease agreement will work just fine.",
+     "With this card, you can borrow up to twenty items at a time.",
+     "Your card also lets you download e-books, use our computers, and reserve quiet study rooms online from home."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Goals and motivation",
+    "questions": [
+     "Tell me about a goal you worked hard to reach. What was it, and how did you reach it?",
+     "What kept you motivated when things got difficult?",
+     "Some people say it is better to set small, short-term goals than one big long-term goal. Which approach do you prefer, and why?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

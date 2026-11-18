@@ -1,0 +1,941 @@
+{
+ "id": "2026-11-20",
+ "date": "2026-11-20",
+ "version": 1,
+ "createdAt": "2026-11-18T05:15:42Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 3,
+  "fixed": [
+   "W0 5.5 #1 if/whether distractor",
+   "L1 5.5 q1 stem",
+   "R1 5.5 q2 option wording"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "How honeybees communicate with dances"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Honeybees cannot talk, but they can share information about food. When a bee {fi|nds} good flowers, it {fl|ies} back to the hive and {do|es} a special {da|nce}. If the food is very {cl|ose}, the bee moves in small {cir|cles}. If the food is far away, it does a \"waggle dance\" and {sha|kes} its body in a straight line. The {dire|ction} of this line shows other bees {wh|ere} to fly. The {lon|ger} the bee shakes, the farther away the food is."
+    },
+    "4.5": {
+     "paragraph": "Honeybees use dances to tell their nestmates where to find food. A forager that discovers {flo|wers} close to the hive performs a round dance, {circ|ling} first one way and then the other. For more {dis|tant} food, it performs a waggle dance on the {vert|ical} surface of the honeycomb. The angle of the waggle run {comp|ared} with straight up matches the {an|gle} between the food and the sun. The {len|gth} of each run signals {dist|ance}, and a more {ener|getic} dance often {indi|cates} a richer source."
+    },
+    "5.5": {
+     "paragraph": "Honeybee foragers communicate the location of resources through a remarkably precise symbolic language of dances. On the vertical comb, a returning {for|ager} performs a waggle run whose {orien|tation} relative to gravity {corre|sponds} to the angle between the {nec|tar} source and the sun's {azi|muth}. Because the sun {shi|fts} across the sky, dancers {grad|ually} adjust this angle throughout the day. The {dura|tion} of each run encodes distance, while the vigor and {repet|ition} of the dance convey the {profit|ability} of the site, recruiting more workers to superior patches."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Text messages",
+    "text": "Maya: Hey! Are you still up for studying for the bio midterm together?\nDaniel: Yes, definitely. I'm free Thursday after 3. How about you?\nMaya: I have work until 4 on Thursday. Could we start at 4:30?\nDaniel: Works for me. Library study rooms or the student union?\nMaya: The union is too noisy. Let's book a library room. I'll reserve one online tonight.\nDaniel: Great. Should we invite Priya? She took really good notes on chapters 6 and 7.\nMaya: Good idea. I missed the lecture on chapter 7, so her notes would help a lot.\nDaniel: I'll text her. I'll also bring the practice questions the professor posted.\nMaya: Perfect. I'll bring snacks. Let's plan for two hours, since I have to leave by 6:30 to catch my ride home.\nDaniel: Sounds good. See you Thursday!"
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What are Maya and Daniel planning?",
+       "options": [
+        "A meeting with their professor",
+        "A trip to the student union",
+        "A party after the midterm",
+        "A study session for a biology test"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What time will they start studying on Thursday?",
+       "options": [
+        "At 4:30",
+        "At 4:00",
+        "At 6:30",
+        "At 3:00"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What will Daniel bring?",
+       "options": [
+        "Priya's notes",
+        "A library key",
+        "Practice questions",
+        "Snacks"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why do they decide not to study at the student union?",
+       "options": [
+        "It is far from Maya's work",
+        "Priya cannot go there",
+        "It closes at 4:00",
+        "It is too noisy there"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does Maya agree to invite Priya?",
+       "options": [
+        "Priya has notes on a lecture Maya missed",
+        "Priya wrote the practice questions",
+        "Priya reserved a study room",
+        "Priya can give Maya a ride home"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the library study rooms?",
+       "options": [
+        "They are always full on Thursdays",
+        "They can be reserved in advance",
+        "They are only open until 4:00",
+        "They are only for biology students"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does Maya suggest a two-hour session?",
+       "options": [
+        "The library room can be booked for only two hours",
+        "She needs to leave in time for her ride home",
+        "Daniel has another class at 6:30",
+        "Priya can stay for only two hours"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What can be inferred about Maya's Thursday schedule?",
+       "options": [
+        "She is busy until late afternoon",
+        "She has a class at 3:00",
+        "She has no other plans that day",
+        "She works late into the evening"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which task will most likely be done before Thursday?",
+       "options": [
+        "Daniel will buy snacks",
+        "Maya will book a study room",
+        "Maya will attend the chapter 7 lecture",
+        "Priya will write practice questions"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "Trade Along the Silk Road",
+    "text": "The Silk Road was not a single road but a vast network of overland routes that connected China with Central Asia, the Middle East, and the Mediterranean world. It became an important trade link during China's Han dynasty, around the second century BCE, and remained active for more than a thousand years. The name itself is modern; a German geographer introduced it in the nineteenth century because Chinese silk was one of the most famous goods carried westward.\n\nIn fact, very few merchants traveled the entire route. Instead, goods usually moved in stages, passing from one trader to another at oasis towns and market cities. Each merchant covered only a portion of the distance before selling to the next. Along the way, travelers rested at roadside inns called caravanserais, which offered shelter for people and their camels. Silk, paper, and porcelain moved west, while horses, glass, and silver moved east.\n\nThe Silk Road carried more than merchandise, however. Religions, technologies, and artistic styles spread along the same routes. Buddhism, for example, traveled from India into China largely through these trading networks. Unfortunately, the exchange was not always beneficial: diseases could also move with caravans, and many historians believe that trade routes helped plague spread across Eurasia in the fourteenth century."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How silk is made in China",
+        "The trade network that linked China with lands to the west",
+        "Why camels were useful in deserts",
+        "The life of a German geographer"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "According to the passage, when did the Silk Road become an important trade link?",
+       "options": [
+        "After plague spread across Eurasia",
+        "In the fourteenth century",
+        "In the nineteenth century",
+        "Around the second century BCE"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What were caravanserais?",
+       "options": [
+        "Roadside inns for travelers and their animals",
+        "Ships that carried goods to the Mediterranean",
+        "Markets that sold only silk",
+        "Temples built by Buddhist travelers"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which good moved from east to west?",
+       "options": [
+        "Horses",
+        "Glass",
+        "Silver",
+        "Paper"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"vast\" in the passage is closest in meaning to",
+       "options": [
+        "narrow",
+        "dangerous",
+        "very old",
+        "very large"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "According to paragraph 1, why is the network called the \"Silk Road\"?",
+       "options": [
+        "Chinese silk was one of the best-known goods carried west",
+        "Chinese emperors named it after their clothing",
+        "Silk was the only product traded on it",
+        "The road was paved with silk cloth"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 2, how did goods usually travel along the Silk Road?",
+       "options": [
+        "One merchant carried them the whole way",
+        "They passed through many traders in stages",
+        "They were moved only by government officials",
+        "They were sent by sea from China"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the author mention Buddhism in paragraph 3?",
+       "options": [
+        "To argue that India controlled the Silk Road",
+        "To explain why merchants traveled alone",
+        "To describe the religion of most traders",
+        "To show that the routes spread ideas as well as goods"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about the name \"Silk Road\"?",
+       "options": [
+        "It came from an Indian language",
+        "It was used by Han dynasty merchants",
+        "It was chosen by traders at oasis towns",
+        "People who used the routes long ago did not call them by this name"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "The word \"portion\" in the passage is closest in meaning to",
+       "options": [
+        "part",
+        "price",
+        "speed",
+        "direction"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author state that \"very few merchants traveled the entire route\"?",
+       "options": [
+        "To correct a possible misunderstanding about how trade worked",
+        "To argue that the Silk Road was not important",
+        "To explain why silk was so expensive",
+        "To show that the routes were unsafe for merchants"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which sentence best expresses the essential information in this sentence from the passage? \"Unfortunately, the exchange was not always beneficial: diseases could also move with caravans.\"",
+       "options": [
+        "Traders were often too ill to finish their journeys.",
+        "Some of what traveled with caravans, such as disease, was harmful.",
+        "Caravans usually avoided areas where people were sick.",
+        "The exchange of goods was rarely beneficial to merchants."
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What is the function of paragraph 3 in the passage as a whole?",
+       "options": [
+        "It explains how caravanserais were built",
+        "It expands the discussion from goods to the wider effects of the routes",
+        "It compares the Silk Road with sea routes",
+        "It describes the decline of the Silk Road"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Based on paragraph 2, what can be inferred about oasis towns?",
+       "options": [
+        "They served as places where goods changed hands",
+        "They were founded by Han dynasty soldiers",
+        "They were avoided by merchants",
+        "They produced most of the world's silk"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"merchandise\" in the passage is closest in meaning to",
+       "options": [
+        "travelers",
+        "animals",
+        "information",
+        "goods for sale"
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Is this seat taken?",
+       "options": [
+        "The seat is blue.",
+        "I took the bus today.",
+        "Yes, I'm taking three classes.",
+        "No, go ahead and sit down."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "When is the assignment due?",
+       "options": [
+        "The teacher is nice.",
+        "It's a reading assignment.",
+        "I did it already last week.",
+        "Next Monday before class."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Would you like some coffee?",
+       "options": [
+        "The cafe is new.",
+        "No thanks, I just had some.",
+        "I liked it yesterday.",
+        "Coffee comes from beans."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "How was your weekend?",
+       "options": [
+        "Weekends are two days.",
+        "Pretty relaxing, thanks.",
+        "I'll go next week.",
+        "It's on the weekend."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Where can I print my essay?",
+       "options": [
+        "My essay is five pages.",
+        "Essays are hard to write.",
+        "I printed it last night.",
+        "There are printers in the computer lab."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "Do you know if the dining hall is open late tonight?",
+       "options": [
+        "I ate dinner there yesterday.",
+        "The dining hall food is great.",
+        "I'm not hungry tonight.",
+        "It's open until ten, I think."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I can't find my student ID anywhere.",
+       "options": [
+        "You found it yesterday.",
+        "My ID has a bad photo.",
+        "Did you check your jacket pocket?",
+        "Students need IDs."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Have you started the group project yet?",
+       "options": [
+        "Projects are worth a lot of points.",
+        "I'll start it last week.",
+        "The group is very large.",
+        "We're meeting tomorrow to divide the work."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Why weren't you in class this morning?",
+       "options": [
+        "The class was interesting.",
+        "I'll be in class tomorrow morning.",
+        "I had a doctor's appointment.",
+        "Class is in the morning."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Could you turn the music down a little?",
+       "options": [
+        "It turned off yesterday.",
+        "I like that music too.",
+        "The music is new.",
+        "Sure, sorry about that."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I'm going to have to take a rain check on lunch today.",
+       "options": [
+        "Lunch was really good today.",
+        "It's supposed to rain all afternoon.",
+        "I'll check the menu for you.",
+        "No problem, maybe later this week."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "You wouldn't happen to have an extra charger, would you?",
+       "options": [
+        "I happened to see it.",
+        "My phone charges quickly.",
+        "I didn't charge you anything.",
+        "Sorry, I only have the one I'm using."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "I can't believe the professor pushed back the exam.",
+       "options": [
+        "She pushed the door open.",
+        "The exam was very hard last week.",
+        "I know, now we have more time to review.",
+        "I'll push it for you."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Don't you think that lecture went on a bit long?",
+       "options": [
+        "I'll go on to the next one.",
+        "It's a long way to the lecture hall.",
+        "Yes, I was checking the clock the whole time.",
+        "He doesn't think about it."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "If I were you, I'd get to the registration office early.",
+       "options": [
+        "The office is very early.",
+        "You were early yesterday.",
+        "Good point, the line gets really long.",
+        "I registered for you."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Narrowing a research paper topic",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hi, Professor Ellis. Do you have a few minutes? I wanted to talk about my research paper."
+     },
+     {
+      "speaker": "Man",
+      "text": "Of course, come on in. You're writing about climate change, right?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Yeah. But I've been reading for a week, and I keep finding more and more sources. I don't know where to start."
+     },
+     {
+      "speaker": "Man",
+      "text": "That usually means the topic's too broad. Climate change is a huge subject. People write whole books on just one part of it."
+     },
+     {
+      "speaker": "Woman",
+      "text": "So I should pick one part?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Exactly. Is there anything you've read so far that really caught your interest?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Well, I found a few articles about how rising temperatures are affecting coffee farms. I didn't know that coffee plants are so sensitive to heat."
+     },
+     {
+      "speaker": "Man",
+      "text": "That's a great direction. It's specific, and you can actually find data on it. You could even narrow it further, maybe to one region."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Maybe Central America? A lot of the articles focused there."
+     },
+     {
+      "speaker": "Man",
+      "text": "Good. Now, try writing one question your paper will answer. Something like, how are farmers there adapting to higher temperatures?"
+     },
+     {
+      "speaker": "Woman",
+      "text": "Okay. I'll write a research question and a short outline. Could I email them to you by Friday?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Please do. And keep your old sources. A few of them will probably still be useful for your introduction."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Why does the woman go to see the professor?",
+       "options": [
+        "To ask for more time on her paper",
+        "To return a book about coffee",
+        "To get help narrowing her paper topic",
+        "To change her grade"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What topic did the woman find interesting?",
+       "options": [
+        "How farmers grow tea",
+        "How heat affects coffee farms",
+        "Why people drink coffee",
+        "How coffee is sold in stores"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What will the woman send the professor by Friday?",
+       "options": [
+        "A list of books",
+        "Her finished paper",
+        "Data about Central America",
+        "A research question and an outline"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What does the professor say about the woman's original topic?",
+       "options": [
+        "It has already been studied too much",
+        "It is too broad for one paper",
+        "It does not have enough sources",
+        "It is not related to the class"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the professor like the coffee farm idea?",
+       "options": [
+        "He has written about it himself",
+        "It is specific and has data available",
+        "Many students have chosen it",
+        "It is easy to finish quickly"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the professor suggest she do with her old sources?",
+       "options": [
+        "Read them all again",
+        "Give them to other students",
+        "Keep them because some may help her introduction",
+        "Throw them away"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the professor imply when the woman says she keeps finding more sources?",
+       "options": [
+        "She is a very careful researcher",
+        "Her topic needs to be more focused",
+        "The library has too many books",
+        "She should stop reading and start writing"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the professor suggest the question \"How are farmers there adapting to higher temperatures?\"",
+       "options": [
+        "To point out that her topic is too narrow",
+        "To suggest she should interview farmers",
+        "To tell her the exact question she must use",
+        "To show her the kind of focused question that can guide a paper"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What will the woman most likely do next?",
+       "options": [
+        "Draft a specific research question",
+        "Travel to Central America",
+        "Write a draft of the entire paper",
+        "Choose a completely new topic"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "How sleep helps us remember",
+    "text": "Okay, let's get started. How many of you stayed up late studying for last week's quiz? Yeah, I see a lot of hands. Well, today's topic might change your study habits, because we're going to talk about how sleep helps us form memories.\n\nWhen you learn something new, say a list of vocabulary words, the memory is fragile at first. Psychologists use the term consolidation for the process that makes a new memory stable and long-lasting. And it turns out that a lot of consolidation happens while you're asleep.\n\nHere's how we think it works. During the day, a brain structure called the hippocampus helps record new experiences. Then, during deep sleep, what's called slow-wave sleep, the brain seems to replay those experiences. In studies with rats, researchers recorded brain cells that fired in a certain pattern while the rats ran through a maze. Later, when the rats were asleep, the same cells fired again in a similar pattern. It's as if the brain was practicing. Over time, this replay seems to help move memories into more permanent storage in the cortex, the outer layer of the brain.\n\nExperiments with people point in the same direction. In a typical study, two groups learn the same material. One group sleeps afterward, and the other stays awake for the same number of hours. When they're tested, the group that slept usually remembers more.\n\nSo what does this mean for you? Studying all night and skipping sleep might feel productive, but it can actually undo some of your hard work. Getting a good night's sleep is part of learning."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "How sleep helps people remember things",
+        "Why students feel tired after quizzes",
+        "How to learn vocabulary words quickly",
+        "How rats learn to run through mazes"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What part of the brain helps record new experiences during the day?",
+       "options": [
+        "The hippocampus",
+        "The cortex",
+        "The outer layer",
+        "The maze center"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What happened to the rats' brain cells while they slept?",
+       "options": [
+        "They grew much larger",
+        "They stopped working",
+        "They fired in a similar pattern again",
+        "They moved into the cortex"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the professor advise students to do?",
+       "options": [
+        "Take a quiz every week",
+        "Get enough sleep after learning",
+        "Study with rats",
+        "Study all night before a test"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What does the professor mean by \"consolidation\"?",
+       "options": [
+        "Learning several things at once",
+        "Forgetting unimportant information",
+        "Waking up during deep sleep",
+        "Making a new memory stable and lasting"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "According to the professor, when does the brain seem to replay experiences?",
+       "options": [
+        "While studying vocabulary",
+        "During slow-wave sleep",
+        "While running through a maze",
+        "Right before waking up"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "In the human studies, what was different between the two groups?",
+       "options": [
+        "The material they learned",
+        "How old the participants were",
+        "How long they studied",
+        "Whether they slept after learning"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the professor ask about staying up late at the beginning?",
+       "options": [
+        "To criticize students for being late",
+        "To explain why the quiz was hard",
+        "To connect the topic to students' own experience",
+        "To find out who did badly on the quiz"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the professor describe the experiment with rats?",
+       "options": [
+        "To explain how mazes are designed",
+        "To argue that animal studies are not useful",
+        "To show that rats learn faster than people",
+        "To provide evidence that the brain replays experiences during sleep"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the professor mean when he says, \"It's as if the brain was practicing\"?",
+       "options": [
+        "Sleep repeats daytime activity in a way that may strengthen memory",
+        "The brain needs more practice than the body",
+        "People should practice before going to sleep",
+        "Rats practice mazes in their dreams"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What can be inferred about the memory of a student who stays awake all night after studying?",
+       "options": [
+        "It may not be consolidated as well",
+        "It will be stronger than usual",
+        "It will move to the cortex more quickly",
+        "It will be completely lost"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What is the professor's attitude toward studying all night?",
+       "options": [
+        "He believes it can be counterproductive",
+        "He believes it is only a problem for rats",
+        "He has no clear opinion about it",
+        "He thinks it is the most effective strategy"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What are you doing this weekend?",
+       "answer": "I am going to visit my cousin on Saturday",
+       "distractor": "visited"
+      },
+      {
+       "context": "Do you want to eat lunch together?",
+       "answer": "Sure let's meet at the cafeteria at noon",
+       "distractor": "eating"
+      },
+      {
+       "context": "Why do you look so happy?",
+       "answer": "I got a good grade on my math test",
+       "distractor": "get"
+      },
+      {
+       "context": "Where did you buy that backpack?",
+       "answer": "I bought it at the store near my apartment",
+       "distractor": "buy"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Have you finished the reading for class?",
+       "answer": "Not yet but I plan to finish it tonight",
+       "distractor": "finished"
+      },
+      {
+       "context": "How did you find out about the internship?",
+       "answer": "My advisor told me about it last week",
+       "distractor": "say"
+      },
+      {
+       "context": "Can you tell me where the professor's office is?",
+       "answer": "It's on the third floor across from the elevator",
+       "distractor": "in"
+      },
+      {
+       "context": "What did you think of the guest speaker?",
+       "answer": "I thought her talk was really interesting and useful",
+       "distractor": "interested"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Do you know when the essay is due?",
+       "answer": "I'm not sure whether it's due on Monday or Tuesday",
+       "distractor": "when"
+      },
+      {
+       "context": "Why did you change your major?",
+       "answer": "I realized I was more interested in computer science",
+       "distractor": "interesting"
+      },
+      {
+       "context": "What did the advisor say about your schedule?",
+       "answer": "She asked whether I had taken the required courses",
+       "distractor": "did"
+      },
+      {
+       "context": "Would you recommend that class to me?",
+       "answer": "I would if you don't mind a lot of reading",
+       "distractor": "minding"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "You returned a library book on time two weeks ago by putting it in the return box outside the library. Today you received an email saying the book is overdue and you owe a $15 fine.",
+    "recipient": "Ms. Rivera, the circulation desk manager at the university library",
+    "points": [
+     "Explain when and how you returned the book",
+     "Ask the library to check its shelves or return records",
+     "Ask them to remove the fine from your account"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "At the campus bookstore",
+    "sentences": [
+     "Welcome to our campus bookstore today.",
+     "Our textbooks are now on the second floor.",
+     "You can rent most of the textbooks for the semester.",
+     "Please bring your original receipt if you want to return a book.",
+     "Used books are much cheaper, but some of them may have notes written on the pages.",
+     "Students who show their ID at the register can get ten percent off all school supplies this week."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Managing your time",
+    "questions": [
+     "Tell me about a time when you had too many things to do. How did you handle it?",
+     "What do you usually do to keep track of your assignments and deadlines?",
+     "Some people say it's better to finish work early, while others work best close to a deadline. Which approach do you think is better? Why?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}

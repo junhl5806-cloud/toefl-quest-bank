@@ -1,0 +1,931 @@
+{
+ "id": "2026-11-22",
+ "date": "2026-11-22",
+ "version": 1,
+ "createdAt": "2026-11-18T05:16:31Z",
+ "levels": [
+  "3.5",
+  "4.5",
+  "5.5"
+ ],
+ "verified": {
+  "method": "blind-solve by separate agent",
+  "at": "2026-11-18T05:21:08Z",
+  "mismatches": 1,
+  "fixed": [
+   "W0 4.5 #4 can/could distractor"
+  ]
+ },
+ "tasks": [
+  {
+   "key": "R0",
+   "step": "R",
+   "kind": "ctw",
+   "shared": {
+    "topic": "Why volcanic soil is fertile"
+   },
+   "byLevel": {
+    "3.5": {
+     "paragraph": "Soil near volcanoes is often very good for farming. When volcanic ash and rock {br|eak} down, they {rel|ease} minerals that plants {ne|ed}, such as potassium and {cal|cium}. The ash is also {li|ght} and full of tiny holes, so it {ho|lds} water well. Over many years, plants grow, die, and add {ri|ch} material to the soil. This is {w|hy} many farmers {li|ve} near volcanoes, even though an {erup|tion} can be dangerous."
+    },
+    "4.5": {
+     "paragraph": "Farmland near volcanoes is often surprisingly productive. Volcanic ash {cont|ains} minerals such as potassium, {phosp|horus}, and magnesium, which are {rele|ased} slowly as the ash {weat|hers}. Because the particles are {por|ous}, the soil can store water {wh|ile} still allowing air to reach {pl|ant} roots. In addition, new {erup|tions} periodically add fresh layers of ash, {rene|wing} nutrients that crops have {rem|oved}. As a result, regions near active volcanoes often support dense farming communities."
+    },
+    "5.5": {
+     "paragraph": "The fertility of volcanic soils has long sustained some of the densest agricultural populations on Earth. As volcanic glass and ash {wea|ther}, they gradually liberate {esse|ntial} nutrients, including {pota|ssium}, calcium, and magnesium. Moreover, {weath|ering} produces clay minerals with an {excep|tional} capacity to retain both water and organic {mat|ter}, which {impr|oves} soil structure. Periodic eruptions {additi|onally} deposit fresh ash, {replen|ishing} depleted nutrients. Paradoxically, the very {erup|tions} that devastate a landscape ultimately enrich it."
+    }
+   }
+  },
+  {
+   "key": "R1",
+   "step": "R",
+   "kind": "daily",
+   "shared": {
+    "genre": "Notice",
+    "text": "NOTICE: Group Study Room Policy\n\nThe group study rooms on the third floor of the library are available to current students only. Rooms must be reserved online through the library website, up to seven days in advance.\n\n- Each group must have at least three people. Students studying alone should use the quiet tables on the second floor.\n- Reservations are limited to two hours per group per day.\n- If your group has not arrived 15 minutes after your reservation begins, the room will be released to other students.\n- Food is not allowed, but drinks with lids are permitted.\n- Please erase the whiteboard and return the chairs before you leave.\n\nReservations for dates during final exam week (December 8-14) may be made no more than 48 hours in advance.\n\nQuestions? Please ask at the Circulation Desk."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "Who can use the group study rooms?",
+       "options": [
+        "Students who live on campus only",
+        "Library staff only",
+        "Current students only",
+        "Anyone who visits the library"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "How do students reserve a room?",
+       "options": [
+        "By signing a list on the third floor",
+        "By emailing a professor",
+        "Online through the library website",
+        "By calling the library"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What is allowed in the study rooms?",
+       "options": [
+        "Snacks and sandwiches",
+        "Groups of two people",
+        "Drinks with lids",
+        "Reservations of four hours"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What happens if a group arrives 20 minutes after its reservation begins?",
+       "options": [
+        "The group must pay a fee",
+        "The group must move to the second floor",
+        "The group gets two extra hours",
+        "The room may already have been given to other students"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What are students asked to do before leaving a room?",
+       "options": [
+        "Turn off the lights and lock the door",
+        "Write their names on the whiteboard",
+        "Check out at the Circulation Desk",
+        "Erase the whiteboard and return the chairs"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Where should a student who wants to study alone most likely go?",
+       "options": [
+        "To any empty room in the building",
+        "To the Circulation Desk",
+        "To the quiet tables on the second floor",
+        "To a group study room on the third floor"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Two classmates want to reserve a group study room. What can be concluded?",
+       "options": [
+        "They can use it only during final exam week",
+        "They can reserve it for only one hour",
+        "They cannot reserve one unless at least one more person joins them",
+        "They must reserve it seven days in advance"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "On December 5, a group wants to reserve a room for December 10. What should the group do?",
+       "options": [
+        "Wait until December 8 to make the reservation",
+        "Reserve it for four hours instead of two",
+        "Reserve it immediately online",
+        "Ask the Circulation Desk for a special exception"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What is the most likely reason for the 15-minute rule?",
+       "options": [
+        "To keep reserved rooms from sitting empty while others need them",
+        "To discourage students from bringing food",
+        "To make sure groups finish their work quickly",
+        "To give library staff time to clean the rooms"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "R2",
+   "step": "R",
+   "kind": "academic",
+   "shared": {
+    "title": "The Power of Default Options",
+    "text": "When people face a choice, they often stick with whatever option has been selected for them in advance. Behavioral economists call this preselected choice a \"default,\" and research shows that defaults can strongly shape decisions, even when changing them is easy and free.\n\nOne well-known example comes from retirement savings. At many companies, employees once had to actively sign up for a savings plan, and a large share never did. When some employers changed the rule so that workers were enrolled automatically unless they chose to leave the plan, participation rose dramatically. The workers' options had not changed at all; only the starting point had.\n\nResearchers offer several explanations for this pattern. First, changing a default requires effort, and people tend to postpone tasks that seem complicated. Second, many people interpret the default as a recommendation, assuming that whoever designed the system chose the sensible option. Finally, people often feel a loss more strongly than an equal gain, so giving up the default can feel like losing something. Because defaults are so powerful, critics argue that the people who design them carry a real responsibility. A poorly chosen default can quietly lead thousands of people toward decisions that do not serve their interests."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why people like to make difficult decisions",
+        "How companies hire new employees",
+        "How preselected options influence people's choices",
+        "Why retirement plans are expensive"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What happened when workers were enrolled in the savings plan automatically?",
+       "options": [
+        "The company stopped offering the plan",
+        "Most workers left the plan right away",
+        "Many more workers took part in the plan",
+        "Workers received higher salaries"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "The word \"postpone\" in the passage is closest in meaning to",
+       "options": [
+        "delay",
+        "explain",
+        "finish",
+        "enjoy"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to the passage, why do some people keep the default?",
+       "options": [
+        "They think it is a recommendation",
+        "They are not allowed to change it",
+        "They did not know a choice existed",
+        "They must pay money to change it"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What do critics say about people who design defaults?",
+       "options": [
+        "They have a real responsibility",
+        "They should let workers choose for themselves later",
+        "They usually choose bad options",
+        "They should avoid using defaults at all"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "Why does the author discuss retirement savings in paragraph 2?",
+       "options": [
+        "To give a real-world example of a default's effect",
+        "To compare different types of savings plans",
+        "To explain how retirement plans are managed",
+        "To argue that employees should save more money"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "According to paragraph 3, all of the following are reasons people keep defaults EXCEPT",
+       "options": [
+        "people see the default as a recommendation",
+        "defaults are usually required by law",
+        "giving up a default can feel like a loss",
+        "changing a default takes effort"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "The word \"dramatically\" in the passage is closest in meaning to",
+       "options": [
+        "unexpectedly",
+        "greatly",
+        "slowly",
+        "briefly"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the author say defaults matter \"even when changing them is easy and free\"?",
+       "options": [
+        "To suggest that most defaults are expensive to change",
+        "To explain why companies offer free savings plans",
+        "To show that cost is not the reason people keep defaults",
+        "To argue that people should never change defaults"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Which statement would the author most likely agree with?",
+       "options": [
+        "Employees should be required to choose every option themselves",
+        "Defaults have little effect on important decisions",
+        "People are always better off with the default option",
+        "Designers of a system should choose its default options carefully"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the author mention that \"the workers' options had not changed at all\"?",
+       "options": [
+        "To emphasize that the change in behavior came from the default alone",
+        "To suggest that the savings plan was poorly designed",
+        "To show that workers were unaware of the new rule",
+        "To criticize employers for offering too few choices"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Which sentence best expresses the essential information in the sentence beginning \"Finally, people often feel a loss\"?",
+       "options": [
+        "Because losses feel worse than equal gains, leaving a default can feel like a loss.",
+        "People who give up defaults usually lose money.",
+        "Defaults are designed to make people feel that they have gained something.",
+        "Most people feel that gains matter more than losses."
+       ],
+       "answer": 0
+      },
+      {
+       "q": "The word \"interpret\" in the passage is closest in meaning to",
+       "options": [
+        "reject",
+        "translate",
+        "regard",
+        "announce"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "Based on the passage, which policy would most likely increase the number of registered organ donors?",
+       "options": [
+        "Allowing people to register only once in their lives",
+        "Asking people to fill out a detailed form to register",
+        "Registering everyone automatically while allowing them to opt out",
+        "Explaining the benefits of donation in a public campaign"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "How is paragraph 3 organized?",
+       "options": [
+        "It presents a theory and then rejects it",
+        "It describes a problem and then proposes a law to solve it",
+        "It lists explanations for an effect and then raises a concern",
+        "It compares two experiments with different results"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L0",
+   "step": "L",
+   "kind": "choose",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "prompt": "Is the cafeteria open for lunch yet?",
+       "options": [
+        "I like pizza a lot.",
+        "Yes, it opened at eleven.",
+        "It will be open yesterday.",
+        "I had lunch at a cafe."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "Could you tell me your email address?",
+       "options": [
+        "I don't have a computer class.",
+        "Sure, I'll write it down for you.",
+        "My address is very long ago.",
+        "I emailed my teacher."
+       ],
+       "answer": 1
+      },
+      {
+       "prompt": "When is the history paper due?",
+       "options": [
+        "Next Monday, before class.",
+        "History is my favorite subject.",
+        "I wrote it on paper.",
+        "It was due tomorrow."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Did you finish the reading for today?",
+       "options": [
+        "I'm reading at the library.",
+        "I will finish it last night.",
+        "Today is a nice day.",
+        "Almost. I have one page left."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Where can I print my homework?",
+       "options": [
+        "At three o'clock.",
+        "There are printers in the library lobby.",
+        "I printed it yesterday.",
+        "Homework is very boring."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "prompt": "I'm thinking about dropping my chemistry class.",
+       "options": [
+        "I thought about it yesterday.",
+        "Chemistry is a science class.",
+        "I dropped my phone this morning.",
+        "Really? Have you talked to your advisor first?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Do you want to grab coffee before the lecture?",
+       "options": [
+        "I grabbed my bag already.",
+        "The lecture was about coffee.",
+        "Coffee costs three dollars.",
+        "I'd love to, but I'm meeting my lab partner."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "How come you weren't at practice yesterday?",
+       "options": [
+        "Practice makes perfect.",
+        "I'll be at practice yesterday.",
+        "I came by bus.",
+        "I had a dentist appointment I couldn't move."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "The printer on this floor is out of paper again.",
+       "options": [
+        "I printed my paper last week.",
+        "This floor is very clean.",
+        "Let's use the one downstairs, then.",
+        "Paper is made from trees."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "Which do you prefer, morning or evening classes?",
+       "options": [
+        "Mornings, since I work at night.",
+        "It's evening already.",
+        "Both classes were canceled last year.",
+        "I prefer my class."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "prompt": "I could've sworn the meeting was at three.",
+       "options": [
+        "I swear I'll be there at three.",
+        "The meeting room is big.",
+        "It was moved to two. Didn't you get the email?",
+        "I could have gone, but I didn't swear."
+       ],
+       "answer": 2
+      },
+      {
+       "prompt": "I'm not sure this essay is quite ready to hand in.",
+       "options": [
+        "I'm sure it's ready to eat.",
+        "I handed it to my roommate.",
+        "The essay is five pages long.",
+        "Why not ask the writing center to take a look first?"
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "You wouldn't happen to have a spare charger, would you?",
+       "options": [
+        "Actually, I do. It's in my backpack.",
+        "My phone is spare.",
+        "I wouldn't charge you anything.",
+        "It happened last week."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "That group project turned out to be more work than I bargained for.",
+       "options": [
+        "Group work is done in groups.",
+        "The project turned left at the corner.",
+        "I bargained for a lower price.",
+        "Same here. We've been meeting almost every night."
+       ],
+       "answer": 3
+      },
+      {
+       "prompt": "Mind if I take this seat, or is someone sitting here?",
+       "options": [
+        "Someone sat here yesterday.",
+        "The seats are very comfortable.",
+        "I don't mind sitting in the back.",
+        "Go ahead. It's free."
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L1",
+   "step": "L",
+   "kind": "conversation",
+   "shared": {
+    "title": "Fixing a study group problem",
+    "lines": [
+     {
+      "speaker": "Woman",
+      "text": "Hey, Daniel, got a second? It's about our study group."
+     },
+     {
+      "speaker": "Man",
+      "text": "Sure. Is this about last night? I know things got a little tense."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Yeah. Honestly, I felt like Chris and Mia were just chatting the whole time, and I ended up explaining every problem myself. I didn't get any of my own studying done."
+     },
+     {
+      "speaker": "Man",
+      "text": "I noticed that. But I think part of the problem is that we never decide what we're covering before we meet. People just show up and wait for someone to start."
+     },
+     {
+      "speaker": "Woman",
+      "text": "That's true. So what if we sent out a list of topics a day ahead? Then everyone could prepare."
+     },
+     {
+      "speaker": "Man",
+      "text": "Good idea. We could also take turns leading. Like, each person picks two problems and explains them to the group."
+     },
+     {
+      "speaker": "Woman",
+      "text": "I like that. That way I'm not doing all the teaching. But how do we bring it up without making Chris and Mia feel attacked?"
+     },
+     {
+      "speaker": "Man",
+      "text": "Let's just present it as a new plan for the final exam. We don't need to blame anyone. And maybe we keep the first ten minutes for chatting, so it doesn't sneak into the rest of the session."
+     },
+     {
+      "speaker": "Woman",
+      "text": "Ten minutes of chatting, then work. That sounds fair. Will you send the message, or should I?"
+     },
+     {
+      "speaker": "Man",
+      "text": "I'll do it tonight. You make the topic list, since you know which chapters are giving everyone trouble."
+     }
+    ]
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the woman's problem?",
+       "options": [
+        "She wants to leave the study group",
+        "She does not understand the chapters",
+        "She missed the last study group meeting",
+        "She explained every problem and could not study herself"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What does the woman suggest?",
+       "options": [
+        "Asking Chris and Mia to leave the group",
+        "Studying alone for the final exam",
+        "Sending a list of topics a day before each meeting",
+        "Meeting in a quieter place"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What will the man do tonight?",
+       "options": [
+        "Talk to Chris and Mia in person",
+        "Send a message to the group",
+        "Explain two problems to the woman",
+        "Make the topic list"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What are the speakers mainly discussing?",
+       "options": [
+        "Whether to study alone or in a group",
+        "How to make their study group work better",
+        "Why Chris and Mia are upset",
+        "Which chapters will be on the final exam"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why does the man suggest taking turns leading?",
+       "options": [
+        "So that the meetings will be shorter",
+        "Because he wants to lead every meeting",
+        "Because the professor requires it",
+        "So that everyone helps teach, not just the woman"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why will the woman make the topic list?",
+       "options": [
+        "The man asked her to apologize",
+        "She missed the last meeting",
+        "She has the most free time",
+        "She knows which chapters are hard for the group"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "What does the man imply is a main cause of the group's problem?",
+       "options": [
+        "A lack of planning before meetings",
+        "Chris and Mia do not care about grades",
+        "The group meets too often",
+        "The woman explains things too quickly"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "Why does the man suggest saving the first ten minutes for chatting?",
+       "options": [
+        "Because Chris and Mia asked for more free time",
+        "To keep social talk from taking over the rest of the session",
+        "To give late members time to arrive",
+        "To let the group choose the topics"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What is the woman concerned about when she asks how to bring up the plan?",
+       "options": [
+        "That their friends might feel blamed",
+        "That there is not enough time before the exam",
+        "That the professor will not approve it",
+        "That the group will become too large"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "L2",
+   "step": "L",
+   "kind": "talk",
+   "shared": {
+    "title": "How bats use echolocation",
+    "text": "OK, so today we're looking at how bats find their way in the dark. Many bats, especially the ones that hunt insects, are active at night. So the question is: how do you catch a tiny moth in total darkness? The answer is echolocation.\n\nHere's how it works. A bat produces a series of very high-pitched calls, and most of them are too high for humans to hear. These sounds travel outward, hit objects, and bounce back as echoes. The bat's large, sensitive ears pick up those echoes, and its brain uses them to build a kind of sound picture of its surroundings. By sensing how long an echo takes to return, the bat can tell how far away something is. And small differences between the echoes reaching its left and right ears help it figure out direction.\n\nNow, what's really clever is how the calls change during a hunt. When a bat is just searching, it calls fairly slowly, maybe ten times a second. But once it detects an insect, it speeds up. Right before the catch, some bats call more than a hundred and fifty times a second. Researchers call this the \"feeding buzz.\" Faster calls mean more frequent updates, so the bat can keep track of an insect that's twisting and turning.\n\nBut the insects haven't just accepted this. Some moths have evolved ears that can detect bat calls, and when they hear one, they dive or fly in unpredictable loops. So it's kind of an evolutionary arms race, with each side adapting to the other."
+   },
+   "byLevel": {
+    "3.5": {
+     "questions": [
+      {
+       "q": "What is the talk mainly about?",
+       "options": [
+        "Why humans cannot hear well",
+        "How bats use sound to find things in the dark",
+        "How moths find food at night",
+        "Why bats sleep during the day"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "How does a bat know how far away an object is?",
+       "options": [
+        "By how long the echo takes to come back",
+        "By how many insects are near it",
+        "By looking at the object",
+        "By how loud its own call is"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What happens to a bat's calls after it finds an insect?",
+       "options": [
+        "They get faster",
+        "They stop completely",
+        "They get lower",
+        "They get quieter"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "What do some moths do when they hear a bat?",
+       "options": [
+        "Make loud calls back",
+        "Dive or fly in unpredictable loops",
+        "Fly straight up very fast",
+        "Hide under leaves"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "4.5": {
+     "questions": [
+      {
+       "q": "What is the main purpose of the talk?",
+       "options": [
+        "To describe how researchers record bat calls",
+        "To compare bats with other night animals",
+        "To explain how echolocation works and how bats use it to hunt",
+        "To argue that bats are dangerous to insects"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "According to the professor, how does a bat tell the direction of an object?",
+       "options": [
+        "From how high-pitched the echo is",
+        "From differences between the echoes reaching its two ears",
+        "From the color of the object",
+        "From how many calls it makes per second"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "Why do bats call faster when they are about to catch an insect?",
+       "options": [
+        "To save energy",
+        "To warn other bats away",
+        "To get more frequent updates on a moving target",
+        "To frighten the insect"
+       ],
+       "answer": 2
+      },
+      {
+       "q": "What does the professor say about most bat calls?",
+       "options": [
+        "They are only made during the day",
+        "They are too high-pitched for humans to hear",
+        "They cannot travel very far",
+        "They are louder than human voices"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    "5.5": {
+     "questions": [
+      {
+       "q": "Why does the professor ask \"how do you catch a tiny moth in total darkness?\"",
+       "options": [
+        "To show that moths are hard to see in daylight",
+        "To introduce the problem that echolocation solves",
+        "To suggest that bats rarely catch moths",
+        "To ask students to share their own ideas about moths"
+       ],
+       "answer": 1
+      },
+      {
+       "q": "What does the professor mean when the professor says \"the insects haven't just accepted this\"?",
+       "options": [
+        "Insects make their own echolocation calls",
+        "Insects are not affected by bat calls",
+        "Insects have stopped flying at night",
+        "Some insects have developed ways to defend themselves"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "What can be inferred about an echo that returns very quickly?",
+       "options": [
+        "It came from a very large object",
+        "It came from an object to the bat's left",
+        "It was made by another bat",
+        "It came from an object that is close to the bat"
+       ],
+       "answer": 3
+      },
+      {
+       "q": "Why does the professor describe the relationship between bats and moths as an \"arms race\"?",
+       "options": [
+        "Bats and moths compete for the same food",
+        "Each side keeps developing adaptations in response to the other",
+        "Bats always win in the end",
+        "Moths have stopped evolving"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W0",
+   "step": "W",
+   "kind": "build",
+   "shared": {},
+   "byLevel": {
+    "3.5": {
+     "items": [
+      {
+       "context": "What are you doing this weekend?",
+       "answer": "I am going to visit my cousin in the city",
+       "distractor": "visited"
+      },
+      {
+       "context": "Do you want some tea?",
+       "answer": "No thanks I just had a cup of coffee",
+       "distractor": "drink"
+      },
+      {
+       "context": "How do you get to school every day?",
+       "answer": "I usually take the bus with my roommate",
+       "distractor": "taking"
+      },
+      {
+       "context": "Was the quiz difficult?",
+       "answer": "It was easier than the one last week",
+       "distractor": "easy"
+      }
+     ]
+    },
+    "4.5": {
+     "items": [
+      {
+       "context": "Why are you leaving so early?",
+       "answer": "I have to pick up my sister from the airport",
+       "distractor": "picked"
+      },
+      {
+       "context": "Did you understand the lecture today?",
+       "answer": "Most of it but the last part was confusing",
+       "distractor": "confused"
+      },
+      {
+       "context": "Can you recommend a good place to study?",
+       "answer": "The second floor of the library is usually quiet",
+       "distractor": "quietly"
+      },
+      {
+       "context": "What did the professor say about the project?",
+       "answer": "She said we could work in groups of three",
+       "distractor": "working"
+      }
+     ]
+    },
+    "5.5": {
+     "items": [
+      {
+       "context": "Why didn't you sign up for the trip?",
+       "answer": "I would have if I had known about it sooner",
+       "distractor": "knew"
+      },
+      {
+       "context": "What did your advisor recommend?",
+       "answer": "She suggested that I take statistics before my junior year",
+       "distractor": "taking"
+      },
+      {
+       "context": "How was the guest lecture?",
+       "answer": "It was so interesting that nobody wanted it to end",
+       "distractor": "such"
+      },
+      {
+       "context": "Do you know when the results will be posted?",
+       "answer": "I have no idea when they will be available",
+       "distractor": "are"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "key": "W1",
+   "step": "W",
+   "kind": "email",
+   "shared": {
+    "scenario": "You are scheduled to give a presentation in your sociology class next Thursday. However, you just found out that your older sister's wedding is on the same day in another state, and your family expects you to travel there for it.",
+    "recipient": "Professor Allen, your sociology instructor",
+    "points": [
+     "Explain why you cannot give your presentation on the scheduled date",
+     "Suggest one or two other dates when you could present",
+     "Offer a way to show you are prepared, such as sending your slides early"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S0",
+   "step": "S",
+   "kind": "repeat",
+   "shared": {
+    "context": "Visiting an art museum",
+    "sentences": [
+     "Welcome to the city art museum.",
+     "Please leave large bags at the coat check.",
+     "Photography is allowed, but please do not use a flash.",
+     "The special exhibit on ancient pottery is located on the third floor.",
+     "A free guided tour begins near the main entrance every hour until four o'clock.",
+     "Before you leave, please visit the gift shop, where you can find books and prints from our collection."
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  },
+  {
+   "key": "S1",
+   "step": "S",
+   "kind": "interview",
+   "shared": {
+    "topic": "Using technology to learn",
+    "questions": [
+     "Tell me about an app, website, or device that has helped you learn something. How did you use it?",
+     "What is one difficulty you have had when learning with technology, and how did you deal with it?",
+     "Some people think students learn better with technology than with traditional classroom teaching. Do you agree or disagree? Why?"
+    ]
+   },
+   "byLevel": {
+    "3.5": {},
+    "4.5": {},
+    "5.5": {}
+   }
+  }
+ ]
+}
